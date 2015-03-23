@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/Submitted_28022012/.texpadtmp/GT_SeasonalRedKing_sub.aux
+The style file: ../pnas.bst
+Database file #1: ~/Bibtex/et.bib.bib
+Warning--I didn't find a database entry for "aristotle:350bc"
+Warning--I didn't find a database entry for "bergstrom:2003jf"
+Warning--I didn't find a database entry for "souza:2009aa"
+Warning--I didn't find a database entry for "maynard-smith:1982to"
+Warning--I didn't find a database entry for "abel:1824aa"
+Warning--I didn't find a database entry for "stewart:2004aa"
+You've used 30 entries,
+            1765 wiz_defined-function locations,
+            675 strings with 8843 characters,
+and the built_in function-call counts, 6401 in all, are:
+= -- 603
+> -- 258
+< -- 1
++ -- 94
+- -- 64
+* -- 472
+:= -- 1059
+add.period$ -- 53
+call.type$ -- 30
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 291
+empty$ -- 616
+format.name$ -- 65
+if$ -- 1440
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 34
+newline$ -- 153
+num.names$ -- 36
+pop$ -- 59
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 461
+swap$ -- 72
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 58
+width$ -- 32
+write$ -- 328
+(There were 6 warnings)
