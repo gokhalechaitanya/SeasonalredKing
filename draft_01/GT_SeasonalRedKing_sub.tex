@@ -58,44 +58,20 @@ For example, in the interaction between ants and aphids or butterfly larvae \cit
 This is not a one to one interaction between a larva and an ant, but rather a one to many interaction from the perspective of the larva.
 In this manuscript we focus on this kind of -- possibly -- many to many interactions between two mutualistic species.
 
-
-
 To analyze how benefits are shared between the two mutualistic species, we make use of evolutionary game theory.
 Since we consider the interaction of two species, we resort to bimatrix games
 \cite{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
-We consider a situation where benefits can be split in different ways.
-Note that the two strategies to generate the benefits and even the benefits themselves
-could be completely different, as in the example discussed above. 
-If the two species can choose between being \textit{``Generous"} or \textit{``Selfish"}  then in what way will the benefits be allocated?
-A model addressing this was proposed by Bergstrom and Lachmann in \cite{bergstrom:PNAS:2003} with the payoff matrix
-%
-\begin{center}
-\begin{tabular}{cccccc}
-& & & \multicolumn{2}{c}{Species 2} &\\
-& & & Generous & Selfish &\\
-\multirow{2}{*}{Species 1}& Generous
-& \multirow{2}{*}{$\bigg($} & $1.5, 1.5$ & $1, 2$ & \multirow{2}{*}{$\bigg)$}\\
-& Selfish & & $2, 1$ & $0, 0$ &\ \ .
-\end{tabular}
-\end{center}
-%
-The twist to this formulation is that the two interacting species can have different evolutionary rates.
-In coevolutionary arms races, where species are locked in antagonistic relationships such as host-parasites or predatory-prey, we observe the Red Queen effect
-\cite{vanValen:EvoTheo:1973}.
-In these cases a higher rate of evolution will be beneficial.
-However, in mutualistic relationships a slower rate of evolution was predicted to be more favorable \cite{bergstrom:PNAS:2003}.
-This approach has been extended to multiple players \cite{gokhale:PRSB:2012}
-This entails increasing the number of interacting individuals between two species. 
-It is also possible to increase the number of interacting species in two player games as in \cite{mack:OIKOS:2008,damore:Evolution:2011,wang:JRSI:2011}).
 
-We first
-recall the mutualistic relationship between two species in a two player game.
-Then we increase the number of players.
-We include asymmetry in evolutionary rates and discuss its effect both in two player and in multi-player games.
-We find that in situations where in two player setting it is beneficial to evolve at a slower rate, it can be detrimental in a multiplayer game.
 
 
 \section{Model and Results}
+
+\subsection{Intraspecies dynamics}
+
+Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics which has implications for interspecies relationships.
+Since we focus on mutualism the interspecies dynamics  ifs given by the multiplayer version of the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
+Each species consists of two types of individuals Generous $G$ and Selfish $S$. 
+The details of the game are included in the Appendix, but the gist is that if everyone is Generous and contributing in the generation of mutual benefits then one can get away with being a bit selfish. All selfish is however and unstable equilibrium 
 
 \subsection{Population dynamics}
 Consider two species ($1/2$) occupying different niches in an ecosystem.

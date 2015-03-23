@@ -136,37 +136,15 @@ Hofbauer, J, Sigmund, K
 \newblock (1998) \emph{Evolutionary Games and Population Dynamics}
 \newblock (Cambridge University Press, Cambridge, UK).
 
-\bibitem{vanValen:EvoTheo:1973}
-van Valen, L
-\newblock (1973) A new evolutionary law.
-\newblock \emph{Evolutionary Theory} 1:1--30.
+\bibitem{souza:JTB:2009}
+Souza, MO, Pacheco, JM, Santos, FC
+\newblock (2009) Evolution of cooperation under n-person snowdrift games.
+\newblock \emph{Journal of Theoretical Biology} 260:581--588.
 
 \bibitem{gokhale:PRSB:2012}
 Gokhale, CS, Traulsen, A
 \newblock (2012) Mutualism and evolutionary multiplayer games: revisiting the
   {R}ed {K}ing.
 \newblock \emph{Proceedings of the Royal Society B} 279:4611--4616.
-
-\bibitem{mack:OIKOS:2008}
-Mack, KML, Rudgers, JA
-\newblock (2008) Balancing multiple mutualists: asymmetric interactions among
-  plants, arbuscular mycorrhizal fungi, and fungal endophytes.
-\newblock \emph{OIKOS} 117:310--320.
-
-\bibitem{damore:Evolution:2011}
-Damore, JA, Gore, J
-\newblock (2011) A slowly evolving host moves first in symbiotic interactions.
-\newblock \emph{Evolution} 65:2391--2398.
-
-\bibitem{wang:JRSI:2011}
-Wang, RW, Sun, BF, Zheng, Q, Shi, L, Zhu, L
-\newblock (2011) Asymmetric interaction and indeterminate fitness correlation
-  between cooperative partners in the fig -fig wasp mutualism.
-\newblock \emph{Journal of the Royal Society Interface}.
-
-\bibitem{souza:JTB:2009}
-Souza, MO, Pacheco, JM, Santos, FC
-\newblock (2009) Evolution of cooperation under n-person snowdrift games.
-\newblock \emph{Journal of Theoretical Biology} 260:581--588.
 
 \end{thebibliography}
