@@ -147,4 +147,15 @@ Gokhale, CS, Traulsen, A
   {R}ed {K}ing.
 \newblock \emph{Proceedings of the Royal Society B} 279:4611--4616.
 
+\bibitem{eshel:AmNat:1988}
+Eshel, I, Motro, U
+\newblock (1988) {The three brothers' problem: kin selection with more than one
+  potential helper. 1. The case of immediate help}.
+\newblock \emph{American Naturalist} pp 550--566.
+
+\bibitem{hauert:JTB:2006a}
+Hauert, C, Michor, F, Nowak, MA, Doebeli, M
+\newblock (2006) Synergy and discounting of cooperation in social dilemmas.
+\newblock \emph{Journal of Theoretical Biology} 239:195--202.
+
 \end{thebibliography}

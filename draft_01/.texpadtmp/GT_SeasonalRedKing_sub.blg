@@ -4,50 +4,48 @@ The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/Seas
 The style file: ../pnas.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "aristotle:350bc"
-Warning--I didn't find a database entry for "bergstrom:2003jf"
-Warning--I didn't find a database entry for "souza:2009aa"
 Warning--I didn't find a database entry for "maynard-smith:1982to"
 Warning--I didn't find a database entry for "abel:1824aa"
 Warning--I didn't find a database entry for "stewart:2004aa"
-You've used 26 entries,
+You've used 28 entries,
             1765 wiz_defined-function locations,
-            647 strings with 8130 characters,
-and the built_in function-call counts, 5582 in all, are:
-= -- 527
-> -- 220
-< -- 1
-+ -- 80
-- -- 54
-* -- 410
-:= -- 918
-add.period$ -- 45
-call.type$ -- 26
-change.case$ -- 19
+            659 strings with 8459 characters,
+and the built_in function-call counts, 6150 in all, are:
+= -- 584
+> -- 242
+< -- 2
++ -- 88
+- -- 60
+* -- 449
+:= -- 1003
+add.period$ -- 49
+call.type$ -- 28
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 256
-empty$ -- 546
-format.name$ -- 55
-if$ -- 1266
+cite$ -- 28
+duplicate$ -- 283
+empty$ -- 592
+format.name$ -- 61
+if$ -- 1396
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 30
-newline$ -- 133
-num.names$ -- 32
-pop$ -- 54
+int.to.str$ -- 28
+missing$ -- 32
+newline$ -- 143
+num.names$ -- 34
+pop$ -- 57
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 47
 stack$ -- 0
-substring$ -- 397
-swap$ -- 64
-text.length$ -- 1
+substring$ -- 450
+swap$ -- 77
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 50
-width$ -- 28
-write$ -- 285
-(There were 6 warnings)
+while$ -- 56
+width$ -- 30
+write$ -- 307
+(There were 4 warnings)

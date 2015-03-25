@@ -66,6 +66,8 @@ Since we consider the interaction of two species, we resort to bimatrix games
 
 \section{Model and Results}
 
+\subsection{Interspecies dynamics}
+
 \subsection{Intraspecies dynamics}
 
 Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics which has implications for interspecies relationships.
@@ -73,31 +75,21 @@ Since we focus on mutualism the interspecies dynamics  ifs given by the multipla
 Each species consists of two types of individuals Generous $G$ and Selfish $S$. 
 The details of the game are included in the Appendix, but the gist is that if everyone is Generous and contributing in the generation of mutual benefits then one can get away with being a bit selfish. All selfish is however and unstable equilibrium 
 
+\subsection{Combined dynamics}
+
 \subsection{Population dynamics}
-Consider two species ($1/2$) occupying different niches in an ecosystem.
-Thus we assume them to have independent carrying capacities. Each species has a normalized carrying capacity of $1$. Each species has two types the \textit{``Generous"} ones ($G_{1/2}$) who invest in a mutualistic relationship with the other species and \textit{``Selfish"} ones ($S_{1/2}$) who invest much less than their counterparts. The densities of the two types are denoted by $x_{1/2}$ and $y_{1/2}$ respectively which can sum up to the carrying capacity or not thus resulting in possible empty spaces in the niche $z_{1,2}$. Thus in all we have $x_{1/2} + y_{1/2} + z_{1/2} = 1$.
-Thus how the population densities change over time $x_{1/2} + y(1/2)$ can give us a picture of the population dynamics.
-\subsection{Evolutionary dynamics}
-The two species are assumed to be engaged in a mutualistic relationship. This can be aptly described by a snowdrift game \cite{souza:JTB:2009}. In a general form, a number of individuals from one species interacts with a number of individuals from the other species (excluding intra species interactions) \cite{gokhale:PRSB:2012}. 
-The densities of the two types of individuals in each species \textit{``Generous"} and \textit{``Selfish"} can be interpreted as probabilities of picking the two types. Thus the evolution of the fraction of one of the types, say \textit{``Generous"} over time provides us with the relevant evolutionary dynamics. The fraction of \textit{``Generous"} players is given by $f_{1/2} = x_{1/2} / (1- z_{1/2} )$.
+%Consider two species ($1/2$) occupying different niches in an ecosystem.
+%Thus we assume them to have independent carrying capacities. Each species has a normalized carrying capacity of $1$. Each species has two types the \textit{``Generous"} ones ($G_{1/2}$) who invest in a mutualistic relationship with the other species and \textit{``Selfish"} ones ($S_{1/2}$) who invest much less than their counterparts. The densities of the two types are denoted by $x_{1/2}$ and $y_{1/2}$ respectively which can sum up to the carrying capacity or not thus resulting in possible empty spaces in the niche $z_{1,2}$. Thus in all we have $x_{1/2} + y_{1/2} + z_{1/2} = 1$.
+%Thus how the population densities change over time $x_{1/2} + y(1/2)$ can give us a picture of the population dynamics.
+%\subsection{Evolutionary dynamics}
+%The two species are assumed to be engaged in a mutualistic relationship. This can be aptly described by a snowdrift game \cite{souza:JTB:2009}. In a general form, a number of individuals from one species interacts with a number of individuals from the other species (excluding intra species interactions) \cite{gokhale:PRSB:2012}. 
+%The densities of the two types of individuals in each species \textit{``Generous"} and \textit{``Selfish"} can be interpreted as probabilities of picking the two types. Thus the evolution of the fraction of one of the types, say \textit{``Generous"} over time provides us with the relevant evolutionary dynamics. The fraction of \textit{``Generous"} players is given by $f_{1/2} = x_{1/2} / (1- z_{1/2} )$.
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=\columnwidth]{concept.pdf}
+\includegraphics[width=\columnwidth]{../Figures/interintra.pdf}
 \caption{
-The composition of both species can range from all selfish $(S)$ to all generous $(G)$. 
-If the other species is sufficiently generous, selfish behavior is favored in both species.
-However, if the other species is selfish, generous behavior is advantageous.  
-This is captured by the snowdrift game discussed in the text.
-For equal evolutionary rates, $r_x=r_y$, the domains of attraction for the two outcomes $(S_1, G_2)$ and $(G_1, S_2)$
-are of equal size (Panels A and C).
-The colors illustrate the regions leading to the outcomes favorable to species $1$ (blue shaded area leading to $(S_1, G_2)$) 
-and species $2$ (red shaded area leading to $(G_1, S_2)$).
-For a two player game, $d=2$, and $r_x=r_y/8$, the basin of attraction favorable to the slower evolving species $1$ grows substantially (Panel B) \cite{bergstrom:2003jf}.
-For a twenty player game, $d=20$, the basins of attractions have identical size for equal evolutionary rates, but the position of the internal equilibrium is shifted (Panel C).
-When species $1$ evolves slower than species $2$ in this situation, most of the initial conditions in the simplex lead to a solution which is unfavorable to species $1$.
-Thus for 20 players instead of two, the Red King effect is reversed ($b=2$ and $c=1$).
-\label{fig:compare}
+Explain figure
 }
 \end{center}
 \end{figure}
@@ -118,73 +110,71 @@ Thanks for all the fish
 
 \section*{Appendix}
 
-\section{Dynamics with single types}
-
-Assuming that each of the species is homogeneous in terms of the kind of individuals it harbours we have a simplified system.
-In species 1 we have $x$ as the density of the individuals and $z_1$ as the empty space (which is simply $1-x$).
-Respectively in species 2 it is $y$ and $z_2$ (which is $1-y$).
-The fitness of each of the species is then,
-%
-\begin{align}
-f_{1} (y) &= \sum_{k=0}^{d-1} \binom{d-1}{k}y^k z_2 ^{d-1-k} \Pi(k) \\
-f_{2} (x) &= \sum_{k=0}^{d-1} \binom{d-1}{k}x^k z_1 ^{d-1-k} \Pi(k).
-\label{simpfiteqs}
-\end{align}
-%
-where 
-\begin{align}
-\Pi (k) & = \begin{cases} b-\frac{c}{k} & \textrm{if } k \geq M \\  -\frac{c}{M} & \textrm{if } k < M 
-\end{cases}	
-\end{align}
-The dynamics of the two species is then given by the typical Verhulst equation,
-
-\begin{align}
-	\dot{x} &= f_{1}(y) x z_1 \\
-	\dot{y} &= f_{2}(x) y z_2
-\end{align}
-
-\cha{This should be easy dynamics to calculate the equilibrium, only cooperators}
-
-\section*{Average payoffs in the bimatrix game}
+\section*{Average payoffs from interactions between species}
 \label{appA}
-\subsection{Two player setting}
 
-We can write down the payoff matrices for the two species separately  denoted by $A$ and $B$ as,
-\begin{tabular}{cccccc}
-& & & \multicolumn{2}{c}{Species 2} &\\
-& & & $G_2$ & $S_2$ &\\
-\multirow{2}{*}{$A$ = Species 1}& $G_1$
-& \multirow{2}{*}{$\bigg($} & $a_{G_1,G_2}$ & $a_{G_1,S_2}$ & \multirow{2}{*}{$\bigg)$}\\
-& $S_1$ & & $a_{S_1,G_2}$ & $a_{S_1,S_2}$ &
-\end{tabular}
-\begin{tabular}{cccccc}
-& & & \multicolumn{2}{c}{Species 1} &\\
-& & & $G_1$ & $S_1$ &\\
-\multirow{2}{*}{B = Species 2}& $G_2$
-& \multirow{2}{*}{$\bigg($} & $a_{G_2,G_1}$ & $a_{G_2,S_1}$ & \multirow{2}{*}{$\bigg)$}\\
-& $S_2$ & & $a_{S_2,G_1}$ & $a_{S_2,S_1}$ &\ \ .
-\end{tabular}
-The frequency of the players playing strategy \textit{``Generous"} in species $1$ is given by $x$ and that in species $2$ by $y$.
-As the population size is kept constant the reciprocal frequencies of the players playing \textit{``Selfish"} strategy are $1-x$ and $1-y$ in the two species respectively.
-
-\subsection{Multiplayer setting}
-\label{appB}
-
-For a multiplayer snowdrift game, the payoff entries are defined as \cite{souza:2009aa},
+The two species are assumed to be in a mutualistic relationship.
+Following \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}, we make use of the multi-player version of the snowdrift game to represent a co-existence scenario.
+Each species has two types of individuals ``Generous" ($G$) and ``Selfish" ($S$).
+Say the frequency of $G$ individuals in species $1$ is given by $x$ and that in species 2 by $y$
+Each individual from each species takes part in a $d$ player interspecies game where it interacts with $d-1$ individuals from the other species.
+Of the $d-1$ the if $k$ of them are $G$ while $d-1-k$ are $S$ then the payoff accrued by the individuals is given by,
+%
+\begin{align}
+f^{inter}_{G_1} (y) &= \sum_{k=0}^{d-1} \binom{d-1}{k}y^k (1-y)^{d-1-k} \Pi_{G_1}(k+1) \\
+f^{inter}_{S_1} (y) &= \sum_{k=0}^{d-1} \binom{d-1}{k}y^k (1-y)^{d-1-k} \Pi_{S_1}(k).
+\label{interfiteqs}
+\end{align}
+%
+for the two types in species 1.
+Analogously the fitness for the two types in species 2 can be written down as $f^{inter}_{G_2} (x)$ and $f^{inter}_{S_2} (x)$ which depend on the frequencies of $G$ in species 1.
+The payoff for a $G$ thus includes itself ($k+1$) while for a $S$ individual only the the number of $G$ matter ($k$).
+The payoffs themselves are defined as in \cite{souza:JTB:2009},
+%
 \begin{align}
 \Pi_{S_1} (k) & = \begin{cases} b & \textrm{if } k \geq M \\ 0 & \textrm{if } k < M \end{cases}
 \\
 \Pi_{G_1} (k) & = \begin{cases} b-\frac{c}{k} & \textrm{if } k \geq M \\  -\frac{c}{M} & \textrm{if } k < M \end{cases}
 \end{align}
 %
-The selfish players get the benefit $b$ if the number of generous individuals in both species combined, $k$, is greater than or equal to the threshold $M$.
+The selfish players get the benefit $b$ if the number of generous individuals in the interacting group, $k$, is greater than or equal to the threshold $M$.
 For the generous individuals, their effort is subtracted from the payoffs.
-The effort is shared if the quorum size is met ($\frac{c}{M}$), but happens in vain for $k<M$. 
-The fitnesses of the two strategies in species $1$ are given by,
+The effort is shared if the quorum size is met ($\frac{c}{k}$), but is in vain for $k<M$.
+
+
+\section*{Average payoffs from interactions within species}
+\label{appB}
+
+Within a species we do not assume a certain kind of interaction structure.
+Instead we model the interaction matrix by making use of a general framework of costs and non-linear benefits \cite{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of social interaction structures qualitatively.
+A crucial \textbf{assumption} which we make here is that the ``Generous" individuals from the between species interactions are the ``Cooperative" ones in the within species interaction and the ``Selfish" ones are the ``Defectors".
+Hence for species 1 the frequency of cooperators is just $x$ and the defectors is $1-x$, the same as the ``Generous" and ``Selfish".
+Again for simplicity we \textbf{assume} a $d$ player game being played within species, the same as in between species.
+Thus the fitnesses of cooperators and defectors are defined as \cite{hauert:JTB:2006a},
 %
 \begin{align}
-f_{G_1} (y) &= \sum_{k=0}^{d-1} \binom{d-1}{k}y^k (1-y)^{d-1-k} \Pi_{G_1}(k+1) \\
-f_{S_1} (y) &= \sum_{k=0}^{d-1} \binom{d-1}{k}y^k (1-y)^{d-1-k} \Pi_{S_1}(k).
+	f^{intra}_{G_1} (x) &= \sum_{k=0}^{d-1} \binom{d-1}{k}x^k (1-x)^{d-1-k} \Gamma_{G_1}(k+1) \\
+	f^{intra}_{S_1} (x) &= \sum_{k=0}^{d-1} \binom{d-1}{k}x^k (1-x)^{d-1-k} \Gamma_{S_1}(k).
+\label{intrafiteqs}
+\end{align}
+%
+where the payoffs are given by,
+\begin{align}
+	\Gamma_{S_1} (k) = \frac{\tilde{b}}{d} \sum_{i=0}^{k-1} \omega^i \\
+	\Gamma_{G_1} (k) = \Gamma_{S_1} (k) - \tilde{c}.
+\end{align}
+%
+Thus the defectors get a fraction of the benefit which is scaled by the factor $\omega$, which determines if the benefits are linearly accumulating ($\omega=1$) for increasing number of cooperators, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
+Note that the costs and benefits in the within species game need not be (and naturally so) the same as in between species ($b\neq \tilde{b}$ and $c \neq \tilde{c}$).
+
+
+\section{Average payoffs and dynamics}
+
+The average payoffs are then just assumed to be a linear combination of the interspecies and intraspecies interactions where the parameter $p$ determines the strength of each of the interactions such that,
+%
+\begin{align}
+	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \\
+	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x)
 \label{fiteqs}
 \end{align}
 %
@@ -196,13 +186,38 @@ Following the same procedure for the two strategies in species $2$ leads to the 
 \label{avgfiteqs}
 \end{align}
 %
+The time evolution of the ``Generous" types in all the species will give us the complete dynamics of the system.
+However since the two interaction species are by definition different organisms, they can have different rates of evolution.
+Thus if species 1 evolves at the rate $r_x$ while species 2 at rate $r_y$ then we have,
+\begin{align}
+\dot{x} &= r_x x \left(f_{G_1}(y) -  \bar{f}_1(x,y) \right) \nonumber \\
+\dot{y} &= r_y y \left(f_{G_2}(x) -  \bar{f}_2(x,y) \right).
+\label{eq:repeqs}
+\end{align}
+
+
+
+\cha{\section{Asymmetries}}
+
+\cha{This between and within species model is a powerful way of introducing a lot of variability into the dynamics,
+\begin{align}
+	d_1 &\neq d_2 \\
+	d^{inter} &\neq d^{intra} \\
+	M_1 &\neq M_2 \\
+	b &\neq \tilde{b} \\
+	c &\neq \tilde{c} \\
+	r_x &\neq r_y \\
+	&\vdots
+\end{align}
+and various combinations of these. We should justify why we don't do this here and why we do vary the ones that we do.}
+
 
 \section{Dynamics in asymmetric conditions}
 
-We have addressed two kinds of asymmetries in the game, the number of player and the thresholds in the two species.
-We denote the number of players for species $1$ and species $2$ as $d_1$ and $d_2$, respectively, as in Fig.\ \ref{fig:counter}.
-That is if species $2$ is playing a $d_2$ player game it means that one player from species $2$ interacts with $d_2-1$ players of species $1$.
-For an asymmetry in the thresholds we use the two parameters $M_1\geq1$ and $M_2\geq1$ for the two species, respectively.
+%We have addressed two kinds of asymmetries in the game, the number of player and the thresholds in the two species.
+%We denote the number of players for species $1$ and species $2$ as $d_1$ and $d_2$, respectively, as in Fig.\ \ref{fig:counter}.
+%That is if species $2$ is playing a $d_2$ player game it means that one player from species $2$ interacts with $d_2-1$ players of species $1$.
+%For an asymmetry in the thresholds we use the two parameters $M_1\geq1$ and $M_2\geq1$ for the two species, respectively.
 
 For asymmetric bimatrix games, there is a difference in the dynamics between the standard replicator dynamics and the 
 alternative dynamics put forward by Maynard-Smith \cite{maynard-smith:1982to}.
