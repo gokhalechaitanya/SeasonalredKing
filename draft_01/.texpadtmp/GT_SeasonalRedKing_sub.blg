@@ -5,47 +5,45 @@ The style file: ../pnas.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "aristotle:350bc"
 Warning--I didn't find a database entry for "maynard-smith:1982to"
-Warning--I didn't find a database entry for "abel:1824aa"
-Warning--I didn't find a database entry for "stewart:2004aa"
-You've used 28 entries,
+You've used 30 entries,
             1765 wiz_defined-function locations,
-            659 strings with 8459 characters,
-and the built_in function-call counts, 6150 in all, are:
-= -- 584
-> -- 242
-< -- 2
-+ -- 88
-- -- 60
-* -- 449
-:= -- 1003
-add.period$ -- 49
-call.type$ -- 28
-change.case$ -- 21
+            668 strings with 8721 characters,
+and the built_in function-call counts, 6588 in all, are:
+= -- 629
+> -- 252
+< -- 3
++ -- 92
+- -- 62
+* -- 471
+:= -- 1064
+add.period$ -- 52
+call.type$ -- 30
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 283
-empty$ -- 592
-format.name$ -- 61
-if$ -- 1396
+cite$ -- 30
+duplicate$ -- 310
+empty$ -- 638
+format.name$ -- 63
+if$ -- 1504
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 32
-newline$ -- 143
-num.names$ -- 34
-pop$ -- 57
+int.to.str$ -- 30
+missing$ -- 35
+newline$ -- 153
+num.names$ -- 36
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 47
+skip$ -- 59
 stack$ -- 0
-substring$ -- 450
-swap$ -- 77
-text.length$ -- 2
+substring$ -- 474
+swap$ -- 89
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 56
-width$ -- 30
-write$ -- 307
-(There were 4 warnings)
+while$ -- 61
+width$ -- 32
+write$ -- 328
+(There were 2 warnings)

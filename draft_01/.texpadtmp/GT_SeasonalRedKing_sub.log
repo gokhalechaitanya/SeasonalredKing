@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 MAR 2015 15:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 MAR 2015 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,27 +309,29 @@ LaTeX Warning: Citation `aristotle:350bc' on page 1 undefined on input line 47.
  
  ======================================================================== 
 
-<../Figures/interintra.pdf, id=1, 618.31pt x 292.09125pt>
-File: ../Figures/interintra.pdf Graphic file (type pdf)
- <use ../Figures/interintra.pdf>
-Package pdftex.def Info: ../Figures/interintra.pdf used on input line 90.
-(pdftex.def)             Requested size: 247.0pt x 116.68288pt.
+<../Figures/Dynamicsacrossp_reduced.pdf, id=1, 282.8166pt x 426.8748pt>
+File: ../Figures/Dynamicsacrossp_reduced.pdf Graphic file (type pdf)
+ <use ../Figures/Dynamicsacrossp_reduced.pdf>
+Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 82.
+(pdftex.def)             Requested size: 370.5pt x 559.2231pt.
  [1
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Figures/interintra.pdf>]
-
-LaTeX Warning: Citation `maynard-smith:1982to' on page 2 undefined on input line 223.
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <../Figures/Dynamicsacrossp_reduced.pdf>]
 
 
-LaTeX Warning: Reference `fig:thresholdsmodrep' on page 2 undefined on input line 231.
+ C A R E F U L !! \begin{figure}[h] used on this page !
 
 
-LaTeX Warning: Citation `abel:1824aa' on page 2 undefined on input line 234.
+<../Figures/interintra.pdf, id=25, 618.31pt x 292.09125pt>
+File: ../Figures/interintra.pdf Graphic file (type pdf)
+ <use ../Figures/interintra.pdf>
+Package pdftex.def Info: ../Figures/interintra.pdf used on input line 99.
+(pdftex.def)             Requested size: 247.0pt x 116.68288pt.
+ [3 <../Figures/interintra.pdf>]
 
+LaTeX Warning: Citation `maynard-smith:1982to' on page 4 undefined on input line 234.
 
-LaTeX Warning: Citation `stewart:2004aa' on page 2 undefined on input line 234.
-
-(/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.bbl [2]) [3] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux)
+(/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.bbl [4]) [5] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -338,18 +340,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3116 strings out of 493488
- 42170 string characters out of 3141326
- 136583 words of memory out of 3000000
- 6377 multiletter control sequences out of 15000+200000
+ 3124 strings out of 493488
+ 42406 string characters out of 3141326
+ 129607 words of memory out of 3000000
+ 6384 multiletter control sequences out of 15000+200000
  13777 words of font info for 50 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,16n,24p,617b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.pdf (3 pages, 274682 bytes).
+ 38i,16n,24p,617b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.pdf (5 pages, 1956702 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
+ 424 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
