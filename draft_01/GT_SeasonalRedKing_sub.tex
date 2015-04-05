@@ -45,10 +45,10 @@ his teeth. The trochilus gets his food thereby, and the crocodile
 gets ease and comfort; it makes no attempt to injure its little friend,
 but, when it wants it to go, it shakes its neck in warning, lest it
 should accidentally bite the bird'} \cite{aristotle:350bc}.
-The phenomenon described by Aristotle was termed as mutualism in $1873$ by the Belgian zoologist Pierre van Beneden \cite{bronstein:book:2003}.
+In $1873$ the Belgian zoologist Pierre van Beneden termed this interaction as mutualism \cite{bronstein:book:2003}.
 Mutualistic relationships, interspecific interactions that benefit both species, have been empirically studied for many years 
-\cite{boucher:book:1985,hinton:PTENHS:1951,wilson:AmNat:1983,bronstein:QRB:1994,pierce:ARE:2002,kiers:Nature:2003,bshary:ASB:2004} and also a considerable body of theory has been put forth trying to explain the evolution and maintenance of such relationships \cite{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
-The example described by Aristotle and most other examples of mutualisms lend themselves to the idea of direct reciprocity \cite{trivers:QRB:1971} and thus can be studied using evolutionary game theory.
+\cite{boucher:book:1985,hinton:PTENHS:1951,wilson:AmNat:1983,bronstein:QRB:1994,pierce:ARE:2002,kiers:Nature:2003,bshary:ASB:2004} and also a considerable body of theory has been put forth explaining the evolution and maintenance of such relationships \cite{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
+The example described by Aristotle and most other examples of mutualisms lend themselves to the idea of direct reciprocity \cite{trivers:QRB:1971} and have been thus extensively studied using evolutionary game theory.
 The interactions in these models are usually dyadic.
 A representative of each species is chosen and the outcome of the interactions between these representatives 
 determines the evolutionary dynamics within each of the two species.
@@ -56,35 +56,47 @@ However, in many cases interactions between species cannot be reduced to such dy
 
 For example, in the interaction between ants and aphids or butterfly larvae \cite{pierce:BES:1987,hoelldobler:book:1990} many ants tend to these soft bodies creatures, providing them with shelter and protection from predation and parasites in exchange for honeydew, a rich source of food for the ants \cite{hill:OEC:1989,stadler:book:2008}.
 This is not a one to one interaction between a larva and an ant, but rather a one to many interaction from the perspective of the larva.
-In this manuscript we focus on this kind of -- possibly -- many to many interactions between two mutualistic species.
+Another well studied example is that of the plant-microbe mutualism where leguminous hosts prefer rhizobial symbionts that fix more nitrogen \cite{kiers:Nature:2003} or where plants provide more carbon resources to the fungal strains that are providing access to more nutrients \cite{kiers:Science:2011}.
+However the interactions within the rhizobial symbionts community is usually ignored in the broader picture of the between species interactions however identifying and quantifying the intraspecific variation can be a daunting task \cite{behm:JE:2014}.
+Similarly for the interactions between the cleaner fish and their hosts \cite{bshary:AB:2002,bshary:book:2003}. 
+While the cohorts of cleaner fish together have been taken to determine the quality of a cleaning station, this can also drive variation of quality of cleaning within a cleaning station as per the interactions of individual cleaner fish amongst themselves.
+\cha{Furthermore, since by definition mutualistic relationships are between species, it is natural to imagine that the observed relationship may be seasonal and the interactions as not a continuous feature of the evolutionary dynamics of a single species.
+To assess the impact of this seasonality
+In this manuscript we focus on this kind of -- possibly -- many to many interactions between two mutualistic species.}
 
+In all, in this manuscript we look at the broader picture of mutualistic relationships and the ecology in which they are observed.
+We study the the cumulative effect os the within species and between species interactions and the importance of these relationships, seasonality and population dynamics taken together.
 To analyze how benefits are shared between the two mutualistic species, we make use of evolutionary game theory.
 Since we consider the interaction of two species, we resort to bimatrix games
 \cite{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
+While initially attempting to avoid the question of how mutualisms evolve in the first place, we see that when studying the complex dynamics which are possible due to the rest of the evolutionary as well as ecological factors, we indirectly explain the evolution of interspecific mutualism as a byproduct of a complex eco-evolutionary process.
 
 
 
 \section{Model and Results}
 
+Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics.
+In fact the coevolutionary dynamics between the two species is determined together by the inter as well as the intraspecific interactions.
+
 \subsection{Interspecies dynamics}
+
+Since we focus on mutualism the interspecies dynamics is given by the multiplayer version of the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
+Each species consists of two types of individuals Generous $G$ and Selfish $S$. 
+The details of the game are included in the Appendix, but the gist is that if everyone is ``Generous" and contributing in the generation of mutual benefits then one can get away with being a bit selfish. However both species cannot be completely ``selfish" by definition of mutualism.
+Hence the pressure is on a specie in making the partner ``Generous" while getting away itself by being ``Selfish".
 
 \subsection{Intraspecies dynamics}
 
-Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics which has implications for interspecies relationships.
-Since we focus on mutualism the interspecies dynamics  ifs given by the multiplayer version of the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
-Each species consists of two types of individuals Generous $G$ and Selfish $S$. 
-The details of the game are included in the Appendix, but the gist is that if everyone is Generous and contributing in the generation of mutual benefits then one can get away with being a bit selfish. All selfish is however and unstable equilibrium 
+We do not restrict ourselves to any particular interaction structure and thus can make use of the general multiplayer evolutionary games framework \cite{gokhale:PNAS:2010,gokhale:DGAA:2014}.
+The two types already described for the between species interactions are ``Generous" and ``Selfish".
+We assume the ``Generous" individuals as ``Cooperators" and the ``Selfish" as ``Defectors" for the within species interactions (see Appendix for otherwise).
+The cost benefit framework described in \cite{eshel:AmNat:1988,hauert:JTB:2006a}
+ allows us to transition between four classic scenarios of evolutionary dynamics \cite{nowak:Science:2004}.
+
 
 \subsection{Combined dynamics}
 
-\begin{figure*}[h]
-\begin{center}
-\includegraphics[width=1.5\columnwidth]{../Figures/Dynamicsacrossp_reduced.pdf}
-\caption{
-Explain figure
-}
-\end{center}
-\end{figure*}
+
 
 \subsection{Population dynamics}
 %Consider two species ($1/2$) occupying different niches in an ecosystem.
@@ -206,6 +218,15 @@ Thus if species 1 evolves at the rate $r_x$ while species 2 at rate $r_y$ then w
 \label{eq:repeqs}
 \end{align}
 
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphics[width=1.5\columnwidth]{../Figures/Dynamicsacrossp_reduced.pdf}
+\caption{
+$d_1 = d_2 = 5$, $b= 2$, $r_x = r_y/8$, $M_1 = M_2 = 1$ and $c=1$ for the interspecies game. As for the intraspecies games (a), (b), (c) and (d) the exact same parameter values as in \cite{hauert:JTB:2006a}.
+}
+\end{center}
+\end{figure*}
 
 
 \cha{\section{Asymmetries}}

@@ -120,6 +120,30 @@ Hill, CJ, Pierce, NE
   common imperial blue, \textit{Jalmenus evagoras}.
 \newblock \emph{Oecologia} 81:249--257.
 
+\bibitem{kiers:Science:2011}
+Kiers, ET et~al.
+\newblock (2011) Reciprocal rewards stabilize cooperation in the mycorrhizal
+  symbiosis.
+\newblock \emph{Science} 333:880--882.
+
+\bibitem{behm:JE:2014}
+Behm, JE, Kiers, ET
+\newblock (2014) {A phenotypic plasticity framework for assessing intraspecific
+  variation in arbuscular mycorrhizal fungal traits}.
+\newblock \emph{Journal of Ecology} 102:315--327.
+
+\bibitem{bshary:AB:2002}
+Bshary, R, Sch{\"a}ffer, D
+\newblock (2002) Choosy reef fish select cleaner fish that provide high-quality
+  service.
+\newblock \emph{Animal Behaviour} 63:557--564.
+
+\bibitem{bshary:book:2003}
+Bshary, RS, No{\"{e}}, R
+\newblock (2003) in \emph{Genetic and Cultural Evolution of Cooperation}, ed{}
+  Hammerstein, P
+\newblock (MIT Press), pp 167--184.
+
 \bibitem{weibull:book:1995}
 Weibull, JW
 \newblock (1995) \emph{Evolutionary Game Theory}
@@ -147,6 +171,17 @@ Gokhale, CS, Traulsen, A
   {R}ed {K}ing.
 \newblock \emph{Proceedings of the Royal Society B} 279:4611--4616.
 
+\bibitem{gokhale:PNAS:2010}
+Gokhale, CS, Traulsen, A
+\newblock (2010) Evolutionary games in the multiverse.
+\newblock \emph{Proceedings of the National Academy of Sciences USA}
+  107:5500--5504.
+
+\bibitem{gokhale:DGAA:2014}
+Gokhale, CS, Traulsen, A
+\newblock (2014) Evolutionary multiplayer games.
+\newblock \emph{Dynamic Games and Applications}.
+
 \bibitem{eshel:AmNat:1988}
 Eshel, I, Motro, U
 \newblock (1988) {The three brothers' problem: kin selection with more than one
@@ -157,6 +192,11 @@ Eshel, I, Motro, U
 Hauert, C, Michor, F, Nowak, MA, Doebeli, M
 \newblock (2006) Synergy and discounting of cooperation in social dilemmas.
 \newblock \emph{Journal of Theoretical Biology} 239:195--202.
+
+\bibitem{nowak:Science:2004}
+Nowak, MA, Sigmund, K
+\newblock (2004) Evolutionary dynamics of biological games.
+\newblock \emph{Science} 303:793--799.
 
 \bibitem{abel:AO:1824}
 Abel, NH
