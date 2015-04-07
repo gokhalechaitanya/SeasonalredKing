@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/Supp_Text_2resub03.aux
+The style file: ../pnas.bst
+Database file #1: ~/Bibtex/et.bib.bib
+Warning--I didn't find a database entry for "maynard-smith:1982to"
+You've used 7 entries,
+            1765 wiz_defined-function locations,
+            514 strings with 5054 characters,
+and the built_in function-call counts, 1711 in all, are:
+= -- 167
+> -- 59
+< -- 2
++ -- 22
+- -- 15
+* -- 118
+:= -- 268
+add.period$ -- 13
+call.type$ -- 7
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 81
+empty$ -- 155
+format.name$ -- 15
+if$ -- 389
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 30
+stack$ -- 0
+substring$ -- 146
+swap$ -- 31
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 17
+width$ -- 8
+write$ -- 78
+(There was 1 warning)

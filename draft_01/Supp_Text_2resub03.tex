@@ -1,0 +1,207 @@
+\documentclass[times,onecolumn]{scrartcl} 
+\usepackage{geometry}              
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{color}
+\renewcommand{\baselinestretch}{1.2}
+\newcommand{\arne}[1]{\textcolor{red}{#1}}
+\newcommand{\cha}[1]{\textcolor{blue}{#1}}
+\newcommand{\leftsub}[2]{{\vphantom{#2}}_{#1}{#2}}
+
+
+
+\begin{document}
+
+\title{Supporting Text: \\
+Population dynamics of mutualisms}
+
+\author{
+Chaitanya S. Gokhale 
+}
+
+\maketitle
+
+\section{Average payoffs}
+\subsection{Interspecies interactions}
+\label{appA}
+
+The two species are assumed to be in a mutualistic relationship.
+Following \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}, we make use of the multiplayer version of the snowdrift game to represent a co-existence scenario.
+Each species has two types of individuals ``Generous" ($G$) and ``Selfish" ($S$).
+Say the frequency of $G$ individuals in species $1$ is given by $x$ and that in species 2 by $y$
+Each individual from each species takes part in a $d$ player interspecies game where it interacts with $d-1$ individuals from the other species.
+Of the $d-1$ the if $k$ of them are $G$ while $d-1-k$ are $S$ then the payoff accrued by the individuals is given by,
+%
+\begin{align}
+f^{inter}_{G_1} (y) &= \sum_{k=0}^{d_1 -1} \binom{d_1 -1}{k}y^k (1-y)^{d_1 -1-k} \Pi_{G_1}(k+1) \\
+f^{inter}_{S_1} (y) &= \sum_{k=0}^{d_1 -1} \binom{d_1 -1}{k}y^k (1-y)^{d_1 -1-k} \Pi_{S_1}(k).
+\label{interfiteqs}
+\end{align}
+%
+for the two types in species 1.
+Analogously the fitness for the two types in species 2 can be written down as $f^{inter}_{G_2} (x)$ and $f^{inter}_{S_2} (x)$ which depend on the frequencies of $G$ in species 1.
+The payoff for a $G$ thus includes itself ($k+1$) while for a $S$ individual only the the number of $G$ matter ($k$).
+The payoffs themselves are defined as in \cite{souza:JTB:2009},
+%
+\begin{align}
+\Pi_{S_1} (k) & = \begin{cases} b & \textrm{if } k \geq M \\ 0 & \textrm{if } k < M \end{cases}
+\\
+\Pi_{G_1} (k) & = \begin{cases} b-\frac{c}{k} & \textrm{if } k \geq M \\  -\frac{c}{M} & \textrm{if } k < M \end{cases}
+\label{eqintergamepayoffs}
+\end{align}
+%
+The selfish players get the benefit $b$ if the number of generous individuals in the interacting group, $k$, is greater than or equal to the threshold $M$.
+For the generous individuals, their effort is subtracted from the payoffs.
+The effort is shared if the quorum size is met ($\frac{c}{k}$), but is in vain for $k<M$.
+
+
+\subsection{Intraspecies interactions}
+\label{appB}
+
+Within a species we do not assume a certain kind of interaction structure.
+Instead we model the interaction matrix by making use of a general framework of costs and non-linear benefits \cite{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of social interaction structures qualitatively.
+A crucial \textbf{assumption} which we make here is that the ``Generous" individuals from the between species interactions are the ``Cooperative" ones in the within species interaction and the ``Selfish" ones are the ``Defectors".
+Hence for species 1 the frequency of cooperators is just $x$ and the defectors is $1-x$, the same as the ``Generous" and ``Selfish".
+Again for simplicity we \textbf{assume} a $d$ player game being played within species, the same as in between species.
+Thus the fitnesses of cooperators and defectors are defined as \cite{hauert:JTB:2006a},
+%
+\begin{align}
+	f^{intra}_{G_1} (x) &= \sum_{k=0}^{d_1 -1} \binom{d_1 -1}{k}x^k (1-x)^{d_1 -1-k} \Gamma_{G_1}(k+1) \\
+	f^{intra}_{S_1} (x) &= \sum_{k=0}^{d_1 -1} \binom{d_1 -1}{k}x^k (1-x)^{d_1 -1-k} \Gamma_{S_1}(k).
+\label{intrafiteqs}
+\end{align}
+%
+where the payoffs are given by,
+\begin{align}
+	\Gamma_{S_1} (k) = \frac{\tilde{b}}{d_1} \sum_{i=0}^{k-1} \omega^i \\
+	\Gamma_{G_1} (k) = \Gamma_{S_1} (k) - \tilde{c}.
+\label{eqintragamepayoffs}
+\end{align}
+%
+Thus the defectors get a fraction of the benefit which is scaled by the factor $\omega$, which determines if the benefits are linearly accumulating ($\omega=1$) for increasing number of cooperators, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
+Note that the costs and benefits in the within species game need not be (and naturally so) the same as in between species ($b\neq \tilde{b}$ and $c \neq \tilde{c}$).
+
+
+\subsection{Combined payoffs and dynamics}
+
+The average payoffs are then just assumed to be a linear combination of the interspecies and intraspecies interactions where the parameter $p$ determines the strength of each of the interactions such that,
+%
+\begin{align}
+	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \\
+	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x)
+\label{fiteqs}
+\end{align}
+%
+Following the same procedure for the two strategies in species $2$ leads to the average fitness
+%
+\begin{align}
+\bar{f}_1 (x,y) &= x f_{G_1} (y)+(1-x) f_ {S_1}(y)\\
+\bar{f}_2 (x,y) &= y f_{G_2} (x)+(1-y) f_{S_2}(x).
+\label{avgfiteqs}
+\end{align}
+%
+The time evolution of the ``Generous" types in all the species will give us the complete dynamics of the system.
+However since the two interaction species are by definition different organisms, they can have different rates of evolution.
+Thus if species 1 evolves at the rate $r_x$ while species 2 at rate $r_y$ then we have,
+\begin{align}
+\dot{x} &= r_x x \left(f_{G_1}(y) -  \bar{f}_1(x,y) \right) \nonumber \\
+\dot{y} &= r_y y \left(f_{G_2}(x) -  \bar{f}_2(x,y) \right).
+\label{eq:repeqs}
+\end{align}
+
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphics[width=\columnwidth]{../Figures/Dynamicsacrossp_reduced.pdf}
+\caption{
+$d_1 = d_2 = 5$, $b= 2$, $r_x = r_y/8$, $M_1 = M_2 = 1$ and $c=1$ for the interspecies game. As for the intraspecies games (a), (b), (c) and (d) the exact same parameter values as in \cite{hauert:JTB:2006a}.
+}
+\end{center}
+\end{figure*}
+
+
+\cha{\section{Asymmetries}}
+
+\cha{This between and within species model is a powerful way of introducing a lot of variability into the dynamics,
+\begin{align}
+	d_1 &\neq d_2 \\
+	d^{inter} &\neq d^{intra} \\
+	M_1 &\neq M_2 \\
+	b &\neq \tilde{b} \\
+	c &\neq \tilde{c} \\
+	r_x &\neq r_y \\
+	&\vdots
+\end{align}
+and various combinations of these. We should justify why we don't do this here and why we do vary the ones that we do.}
+
+
+\subsection{Dynamics in asymmetric conditions}
+
+%We have addressed two kinds of asymmetries in the game, the number of player and the thresholds in the two species.
+%We denote the number of players for species $1$ and species $2$ as $d_1$ and $d_2$, respectively, as in Fig.\ \ref{fig:counter}.
+%That is if species $2$ is playing a $d_2$ player game it means that one player from species $2$ interacts with $d_2-1$ players of species $1$.
+%For an asymmetry in the thresholds we use the two parameters $M_1\geq1$ and $M_2\geq1$ for the two species, respectively.
+
+For asymmetric bimatrix games, there is a difference in the dynamics between the standard replicator dynamics and the 
+alternative dynamics put forward by Maynard-Smith \cite{maynard-smith:1982to}.
+For this dynamics, the average fitness of each species appears as a denominator,
+\begin{align}
+\dot{x} &= r_x x \left(f_{G_1}(y) -  \bar{f}_1(x,y) \right)/\bar{f}_1(x,y) \nonumber \\
+\dot{y} &= r_y y \left(f_{G_2}(x) -  \bar{f}_2(x,y) \right)/\bar{f}_2(x,y).
+\label{eq:repeqs}
+\end{align}
+In our asymmetric bimatrix game, the fixed point stability is affected by the choice of the dynamics, in contrast to the case of symmetric games. 
+%In Fig.\ \ref{fig:thresholdsmodrep}, we illustrate that the dynamics is different between the usual replicator dynamics and Eqs. \ref{eq:repeqs}
+
+For $d_1=d_2 \geq 5$, the exact coordinates of the fixed point must be computed numerically \cite{abel:AO:1824,stewart:book:2004}.
+
+
+\section{Population dynamics}
+
+For brevity we begin with the description of population dynamics in Species 1.
+The two types in Species 1, ``Generous" and ``Selfish" need not sum up to $1$ i.e. the population may not always be at its carrying capacity.
+Hence if the empty space in the niche occupied by Species $1$ is $z_1$, then we have $x_1 + x_2 + z_1 = $ where $x_1$ and $x_2$ are the densities of ``Generous" and ``Selfish" types.
+The population dynamics then is dictated by,
+%
+\begin{align}
+	\dot{x_1} &= r_x x_1 (z_1 f_{G_1} - e_1) \\
+	\dot{x_2} &= r_x x_2 (z_1 f_{S_1} - e_1) \\
+	\dot{z_1} &= - \dot{x_1} - \dot{x_2}
+\end{align}
+%
+and for species 2
+\begin{align}
+	\dot{y_1} &= r_y y_1 (z_2 f_{G_2} - e_2) \\
+	\dot{y_2} &= r_y y_2 (z_2 f_{S_2} - e_2) \\
+	\dot{y_1} &= - \dot{y_1} - \dot{y_2}
+\end{align}
+%
+We have $e_1$ and $e_2$ as the death rates for the two species.
+Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs}.
+The fitnesses however need to be reevaluated in this setup.
+For example in Species 1 the fitness for type $G_1$ is,
+%
+\begin{align}
+	f_{G_1}^{inter} &= \sum_{S=2}^{d_1} \binom{d_1 -1}{S-1} z_2 ^{d_1 -S} (1-z_2)^{S-1} P_G^{inter}(S,y_1,y_2,z_2) \\
+	f_{G_1}^{intra} &= \sum_{S=2}^{d_1} \binom{d_1 -1}{S-1} z_1 ^{d_1 -S} (1-z_1)^{S-1} P_G^{intra}(S,x_1,x_2,z_1) \\
+	f_{G_1} &= f_{G_1}^{inter} + f_{G_1}^{intra}
+\end{align}
+%
+and similarly for type $S_1$ where the payoff functions are defined as,
+%
+\begin{align}
+	P_G^{inter}(S,p,q,r) &= \sum_{k=0}^{S-1} V(S,p,q,r) \Pi_{G_1}(k+1) \\
+	P_G^{intra}(S,p,q,r) &= \sum_{k=0}^{S-1} V(S,p,q,r) \Gamma_{G_1}(k+1) \\
+	P_S^{inter}(S,p,q,r) &= \sum_{k=0}^{S-1} V(S,p,q,r) \Pi_{S_1}(k) \\
+	P_S^{intra}(S,p,q,r) &= \sum_{k=0}^{S-1} V(S,p,q,r) \Gamma_{S_1}(k)
+\end{align}
+%
+where $V(S,p,q,r) = \binom{S-1}{k} \left( \frac{p}{1-r}\right)^k  \left(\frac{q}{1-r}\right)^{S-1-k}$ is the probability of having a $k$ ``Generous"(Cooperator) individuals and $S-1-k$ ``Selfish"(Defector) individuals in the inter(intra) species game.
+and the actual payoffs are calculated as per Eqs.~\ref{eqintergamepayoffs} and \ref{eqintragamepayoffs}.
+
+\bibliographystyle{pnas}
+\bibliography{\string~/Bibtex/et.bib}
+
+\end{document}
