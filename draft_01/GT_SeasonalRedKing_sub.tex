@@ -130,16 +130,25 @@ Assuming additivity in the fitnesses of inter and intraspecies fitnesses, the co
 The parameter $p$ tunes the impact of each of the interactions on the actual fitness that eventually drives the evolutionary dynamics.
 For $p=1$ we recover the well studied case of the Red King dynamics \cite{gokhale:PRSB:2012} while for $p=0$ the dynamics of the two species are essentially decoupled and can be individually studied by the synergy/discounting framework of nonlinear social dilemmas \cite{hauert:JTB:2006a}.
 Of interest in the continuum and the intermediate values of $p$.
-However that would mean we need to track the qualitative dynamics of sixteen possible intraspecies dynamics as $p$ changes gradually from close to $0$ to close to $1$ (SIix). 
+However that would mean we need to track the qualitative dynamics of sixteen possible intraspecies dynamics as $p$ changes gradually from close to $0$ to close to $1$ (SI). 
 
-This approach provides us with a powerful method to incorporate a lot of realistic concepts in the analysis.
-For example the number of players involved in a game, which has been shown to be a crucial factor in determining the evolutionary dynamics could be different for each interactions, inter and intra species interactions for Species $1$ ($d^{inter}_1$,$d^{intra}_1$) and similarly for Species 2 ($d^{inter}_2$,$d^{intra}_2$). 
+This approach provides us with a powerful method to incorporate a multitude of realistic concepts in the analysis.
+For example the number of players involved in a game, which has been shown to be a crucial factor in determining the evolutionary dynamics could be different for each interactions, inter and intra species interactions for Species $1$ ($d^{inter}_1$, $d^{intra}_1$) and similarly for Species 2 ($d^{inter}_2$, $d^{intra}_2$). 
 The interspecies interactions are proxied by the multiplayer Snowdrift game which can incorporate threshold effects.
 For example a certain number of ``Generous" cleaner fish may be required to clean the host or a certain number of ``Generous" ants required to protect larva from predators.
 We can have $M_1$ and $M_2$ as the thresholds in the two species.
 Since the interaction matrices for the inter and intra species dynamics are completely different there doesn't need to be any relationship between the costs and benefits of the four games (Two snowdrift games from the perspective of each species and the intragames within each species).
 
- 
+So in principle we can have a diverse and rich set of dynamics possible which brings into question the study of coevolution based on only interspecies interactions. Even if we make a surprisingly large number of assumptions and assume that the intra species dynamics accounts for only $33\%$ ($1-p$) of the cumulative fitness, we can see drastically different qualitative dynamics which is capable of explaining the persistence of exploiters.
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphics[width=2\columnwidth]{../Figures/mainexample.pdf}
+\caption{
+Explain figure
+}
+\end{center}
+\end{figure*}
 
 \subsection{Population dynamics}
 %Consider two species ($1/2$) occupying different niches in an ecosystem.
