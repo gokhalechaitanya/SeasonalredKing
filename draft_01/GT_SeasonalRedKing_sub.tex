@@ -42,14 +42,8 @@ Eco-evolutionary dynamics \ldots
 
 \section{Introduction}
 
-In his book 'The History of Animals', Aristotle observes
-{\em
-`When the crocodile yawns, the trochilus flies into his mouth and cleans
-his teeth. The trochilus gets his food thereby, and the crocodile
-gets ease and comfort; it makes no attempt to injure its little friend,
-but, when it wants it to go, it shakes its neck in warning, lest it
-should accidentally bite the bird'} \cite{aristotle:350bc}.
-In $1873$ the Belgian zoologist Pierre van Beneden termed this interaction as mutualism \cite{bronstein:book:2003}.
+As with many concepts, we can trace back the study of mutualism to Aristotle \cite{aristotle:350bc}.
+However formally in $1873$ the Belgian zoologist Pierre van Beneden coined the term mutualism \cite{bronstein:book:2003}.
 Mutualistic relationships, interspecific interactions that benefit both species, have been empirically studied for many years 
 \cite{boucher:book:1985,hinton:PTENHS:1951,wilson:AmNat:1983,bronstein:QRB:1994,pierce:ARE:2002,kiers:Nature:2003,bshary:ASB:2004} and a considerable body of theory has been put forth explaining the evolution and maintenance of such relationships \cite{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
 Most examples of mutualisms, including the one described by Aristotle, lend themselves to the idea of direct reciprocity \cite{trivers:QRB:1971} and have thus been extensively studied using evolutionary game theory.
@@ -71,7 +65,7 @@ In this manuscript we focus on this kind of -- possibly -- many to many interact
 \marcus{This paragraph - is it about 1-1 vs 1-many, or dyadic vs ...?  Seems like it's setting up to be a ``Dyadic isn't enough'' para. In that case fine but the next para should be making the (main) point that intra-specific interactions are perhaps an important, and hitherto ignored, determinant of evolutionary outcomes for mutualisms.  }
 
 In all, in this manuscript we look at the broader picture of mutualistic relationships and the ecology in which they are observed.
-We study the the cumulative effect os the within species and between species interactions and the importance of these relationships, seasonality and population dynamics taken together.
+We study the the cumulative effect of the within species and between species interactions and the importance of these relationships, seasonality and population dynamics taken together.
 To analyze how benefits are shared between the two mutualistic species, we make use of evolutionary game theory.
 Since we consider the interaction of two species, we resort to bimatrix games
 \cite{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
@@ -100,8 +94,7 @@ In fact the coevolutionary dynamics between the two species is determined togeth
 We assume the interactions between species to be mutualistic described by the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
 Species $1$ plays a $d_1^{inter}$ player game with Species $2$ while Species $2$ plays a $d_2^{inter}$ player game.
 Each species has two types of players ``Generous" and ``Selfish" who besides interacting with the members of other species, also take part in intra species dynamics.
-\cha{We assume a general framework of synergy and discounting for the intraspecies interactions \cite{eshel:AmNat:19
-88,hauert:JTB:2006a}
+\cha{We assume a general framework of synergy and discounting for the intraspecies interactions \cite{eshel:AmNat:1988,hauert:JTB:2006a}
 }}
 \end{center}
 \end{figure}
@@ -161,7 +154,7 @@ So in principle we can have a diverse and rich set of dynamics possible which br
 
 \begin{figure*}[h]
 \begin{center}
-\includegraphics[width=2\columnwidth]{../Figures/mainexample2.pdf}
+\includegraphics[width=1.5\columnwidth]{../Figures/mainexample2.pdf}
 \caption{
 \textbf{Change in evolutionary dynamics due to inclusion of intraspecies dynamics.} When the fitness of the ``Generous" and ``Selfish" types in both the species is solely determined by the interactions which occur between species (in this case mutualism, $p=1$) then we recover the dynamics as studied previously in \cite{gokhale:PRSB:2012}. The colours represent the initial states which result in an outcome favourable for Species $1$ (blue leading to ($S_1$,$G_2$)) and Species $2$ (red, leading to ($G_1$,$S_2$)). This can result in the red King effect and other possible complexities as discussed recently in \cite{gao:SciRep:2015}. However when we start including intraspecies dynamics the picture can be very different.
 Even when the impact of intraspecies dynamics is only a $1/3$ on the total fitness of the ``Generous" and ``Selfish" types we see a very qualitatively different picture.
@@ -170,17 +163,19 @@ All initial states in the interior lead to either one of these fixed points (hen
 However it is still possible to characterize the ``successful" species as one of the equilibrium is favoured by one species than the other.
 The horizontal isoclines are for Species $1$ while the vertical ones are for Species $2$.
 The analysis was done for a 5 player game $d_1^{inter} = d_2^{inter} = d_1^{intra} = d_2^{intra} = 5$, $b=2$, $c=1$ and $r_x = r_y /8$ for the interspecies mutualism game while additionally $\tilde{b}_1 = \tilde{b}_2 = 10$ and $\tilde{c}_1 = \tilde{c}_2 = 1$ and $\omega_1 = \omega_2 = 3/4$ for the two intraspecies games within each species. Note that even with symmetric games within each species we can a qualitatively drastic difference when compared to the dynamics excluding intraspecies interactions.  For different intraspecies interactions within each species and for varying $p$ see SI.
+\label{fig:mainexampleone}
 }
 \end{center}
 \end{figure*}
 
 \subsection{Population dynamics}
 %
-\begin{figure}
+\begin{figure}[h]
 \begin{center}
 \includegraphics[width=\columnwidth]{../Figures/popdyninterintra.pdf}
 \caption{
 Explain figure
+\label{fig:conceptartpopdyn}
 }
 \end{center}
 \end{figure}
@@ -193,7 +188,7 @@ Hence we need to tackle not just evolutionary but eco-evolutionary dynamics toge
 
 To include population dynamics in the previously considered scenario, we reinterpret $x_1$ now as the fraction of ``Generous" types and $x_2
 $ as the fraction of ``Selfish" types in Species $1$.
-Also now we have $z_1 = 1 - x_1 - x_2$ as the empty spaces in the niche occupied by Species $1$. Similarly we have $y_1$, $y_2$ and $z_2$.
+Also now we have $z_1 = 1 - x_1 - x_2$ as the empty spaces in the niche occupied by Species $1$. Similarly we have $y_1$, $y_2$ and $z_2$ (Fig.~\ref{fig:conceptartpopdyn}).
 This approach has previously been explored in terms of social dilemmas in \cite{hauert:PRSB:2006}.
 We adapt and modify it for the two species and hence now the dynamics of this complete system is determined by the following set of differential equations,
 %
@@ -235,6 +230,7 @@ As shown in Figure \ref{fig:popdyn} we plot the evolutionary information (fracti
 \includegraphics[width=2\columnwidth]{../Figures/mainexamplepopdyn2.pdf}
 \caption{
 \cha{\textbf{Dynamics of evolutionary strategies and population density for an intraspecies coexistence game with interspecies mutualism.}
+With exactly the same parameters as that of Figure \ref{fig:mainexampleone} with  symmetric death rates $e_1 = e_2 = 0.05$.
 }
 }
 \end{center}

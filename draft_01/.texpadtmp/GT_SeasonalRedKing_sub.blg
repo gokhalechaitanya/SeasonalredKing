@@ -1,14 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
-White space in argument---line 36 of file /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
- : \citation{eshel:AmNat:19
- :                          88}
-I'm skipping whatever remains of this command
-White space in argument---line 41 of file /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
- : \citation{eshel:AmNat:19
- :                          88}
-I'm skipping whatever remains of this command
 The style file: ../pnas.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "aristotle:350bc"
@@ -53,4 +45,4 @@ warning$ -- 0
 while$ -- 77
 width$ -- 39
 write$ -- 406
-(There were 2 error messages)
+(There was 1 warning)

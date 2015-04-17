@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 APR 2015 13:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 APR 2015 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,7 +294,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 
-LaTeX Warning: Citation `aristotle:350bc' on page 1 undefined on input line 51.
+LaTeX Warning: Citation `aristotle:350bc' on page 1 undefined on input line 45.
 
 
  ======================================================================== 
@@ -312,16 +312,9 @@ LaTeX Warning: Citation `aristotle:350bc' on page 1 undefined on input line 51.
 <../Figures/interintra.pdf, id=1, 671.50874pt x 453.695pt>
 File: ../Figures/interintra.pdf Graphic file (type pdf)
  <use ../Figures/interintra.pdf>
-Package pdftex.def Info: ../Figures/interintra.pdf used on input line 97.
+Package pdftex.def Info: ../Figures/interintra.pdf used on input line 91.
 (pdftex.def)             Requested size: 247.0pt x 166.88147pt.
-
-
-LaTeX Warning: Citation `eshel:AmNat:19 88' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Citation `eshel:AmNat:19 88' on page 1 undefined on input line 107.
-
-[1
+ [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
@@ -332,44 +325,51 @@ LaTeX Warning: Citation `eshel:AmNat:19 88' on page 1 undefined on input line 10
 <../Figures/mainexample2.pdf, id=21, 284.5029pt x 192.2382pt>
 File: ../Figures/mainexample2.pdf Graphic file (type pdf)
  <use ../Figures/mainexample2.pdf>
-Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 164.
-(pdftex.def)             Requested size: 494.0pt x 333.79654pt.
+Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 157.
+(pdftex.def)             Requested size: 370.5pt x 250.34668pt.
  [2 <../Figures/interintra.pdf>]
-\figandtabbox0=\box54
- <../Figures/popdyninterintra.pdf, id=182, 671.50874pt x 453.695pt>
+
+
+ C A R E F U L !! \begin{figure}[h] used on this page !
+
+
+<../Figures/popdyninterintra.pdf, id=182, 671.50874pt x 453.695pt>
 File: ../Figures/popdyninterintra.pdf Graphic file (type pdf)
  <use ../Figures/popdyninterintra.pdf>
-Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 181.
+Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 175.
 (pdftex.def)             Requested size: 247.0pt x 166.88147pt.
- [3 <../Figures/mainexample2.pdf>]
 
-LaTeX Warning: Reference `fig:popdyn' on page 4 undefined on input line 231.
+Overfull \vbox (2.00002pt too high) has occurred while \output is active []
+
+ [3 <../Figures/mainexample2.pdf> <../Figures/popdyninterintra.pdf>]
+
+LaTeX Warning: Reference `fig:popdyn' on page 4 undefined on input line 226.
 
 
 
  C A R E F U L !! \begin{figure}[h] used on this page !
 
 
-<../Figures/mainexamplepopdyn2.pdf, id=191, 284.5029pt x 188.38379pt>
+<../Figures/mainexamplepopdyn2.pdf, id=380, 284.5029pt x 188.38379pt>
 File: ../Figures/mainexamplepopdyn2.pdf Graphic file (type pdf)
  <use ../Figures/mainexamplepopdyn2.pdf>
-Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 235.
+Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 230.
 (pdftex.def)             Requested size: 494.0pt x 327.10387pt.
- [4 <../Figures/popdyninterintra.pdf>] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.bbl [5 <../Figures/mainexamplepopdyn2.pdf>]) [6] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux)
+ [4] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.bbl [5 <../Figures/mainexamplepopdyn2.pdf>]) [6] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3156 strings out of 493488
- 43180 string characters out of 3141326
- 129423 words of memory out of 3000000
- 6407 multiletter control sequences out of 15000+200000
+ 3147 strings out of 493488
+ 43084 string characters out of 3141326
+ 128544 words of memory out of 3000000
+ 6398 multiletter control sequences out of 15000+200000
  15330 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,28p,2144b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,25p,2145b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.pdf (6 pages, 2448648 bytes).
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.pdf (6 pages, 2442570 bytes).
 PDF statistics:
  454 PDF objects out of 1000 (max. 8388607)
  298 compressed objects within 3 object streams

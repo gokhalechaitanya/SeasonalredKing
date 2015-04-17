@@ -3,5 +3,5 @@
 \contentsline {subsection}{Interspecies dynamics}{2}
 \contentsline {subsection}{Intraspecies dynamics}{2}
 \contentsline {subsection}{Combined dynamics}{2}
-\contentsline {subsection}{Population dynamics}{4}
+\contentsline {subsection}{Population dynamics}{3}
 \contentsline {section}{Discussion}{5}
