@@ -1,48 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
+White space in argument---line 36 of file /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
+ : \citation{eshel:AmNat:19
+ :                          88}
+I'm skipping whatever remains of this command
+White space in argument---line 41 of file /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_01/.texpadtmp/GT_SeasonalRedKing_sub.aux
+ : \citation{eshel:AmNat:19
+ :                          88}
+I'm skipping whatever remains of this command
 The style file: ../pnas.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "aristotle:350bc"
-You've used 35 entries,
+You've used 37 entries,
             1765 wiz_defined-function locations,
-            701 strings with 9691 characters,
-and the built_in function-call counts, 7787 in all, are:
-= -- 752
-> -- 297
+            714 strings with 10040 characters,
+and the built_in function-call counts, 8247 in all, are:
+= -- 795
+> -- 319
 < -- 3
-+ -- 108
-- -- 73
-* -- 567
-:= -- 1261
-add.period$ -- 62
-call.type$ -- 35
-change.case$ -- 27
++ -- 116
+- -- 79
+* -- 605
+:= -- 1339
+add.period$ -- 66
+call.type$ -- 37
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 357
-empty$ -- 742
-format.name$ -- 75
-if$ -- 1768
+cite$ -- 37
+duplicate$ -- 375
+empty$ -- 781
+format.name$ -- 81
+if$ -- 1864
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 39
-newline$ -- 178
-num.names$ -- 43
-pop$ -- 67
+int.to.str$ -- 37
+missing$ -- 41
+newline$ -- 188
+num.names$ -- 45
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 68
+skip$ -- 70
 stack$ -- 0
-substring$ -- 597
-swap$ -- 101
+substring$ -- 640
+swap$ -- 105
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 72
-width$ -- 37
-write$ -- 384
-(There was 1 warning)
+while$ -- 77
+width$ -- 39
+write$ -- 406
+(There were 2 error messages)

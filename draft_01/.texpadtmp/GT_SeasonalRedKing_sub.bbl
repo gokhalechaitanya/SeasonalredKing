@@ -171,6 +171,11 @@ Gokhale, CS, Traulsen, A
   {R}ed {K}ing.
 \newblock \emph{Proceedings of the Royal Society B} 279:4611--4616.
 
+\bibitem{hauert:JTB:2006a}
+Hauert, C, Michor, F, Nowak, MA, Doebeli, M
+\newblock (2006) Synergy and discounting of cooperation in social dilemmas.
+\newblock \emph{Journal of Theoretical Biology} 239:195--202.
+
 \bibitem{gokhale:PNAS:2010}
 Gokhale, CS, Traulsen, A
 \newblock (2010) Evolutionary games in the multiverse.
@@ -188,14 +193,21 @@ Eshel, I, Motro, U
   potential helper. 1. The case of immediate help}.
 \newblock \emph{American Naturalist} pp 550--566.
 
-\bibitem{hauert:JTB:2006a}
-Hauert, C, Michor, F, Nowak, MA, Doebeli, M
-\newblock (2006) Synergy and discounting of cooperation in social dilemmas.
-\newblock \emph{Journal of Theoretical Biology} 239:195--202.
-
 \bibitem{nowak:Science:2004}
 Nowak, MA, Sigmund, K
 \newblock (2004) Evolutionary dynamics of biological games.
 \newblock \emph{Science} 303:793--799.
+
+\bibitem{gao:SciRep:2015}
+Gao, L, Li, YT, Wang, RW
+\newblock (2015) {The shift between the Red Queen and the Red King effects in
+  mutualisms.}
+\newblock \emph{Scientific reports} 5:8237.
+
+\bibitem{hauert:PRSB:2006}
+Hauert, C, Holmes, M, Doebeli, M
+\newblock (2006) Evolutionary games and population dynamics: maintenance of
+  cooperation in public goods games.
+\newblock \emph{Proceedings of the Royal Society B} 273:2565--2570.
 
 \end{thebibliography}

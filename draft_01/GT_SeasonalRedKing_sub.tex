@@ -79,6 +79,11 @@ While initially attempting to avoid the question of how mutualisms evolve in the
 \section{Model and Results}
 
 
+\begin{align}
+\dot{x} &= r_x x \left(f_{G_1}(x,y) -  \bar{f}_1(x,y) \right) \nonumber \\
+\dot{y} &= r_y y \left(f_{G_2}(x,y) -  \bar{f}_2(x,y) \right).
+\label{eq:repeqs}
+\end{align}
 
 Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics.
 In fact the coevolutionary dynamics between the two species is determined together by the inter as well as the intraspecific interactions.
@@ -88,10 +93,17 @@ In fact the coevolutionary dynamics between the two species is determined togeth
 \begin{center}
 \includegraphics[width=\columnwidth]{../Figures/interintra.pdf}
 \caption{
-Explain figure
-}
+\textbf{Evolutionary dynamics with combined inter-intra species dynamics.}
+We assume the interactions between species to be mutualistic described by the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
+Species $1$ plays a $d_1^{inter}$ player game with Species $2$ while Species $2$ plays a $d_2^{inter}$ player game.
+Each species has two types of players ``Generous" and ``Selfish" who besides interacting with the members of other species, also take part in intra species dynamics.
+\cha{We assume a general framework of synergy and discounting for the intraspecies interactions \cite{eshel:AmNat:19
+88,hauert:JTB:2006a}
+}}
 \end{center}
 \end{figure}
+
+
 
 \subsection{Interspecies dynamics}
 
@@ -124,10 +136,10 @@ Assuming additivity in the fitnesses of inter and intraspecies fitnesses, the co
 
 %
 \begin{align}
-	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \\
-	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x) \\
+	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \nonumber \\
+	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x) \nonumber \\
 	f_{G_2} (x,y) &= p f^{inter}_{G_2} (x) + (1-p) f^{intra}_{G_2} (y) \\
-	f_{S_2} (x,y) &= p f^{inter}_{S_2} (x) + (1-p) f^{intra}_{S_2} (y)
+	f_{S_2} (x,y) &= p f^{inter}_{S_2} (x) + (1-p) f^{intra}_{S_2} (y) \nonumber
 \end{align}
 %
 The parameter $p$ tunes the impact of each of the interactions on the actual fitness that eventually drives the evolutionary dynamics.
@@ -142,18 +154,95 @@ For example a certain number of ``Generous" cleaner fish may be required to clea
 We can have $M_1$ and $M_2$ as the thresholds in the two species.
 Since the interaction matrices for the inter and intra species dynamics are completely different there doesn't need to be any relationship between the costs and benefits of the four games (Two snowdrift games from the perspective of each species and the intragames within each species).
 
-So in principle we can have a diverse and rich set of dynamics possible which brings into question the study of coevolution based on only interspecies interactions. Even if we make a surprisingly large number of assumptions and assume that the intra species dynamics accounts for only $33\%$ ($1-p$) of the cumulative fitness, we can see drastically different qualitative dynamics which is capable of explaining the persistence of exploiters.
+So in principle we can have a diverse and rich set of dynamics possible which brings into question the study of coevolution based on only interspecies interactions. Even if we make a large number of assumptions and even if the intraspecies dynamics accounts for only $33\%$ ($1-p$) of the cumulative fitness, we can see drastically different qualitative dynamics which is capable of explaining the persistence of exploiters.
 
 \begin{figure*}[h]
 \begin{center}
-\includegraphics[width=2\columnwidth]{../Figures/mainexample.pdf}
+\includegraphics[width=2\columnwidth]{../Figures/mainexample2.pdf}
 \caption{
-Explain figure
+\textbf{Change in evolutionary dynamics due to inclusion of intraspecies dynamics.} When the fitness of the ``Generous" and ``Selfish" types in both the species is solely determined by the interactions which occur between species (in this case mutualism, $p=1$) then we recover the dynamics as studied previously in \cite{gokhale:PRSB:2012}. The colours represent the initial states which result in an outcome favourable for Species $1$ (blue leading to ($S_1$,$G_2$)) and Species $2$ (red, leading to ($G_1$,$S_2$)). This can result in the red King effect and other possible complexities as discussed recently in \cite{gao:SciRep:2015}. However when we start including intraspecies dynamics the picture can be very different.
+Even when the impact of intraspecies dynamics is only a $1/3$ on the total fitness of the ``Generous" and ``Selfish" types we see a very qualitatively different picture.
+Two fixed points are observed where both the ``Generous" and ``Selfish" types can co-exist in both the species.
+All initial states in the interior lead to either one of these fixed points (hence the lack of colours).
+However it is still possible to characterize the ``successful" species as one of the equilibrium is favoured by one species than the other.
+The horizontal isoclines are for Species $1$ while the vertical ones are for Species $2$.
+The analysis was done for a 5 player game $d_1^{inter} = d_2^{inter} = d_1^{intra} = d_2^{intra} = 5$, $b=2$, $c=1$ and $r_x = r_y /8$ for the interspecies mutualism game while additionally $\tilde{b}_1 = \tilde{b}_2 = 10$ and $\tilde{c}_1 = \tilde{c}_2 = 1$ and $\omega_1 = \omega_2 = 3/4$ for the two intraspecies games within each species. Note that even with symmetric games within each species we can a qualitatively drastic difference when compared to the dynamics excluding intraspecies interactions.  For different intraspecies interactions within each species and for varying $p$ see SI.
 }
 \end{center}
 \end{figure*}
 
 \subsection{Population dynamics}
+%
+\begin{figure}
+\begin{center}
+\includegraphics[width=\columnwidth]{../Figures/popdyninterintra.pdf}
+\caption{
+Explain figure
+}
+\end{center}
+\end{figure}
+%
+Until now we have considered that each species consists of two types of individuals and they make up the population of that species.
+However populations sizes change over time. 
+Assuming that ecological changes are fast enough that they can be averaged out, we can usually ignore their effect on the evolutionary dynamics.
+It is now possible to show that evolution can happen at fast timescales as well, comparable to those of the ecological dynamics \cha{add citations with examples}.
+Hence we need to tackle not just evolutionary but eco-evolutionary dynamics together.
+
+To include population dynamics in the previously considered scenario, we reinterpret $x_1$ now as the fraction of ``Generous" types and $x_2
+$ as the fraction of ``Selfish" types in Species $1$.
+Also now we have $z_1 = 1 - x_1 - x_2$ as the empty spaces in the niche occupied by Species $1$. Similarly we have $y_1$, $y_2$ and $z_2$.
+This approach has previously been explored in terms of social dilemmas in \cite{hauert:PRSB:2006}.
+We adapt and modify it for the two species and hence now the dynamics of this complete system is determined by the following set of differential equations,
+%
+\begin{align}
+	\dot{x_1} &= r_x x_1 (z_1 f_{G_1} - e_1) \nonumber \\
+	\dot{x_2} &= r_x x_2 (z_1 f_{S_1} - e_1) \\
+	\dot{z_1} &= - \dot{x_1} - \dot{x_2} \nonumber
+\end{align}
+%
+and for species 2
+\begin{align}
+	\dot{y_1} &= r_y y_1 (z_2 f_{G_2} - e_2) \nonumber \\
+	\dot{y_2} &= r_y y_2 (z_2 f_{S_2} - e_2) \\
+	\dot{z_2} &= - \dot{y_1} - \dot{y_2} \nonumber
+\end{align}
+%
+where we have introduced $e_1$ and $e_2$ as the death rates of the two species.
+Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs}.
+In this setup however the fitnesses need to be re-evaluated as not we need to account for the presence of empty spaces (See SI).
+We can reduce the dynamics by looking at only the proportion of ``Generous" types in both the species thus $g_1 = x_1/(1-z_1)$ and $g_2 = y_1/(1-z_2)$ whose time evolution is given by,
+\begin{align}
+	\dot{g_1} &= r_x z_1 g_1 (1-g_1) (f_{G_1} - f_{S_1}) \nonumber \\
+	\dot{z_1} &= e_1 (1-z_1) - r_x z_1 (1-z_1) (g_1 f_{G_1} -  (1-g_1) f_{S_1})
+\end{align}
+and
+\begin{align}
+	\dot{g_2} &= r_y z_2 g_2 (1-g_2) (f_{G_2} - f_{S_2}) \nonumber \\
+	\dot{z_2} &= e_2 (1-z_2) - r_y z_2 (1-z_2) (g_2 f_{G_2} -  (1-g_2) f_{S_2})
+\end{align}
+%
+where everywhere we have $x_1 = g_1 (1-z_1)$ (with $x_2 = (1-g_1) (1-z_1)$) and $y_1 = g_2 (1-z_2)$ (with $y_2 = (1-g_2) (1-z_2)$) in the fitnesses as well.
+
+Such a two species multi-type interaction system is a complicated as well as a realistic depiction of most of the mutualisms observed in nature.
+However even with this complexity, the reduction of variables from six to four allows us to study the eco-evolutionary dynamics of the mutualism by looking at the two species simultaneously.
+As shown in Figure \ref{fig:popdyn} we plot the evolutionary information (fraction of ``Generous" in each species) against the ecological parameter, the population density (or rather in this case hte empty space which is $1-$ population density).
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphics[width=2\columnwidth]{../Figures/mainexamplepopdyn2.pdf}
+\caption{
+\cha{\textbf{Change in evolutionary dynamics due to inclusion of intraspecies dynamics.} When the fitness of the ``Generous" and ``Selfish" types in both the species is solely determined by the interactions which occur between species (in this case mutualism, $p=1$) then we recover the dynamics as studied previously in \cite{gokhale:PRSB:2012}. The colours represent the initial states which result in an outcome favourable for Species $1$ (blue leading to ($S_1$,$G_2$)) and Species $2$ (red, leading to ($G_1$,$S_2$)). This can result in the red King effect and other possible complexities as discussed recently in \cite{gao:SciRep:2015}. However when we start including intraspecies dynamics the picture can be very different.
+Even when the impact of intraspecies dynamics is only a $1/3$ on the total fitness of the ``Generous" and ``Selfish" types we see a very qualitatively different picture.
+Two fixed points are observed where both the ``Generous" and ``Selfish" types can co-exist in both the species.
+All initial states in the interior lead to either one of these fixed points (hence the lack of colours).
+However it is still possible to characterize the ``successful" species as one of the equilibrium is favoured by one species than the other.
+The horizontal isoclines are for Species $1$ while the vertical ones are for Species $2$.
+The analysis was done for a 5 player game $d_1^{inter} = d_2^{inter} = d_1^{intra} = d_2^{intra} = 5$, $b=2$, $c=1$ and $r_x = r_y /8$ for the interspecies mutualism game while additionally $\tilde{b}_1 = \tilde{b}_2 = 10$ and $\tilde{c}_1 = \tilde{c}_2 = 1$ and $\omega_1 = \omega_2 = 3/4$ for the two intraspecies games within each species. Note that even with symmetric games within each species we can a qualitatively drastic difference when compared to the dynamics excluding intraspecies interactions.  For different intraspecies interactions within each species and for varying $p$ see SI.}
+}
+\end{center}
+\end{figure*}
+
+
 %Consider two species ($1/2$) occupying different niches in an ecosystem.
 %Thus we assume them to have independent carrying capacities. Each species has a normalized carrying capacity of $1$. Each species has two types the \textit{``Generous"} ones ($G_{1/2}$) who invest in a mutualistic relationship with the other species and \textit{``Selfish"} ones ($S_{1/2}$) who invest much less than their counterparts. The densities of the two types are denoted by $x_{1/2}$ and $y_{1/2}$ respectively which can sum up to the carrying capacity or not thus resulting in possible empty spaces in the niche $z_{1,2}$. Thus in all we have $x_{1/2} + y_{1/2} + z_{1/2} = 1$.
 %Thus how the population densities change over time $x_{1/2} + y(1/2)$ can give us a picture of the population dynamics.
