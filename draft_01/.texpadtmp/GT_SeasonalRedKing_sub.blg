@@ -4,45 +4,45 @@ The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/Seas
 The style file: ../pnas.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "aristotle:350bc"
-You've used 37 entries,
+You've used 39 entries,
             1765 wiz_defined-function locations,
-            714 strings with 10040 characters,
-and the built_in function-call counts, 8247 in all, are:
-= -- 795
-> -- 319
+            727 strings with 10366 characters,
+and the built_in function-call counts, 8604 in all, are:
+= -- 831
+> -- 332
 < -- 3
-+ -- 116
-- -- 79
-* -- 605
-:= -- 1339
-add.period$ -- 66
-call.type$ -- 37
-change.case$ -- 29
++ -- 121
+- -- 82
+* -- 629
+:= -- 1401
+add.period$ -- 70
+call.type$ -- 39
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 375
-empty$ -- 781
-format.name$ -- 81
-if$ -- 1864
+cite$ -- 39
+duplicate$ -- 392
+empty$ -- 812
+format.name$ -- 84
+if$ -- 1939
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 41
-newline$ -- 188
-num.names$ -- 45
-pop$ -- 69
+int.to.str$ -- 39
+missing$ -- 43
+newline$ -- 198
+num.names$ -- 47
+pop$ -- 71
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 70
+skip$ -- 73
 stack$ -- 0
-substring$ -- 640
-swap$ -- 105
+substring$ -- 665
+swap$ -- 109
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 77
-width$ -- 39
-write$ -- 406
+while$ -- 81
+width$ -- 41
+write$ -- 428
 (There was 1 warning)

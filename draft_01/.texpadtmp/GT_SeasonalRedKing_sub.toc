@@ -1,7 +1,7 @@
 \contentsline {section}{Introduction}{1}
-\contentsline {section}{Model and Results}{1}
+\contentsline {section}{Model and Results}{2}
 \contentsline {subsection}{Interspecies dynamics}{2}
 \contentsline {subsection}{Intraspecies dynamics}{2}
 \contentsline {subsection}{Combined dynamics}{2}
-\contentsline {subsection}{Population dynamics}{3}
-\contentsline {section}{Discussion}{5}
+\contentsline {subsection}{Population dynamics}{4}
+\contentsline {section}{Discussion}{4}

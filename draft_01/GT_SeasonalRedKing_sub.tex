@@ -19,7 +19,10 @@
 
 \title{Population dynamics of mutualisms}
 
- \author{Chaitanya S. Gokhale\affil{1}{New Zealand Institute for Advanced Study, Massey University, Auckland, New Zealand}}
+ \author{
+Chaitanya S. Gokhale\affil{1}{New Zealand Institute for Advanced Study, Massey University, Auckland, New Zealand} 
+Marcus Frean\affil{2}{\cha{Victoria University...address details}}
+}
 
 
 \maketitle
@@ -53,40 +56,46 @@ However, in many cases interactions between species cannot be reduced to such dy
 For example, in the interaction between ants and aphids or butterfly larvae \cite{pierce:BES:1987,hoelldobler:book:1990} many ants tend to each of the soft bodied creatures, providing them with shelter and protection from predation and parasites, in exchange for honeydew, a rich source of food for the ants \cite{hill:OEC:1989,stadler:book:2008}.
 This is not a one-to-one interaction between a larva and an ant, but rather a one-to-many interaction from the perspective of the larva.
 Another well studied example of a one-to-many interaction is that of the plant-microbe mutualism wherein leguminous hosts prefer rhizobial symbionts that fix more nitrogen \cite{kiers:Nature:2003}, or where plants provide more carbon resources to the fungal strains that are providing better access to nutrients \cite{kiers:Science:2011}.
-Identifying and quantifying the intraspecific variation can be a daunting task \cite{behm:JE:2014}, and the interactions within the rhizobial symbionts community itself are usually ignored in the broader picture of the between species interactions. 
-\marcus{Another possible example : bioluminescent bacteria in {\it Vibrio} squid, which like the legumes is a zillions-to-one mutualism.}
+Moving from a plant host to an animal host, a well studied example is that of the mutualistic relationship between the bioluminescent bacteria \textit{Vibrio fischeri} and \textit{Euprymna scolopes}, the bobtail squid \cite{mcfallngai:PLoSB:2014}.
+In this many to one interaction, numerous bacteria are hosted in the crypts of the squids light organ.
+It is costly for the bacteria to produce light but they do so while being hosted in the squid.
+The bacteria mature and develop within the squid however the ones which are defective in producing bioluminescence are inevitably evicted.
+Thus while the variation in the phenotypes of the interacting partners has been acknowledged, the usual analysis focuses on the interaction between the two species.
 
-Similarly for the interactions between the cleaner fish and their hosts \cite{bshary:AB:2002,bshary:book:2003}. 
-While the cohorts of cleaner fish together have been taken to determine the quality of a cleaning station, this can also drive variation of quality of cleaning within a cleaning station as per the interactions of individual cleaner fish amongst themselves.
-\cha{Furthermore, since by definition mutualistic relationships are between species, it is natural to imagine that the observed relationship may be seasonal and the interactions as not a continuous feature of the evolutionary dynamics of a single species.
-To assess the impact of this seasonality $\ldots$
-In this manuscript we focus on this kind of -- possibly -- many to many interactions between two mutualistic species.}
+Identifying and quantifying the intraspecific variation can be a daunting task \cite{behm:JE:2014}, the intraspecific interactions are usually studied in isolation and separate from the interspecies relationships. 
+While the cohorts of cleaner fish together have been taken to determine the quality of a cleaning station \cite{bshary:AB:2002,bshary:book:2003}, this can also drive variation of quality of cleaning within a cleaning station as per the interactions of individual cleaner fish amongst themselves.
+In this manuscript we look at the broader picture of how the evolutionary dynamics are shaped when both the inter as well as intra species dynamics are taken together.
+We find that including the full range of interactions provides us with a set of rich and intricate dynamics which are not possible when one of the dimensions is ignored.
+By definition mutualistic relationships are between species.
+Hence it is natural to imagine that the observed relationship may be seasonal and the interactions as not a continuous feature of the evolutionary dynamics of a single species.
+Hence timing is crucial for maintaining mutualistic interactions.
+In a changing ecology edits in global climate change might affect the timing of when flowers mature and when their dispersers do, quite easily disrupting the delicately balanced mutualistic interactions.
+Unless both the interacting species can respond in a similar fashion the mutualism would easily break down \cite{warren:GCB:2014}.
+We tackle this seasonality by changing the duration of the impact of intraspecies and interspecies dynamics.
+Furthermore to complete the ecological picture we study not just the evolutionary but the population dynamics of the mutualists.
+Allowing for extinctions informs us at what population densities we might expect to find mutualistic interactions in nature.
+We demonstrate the crucial nature of the feedback between population and evolutionary dynamics which can maintain mutualisms preventing either or both species from going extinct. 
+We make use of evolutionary game theory to analyze how benefits are shared between the two mutualistic species
+\cite{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
+We begin with the previously studied interspecies dynamics as the foundational framework \cite{gokhale:PRSB:2012}.
+Then we increase the complexity of the system by including intraspecies dynamics, seasonality and finally population dynamics.
+The rich dynamics observed provides us with novel insights about the immense dependencies of mutualisms and the fragility of such delicately balanced interactions.
 
 \marcus{This paragraph - is it about 1-1 vs 1-many, or dyadic vs ...?  Seems like it's setting up to be a ``Dyadic isn't enough'' para. In that case fine but the next para should be making the (main) point that intra-specific interactions are perhaps an important, and hitherto ignored, determinant of evolutionary outcomes for mutualisms.  }
-
-In all, in this manuscript we look at the broader picture of mutualistic relationships and the ecology in which they are observed.
-We study the the cumulative effect of the within species and between species interactions and the importance of these relationships, seasonality and population dynamics taken together.
-To analyze how benefits are shared between the two mutualistic species, we make use of evolutionary game theory.
-Since we consider the interaction of two species, we resort to bimatrix games
-\cite{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
-While initially attempting to avoid the question of how mutualisms evolve in the first place, we see that when studying the complex dynamics which are possible due to the rest of the evolutionary as well as ecological factors, we indirectly explain the evolution of interspecific mutualism as a byproduct of a complex eco-evolutionary process.
-
+\cha{This was a haphazard collection of ideas. Now I have ordered them.
+\begin{itemize}
+	\item First - general mutualism
+\item Second - why we need more than dyadic
+\item Third- Why we need intra species interactions to be included and what we show in this manuscript
+\end{itemize}
+Third paragraph is way too long and I think can be shortened...have a look
+}
 
 
 \section{Model and Results}
 
 
-\begin{align}
-\dot{x} &= r_x x \left(f_{G_1}(x,y) -  \bar{f}_1(x,y) \right) \nonumber \\
-\dot{y} &= r_y y \left(f_{G_2}(x,y) -  \bar{f}_2(x,y) \right).
-\label{eq:repeqs}
-\end{align}
-
-Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics.
-In fact the coevolutionary dynamics between the two species is determined together by the inter as well as the intraspecific interactions.
-
-
-\begin{figure}[h]
+\begin{figure}
 \begin{center}
 \includegraphics[width=\columnwidth]{../Figures/interintra.pdf}
 \caption{
@@ -95,7 +104,9 @@ We assume the interactions between species to be mutualistic described by the sn
 Species $1$ plays a $d_1^{inter}$ player game with Species $2$ while Species $2$ plays a $d_2^{inter}$ player game.
 Each species has two types of players ``Generous" and ``Selfish" who besides interacting with the members of other species, also take part in intra species dynamics.
 \cha{We assume a general framework of synergy and discounting for the intraspecies interactions \cite{eshel:AmNat:1988,hauert:JTB:2006a}
-}}
+}
+\label{fig:conceptart}
+}
 \end{center}
 \end{figure}
 
@@ -104,25 +115,27 @@ Each species has two types of players ``Generous" and ``Selfish" who besides int
 \subsection{Interspecies dynamics}
 
 Since we focus on mutualism the interspecies dynamics is given by the multiplayer version of the snowdrift game \cite{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012}.
-Each species consists of two types of individuals Generous $G$ and Selfish $S$. 
-The details of the game are included in the Supplementary Material (SI), but the gist is that if everyone is ``Generous" and contributing in the generation of mutual benefits then one can get away with being a bit selfish. However both species cannot be completely ``selfish" by definition of mutualism.
+Hence both species need to contribute towards the common benefit which is generated.
+However the individuals in each species could get away with contributin a bit less than other individuals.
+Hence for example if producing brighter light comes at a premium for the \textit{Vibrio} in the squid then the dimmer \textit{Vibrio} would be better off (Note that not producing any light is not an option as it results in eviction).
+Thus we assume that each species consists of two types of individuals ``Generous" $G$ and ``Selfish" $S$. 
+Thus if everyone is ``Generous" and contributing in the generation of mutual benefits then one can get away with being a bit selfish. However both species cannot be completely ``selfish" by definition of mutualism.
+This interaction framework corresponds to that of a multi player version of a snowdrift game and is discussed in detail in the Supplementary Material (SI).
 Hence the pressure is on a specie in making the partner ``Generous" while getting away itself by being ``Selfish".
 The fitness of each of the types within a species thus depends on the composition of the other species.
 For example if the frequency of the``Generous" types in Species $1$ ($G_1$) is $x$ and that in Species $2$ ($G_2$) is $y$ then fitness of $G_1$  is given by $f^{inter}_{G_1} (y)$ and that of $G_2$ as $f^{inter}_{G_2} (x)$
 
 \subsection{Intraspecies dynamics}
 
-We do not restrict ourselves to any particular interaction structure and thus can make use of the general multiplayer evolutionary games framework \cite{gokhale:PNAS:2010,gokhale:DGAA:2014}.
+For intraspecies dynamics we do not restrict ourselves to any particular interaction structure and thus can make use of the general multiplayer evolutionary games framework \cite{gokhale:PNAS:2010,gokhale:DGAA:2014}.
 Moving from the interspecies dynamics, the two types already described are ``Generous" and ``Selfish".
 Thus we already have each species containing two different types of individuals.
 It is possible that a different categorisation exists within a species however for the sake of simplicity we study the dynamics between ``Generous" and ``Selfish" types within a species.
 However the individuals which are ``Generous" for the interspecies interaction may/may not be more giving or in a sense ``Cooperators" for intraspecies dynamics.
-Thus we need a flexible cost-benefit framework to model the intra species dynamics which can be easily tuned to the particular situation.
+Thus we need a flexible cost-benefit framework to model the intraspecies dynamics which can be easily tuned to the particular situation.
 The cost benefit framework described in \cite{eshel:AmNat:1988,hauert:JTB:2006a}
  allows us to transition between four classic scenarios of evolutionary dynamics \cite{nowak:Science:2004}.
-
-\cha{Describe the four outcomes}
-
+For example in our case we can have a dominance of the ``Generous" type or the ``Selfish" type or both the types can invade from rare resulting in a co-existence or bistability if both pure strategies are mutually non-invasive.
 For the intra species interactions the fitness of a $G_1$ is then given by $f^{intra}_{G_1} (x)$ and that of $G_2$ is given by $f^{intra}_{G_2} (y)$ and similarly for the ``Selfish" types.
 
 \subsection{Combined dynamics}
@@ -142,6 +155,14 @@ The parameter $p$ tunes the impact of each of the interactions on the actual fit
 For $p=1$ we recover the well studied case of the Red King dynamics \cite{gokhale:PRSB:2012} while for $p=0$ the dynamics of the two species are essentially decoupled and can be individually studied by the synergy/discounting framework of nonlinear social dilemmas \cite{hauert:JTB:2006a}.
 Of interest in the continuum and the intermediate values of $p$.
 However that would mean we need to track the qualitative dynamics of sixteen possible intraspecies dynamics as $p$ changes gradually from close to $0$ to close to $1$ (SI). 
+The time evolution of the ``Generous" types in both species is then given by,
+
+\begin{align}
+\dot{x} &= r_x x \left(f_{G_1}(x,y) -  \bar{f}_1(x,y) \right) \nonumber \\
+\dot{y} &= r_y y \left(f_{G_2}(x,y) -  \bar{f}_2(x,y) \right).
+\label{eq:repeqs}
+\end{align}
+
 
 This approach provides us with a powerful method to incorporate a multitude of realistic concepts in the analysis.
 For example the number of players involved in a game, which has been shown to be a crucial factor in determining the evolutionary dynamics could be different for each interactions, inter and intra species interactions for Species $1$ ($d^{inter}_1$, $d^{intra}_1$) and similarly for Species 2 ($d^{inter}_2$, $d^{intra}_2$). 
@@ -150,9 +171,9 @@ For example a certain number of ``Generous" cleaner fish may be required to clea
 We can have $M_1$ and $M_2$ as the thresholds in the two species.
 Since the interaction matrices for the inter and intra species dynamics are completely different there doesn't need to be any relationship between the costs and benefits of the four games (Two snowdrift games from the perspective of each species and the intragames within each species).
 
-So in principle we can have a diverse and rich set of dynamics possible which brings into question the study of coevolution based on only interspecies interactions. Even if we make a large number of assumptions and even if the intraspecies dynamics accounts for only $33\%$ ($1-p$) of the cumulative fitness, we can see drastically different qualitative dynamics which is capable of explaining the persistence of exploiters.
+We can have a diverse and rich set of dynamics possible which brings into question the study of coevolution based on only interspecies interactions. Even if we make a large number of assumptions and even if the intraspecies dynamics accounts for only $33\%$ ($1-p$) of the cumulative fitness, we can see drastically different qualitative dynamics which is capable of explaining the persistence of exploiters.
 
-\begin{figure*}[h]
+\begin{figure*}
 \begin{center}
 \includegraphics[width=1.5\columnwidth]{../Figures/mainexample2.pdf}
 \caption{
@@ -169,22 +190,28 @@ The analysis was done for a 5 player game $d_1^{inter} = d_2^{inter} = d_1^{intr
 \end{figure*}
 
 \subsection{Population dynamics}
+
+Until now we have considered that each species consists of two types of individuals and they make up the population of that species.
+However populations sizes change over time. 
+Assuming that ecological changes are fast enough that they can be averaged out, we can usually ignore their effect on the evolutionary dynamics.
+It is now possible to show that evolution can happen at fast timescales, comparable to those of the ecological dynamics \cha{add citations with examples}.
+Hence we need to tackle not just evolutionary but eco-evolutionary dynamics together.
 %
-\begin{figure}[h]
+\begin{figure}
 \begin{center}
 \includegraphics[width=\columnwidth]{../Figures/popdyninterintra.pdf}
 \caption{
-Explain figure
+\textbf{Population and evolutionary dynamics with combined inter-intra species dynamics.}
+As with the interactions described in \ref{fig:conceptart} the two species consist of two types of individuals ``Generous" and ``Selfish".
+Since the two species can in principle occupy different environmental niches, they  can have non-overlapping population carrying capacities.
+The normalised carrying capacity in both species is $1$ and we have $x_1 + x_2 + z_1 = 1$ (for Species $1$) where $x_1$ and $x_2$ are the densities of the ``Generous" and ``Selfish" types respectively. 
+The parameter $z_1$ represents the remaining space into which the population can still expand into.
+For $z_1 = 0$ the population is at its carrying capacity while for $z_1 = 0$ Species $1$ is extinct. 
 \label{fig:conceptartpopdyn}
 }
 \end{center}
 \end{figure}
 %
-Until now we have considered that each species consists of two types of individuals and they make up the population of that species.
-However populations sizes change over time. 
-Assuming that ecological changes are fast enough that they can be averaged out, we can usually ignore their effect on the evolutionary dynamics.
-It is now possible to show that evolution can happen at fast timescales as well, comparable to those of the ecological dynamics \cha{add citations with examples}.
-Hence we need to tackle not just evolutionary but eco-evolutionary dynamics together.
 
 To include population dynamics in the previously considered scenario, we reinterpret $x_1$ now as the fraction of ``Generous" types and $x_2
 $ as the fraction of ``Selfish" types in Species $1$.
@@ -206,9 +233,9 @@ and for species 2
 \end{align}
 %
 where we have introduced $e_1$ and $e_2$ as the death rates of the two species.
-Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs}.
+Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs} (For the sake of brevity we avoid showing the fitnesses in their the functional forms).
 In this setup however the fitnesses need to be re-evaluated as not we need to account for the presence of empty spaces (See SI).
-We can reduce the dynamics by looking at only the proportion of ``Generous" types in both the species thus $g_1 = x_1/(1-z_1)$ and $g_2 = y_1/(1-z_2)$ whose time evolution is given by,
+The dynamics is simplified by focusing on the proportion of ``Generous" types in both the species thus $g_1 = x_1/(1-z_1)$ and $g_2 = y_1/(1-z_2)$ whose time evolution is given by,
 \begin{align}
 	\dot{g_1} &= r_x z_1 g_1 (1-g_1) (f_{G_1} - f_{S_1}) \nonumber \\
 	\dot{z_1} &= e_1 (1-z_1) - r_x z_1 (1-z_1) (g_1 f_{G_1} -  (1-g_1) f_{S_1})
@@ -225,9 +252,9 @@ Such a two species multi-type interaction system is a complicated as well as a r
 However even with this complexity, the reduction of variables from six to four allows us to study the eco-evolutionary dynamics of the mutualism by looking at the two species simultaneously.
 As shown in Figure \ref{fig:popdyn} we plot the evolutionary information (fraction of ``Generous" in each species) against the ecological parameter, the population density (or rather in this case the empty space which is $1-z_{1/2}$ population density).
 
-\begin{figure*}[h]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=2\columnwidth]{../Figures/mainexamplepopdyn2.pdf}
+\includegraphics[width=1.6\columnwidth]{../Figures/mainexamplepopdyn2.pdf}
 \caption{
 \cha{\textbf{Dynamics of evolutionary strategies and population density for an intraspecies coexistence game with interspecies mutualism.}
 With exactly the same parameters as that of Figure \ref{fig:mainexampleone} with  symmetric death rates $e_1 = e_2 = 0.05$.
@@ -237,18 +264,21 @@ With exactly the same parameters as that of Figure \ref{fig:mainexampleone} with
 \end{figure*}
 
 
-%Consider two species ($1/2$) occupying different niches in an ecosystem.
-%Thus we assume them to have independent carrying capacities. Each species has a normalized carrying capacity of $1$. Each species has two types the \textit{``Generous"} ones ($G_{1/2}$) who invest in a mutualistic relationship with the other species and \textit{``Selfish"} ones ($S_{1/2}$) who invest much less than their counterparts. The densities of the two types are denoted by $x_{1/2}$ and $y_{1/2}$ respectively which can sum up to the carrying capacity or not thus resulting in possible empty spaces in the niche $z_{1,2}$. Thus in all we have $x_{1/2} + y_{1/2} + z_{1/2} = 1$.
-%Thus how the population densities change over time $x_{1/2} + y(1/2)$ can give us a picture of the population dynamics.
-%\subsection{Evolutionary dynamics}
-%The two species are assumed to be engaged in a mutualistic relationship. This can be aptly described by a snowdrift game \cite{souza:JTB:2009}. In a general form, a number of individuals from one species interacts with a number of individuals from the other species (excluding intra species interactions) \cite{gokhale:PRSB:2012}. 
-%The densities of the two types of individuals in each species \textit{``Generous"} and \textit{``Selfish"} can be interpreted as probabilities of picking the two types. Thus the evolution of the fraction of one of the types, say \textit{``Generous"} over time provides us with the relevant evolutionary dynamics. The fraction of \textit{``Generous"} players is given by $f_{1/2} = x_{1/2} / (1- z_{1/2} )$.
-
 
 
 \section{Discussion}
 
 
+\cha{Random placement of Text}
+
+Usually when interspecies relationships such as mutualism (or antagonist relationships as in predator-prey) are considered, the within species interactions are ignored for the sake of convenience. Including intraspecies interactions can however result in qualitatively different and rich dynamics.
+In fact the coevolutionary dynamics between the two species is determined together by the inter as well as the intraspecific interactions.
+
+%Consider two species ($1/2$) occupying different niches in an ecosystem.
+%Thus we assume them to have independent carrying capacities. Each species has a normalized carrying capacity of $1$. Each species has two types the \textit{``Generous"} ones ($G_{1/2}$) who invest in a mutualistic relationship with the other species and \textit{``Selfish"} ones ($S_{1/2}$) who invest much less than their counterparts. The densities of the two types are denoted by $x_{1/2}$ and $y_{1/2}$ respectively which can sum up to the carrying capacity or not thus resulting in possible empty spaces in the niche $z_{1,2}$. Thus in all we have $x_{1/2} + y_{1/2} + z_{1/2} = 1$.
+%Thus how the population densities change over time $x_{1/2} + y(1/2)$ can give us a picture of the population dynamics.
+%The two species are assumed to be engaged in a mutualistic relationship. This can be aptly described by a snowdrift game \cite{souza:JTB:2009}. In a general form, a number of individuals from one species interacts with a number of individuals from the other species (excluding intra species interactions) \cite{gokhale:PRSB:2012}. 
+%The densities of the two types of individuals in each species \textit{``Generous"} and \textit{``Selfish"} can be interpreted as probabilities of picking the two types. Thus the evolution of the fraction of one of the types, say \textit{``Generous"} over time provides us with the relevant evolutionary dynamics. The fraction of \textit{``Generous"} players is given by $f_{1/2} = x_{1/2} / (1- z_{1/2} )$.
 
 \begin{acknowledgments}
 Thanks for all the fish

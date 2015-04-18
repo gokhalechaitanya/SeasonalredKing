@@ -126,6 +126,12 @@ Kiers, ET et~al.
   symbiosis.
 \newblock \emph{Science} 333:880--882.
 
+\bibitem{mcfallngai:PLoSB:2014}
+McFall-Ngai, M
+\newblock (2014) {Divining the Essence of Symbiosis: Insights from the
+  Squid-Vibrio Model}.
+\newblock \emph{PLoS Biology} 12.
+
 \bibitem{behm:JE:2014}
 Behm, JE, Kiers, ET
 \newblock (2014) {A phenotypic plasticity framework for assessing intraspecific
@@ -144,6 +150,12 @@ Bshary, RS, No{\"{e}}, R
   Hammerstein, P
 \newblock (MIT Press), pp 167--184.
 
+\bibitem{warren:GCB:2014}
+Warren, RJI, Bradford, MA
+\newblock (2014) {Mutualism fails when climate response differs between
+  interacting species}.
+\newblock \emph{Global Change Biology} 20:466--474.
+
 \bibitem{weibull:book:1995}
 Weibull, JW
 \newblock (1995) \emph{Evolutionary Game Theory}
@@ -160,16 +172,16 @@ Hofbauer, J, Sigmund, K
 \newblock (1998) \emph{Evolutionary Games and Population Dynamics}
 \newblock (Cambridge University Press, Cambridge, UK).
 
-\bibitem{souza:JTB:2009}
-Souza, MO, Pacheco, JM, Santos, FC
-\newblock (2009) Evolution of cooperation under n-person snowdrift games.
-\newblock \emph{Journal of Theoretical Biology} 260:581--588.
-
 \bibitem{gokhale:PRSB:2012}
 Gokhale, CS, Traulsen, A
 \newblock (2012) Mutualism and evolutionary multiplayer games: revisiting the
   {R}ed {K}ing.
 \newblock \emph{Proceedings of the Royal Society B} 279:4611--4616.
+
+\bibitem{souza:JTB:2009}
+Souza, MO, Pacheco, JM, Santos, FC
+\newblock (2009) Evolution of cooperation under n-person snowdrift games.
+\newblock \emph{Journal of Theoretical Biology} 260:581--588.
 
 \bibitem{eshel:AmNat:1988}
 Eshel, I, Motro, U
@@ -198,16 +210,16 @@ Nowak, MA, Sigmund, K
 \newblock (2004) Evolutionary dynamics of biological games.
 \newblock \emph{Science} 303:793--799.
 
-\bibitem{gao:SciRep:2015}
-Gao, L, Li, YT, Wang, RW
-\newblock (2015) {The shift between the Red Queen and the Red King effects in
-  mutualisms.}
-\newblock \emph{Scientific reports} 5:8237.
-
 \bibitem{hauert:PRSB:2006}
 Hauert, C, Holmes, M, Doebeli, M
 \newblock (2006) Evolutionary games and population dynamics: maintenance of
   cooperation in public goods games.
 \newblock \emph{Proceedings of the Royal Society B} 273:2565--2570.
+
+\bibitem{gao:SciRep:2015}
+Gao, L, Li, YT, Wang, RW
+\newblock (2015) {The shift between the Red Queen and the Red King effects in
+  mutualisms.}
+\newblock \emph{Scientific reports} 5:8237.
 
 \end{thebibliography}
