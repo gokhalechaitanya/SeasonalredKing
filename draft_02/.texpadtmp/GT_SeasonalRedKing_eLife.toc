@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Model and Results}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interaction dynamics}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Interspecies}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Intraspecies}{6}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Combined dynamics}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Population dynamics}{8}{subsection.2.3}
+\contentsline {section}{\numberline {3}Discussion}{12}{section.3}
