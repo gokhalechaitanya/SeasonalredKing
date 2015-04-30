@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  29 APR 2015 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  30 APR 2015 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -25,6 +25,11 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count87
+\c@@ppsavesec=\count88
+\c@@ppsaveapp=\count89
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
@@ -45,22 +50,22 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count88
+\linenopenalty=\count91
 \output=\toks15
-\linenoprevgraf=\count89
+\linenoprevgraf=\count92
 \linenumbersep=\dimen105
 \linenumberwidth=\dimen106
-\c@linenumber=\count90
-\c@pagewiselinenumber=\count91
-\c@LN@truepage=\count92
-\c@internallinenumber=\count93
-\c@internallinenumbers=\count94
+\c@linenumber=\count93
+\c@pagewiselinenumber=\count94
+\c@LN@truepage=\count95
+\c@internallinenumber=\count96
+\c@internallinenumbers=\count97
 \quotelinenumbersep=\dimen107
 \bframerule=\dimen108
 \bframesep=\dimen109
@@ -68,7 +73,19 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 LaTeX Info: Redefining \\ on input line 3056.
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen110
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count98
+\U@D=\dimen111
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -117,13 +134,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen111
-\Hy@linkcounter=\count95
-\Hy@pagecounter=\count96
+\@linkdim=\dimen112
+\Hy@linkcounter=\count99
+\Hy@pagecounter=\count100
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count97
+\Hy@SavedSpaceFactor=\count101
  (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -134,16 +151,16 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count98
+\c@Hy@tempcnt=\count102
  (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen112
-\Fld@menulength=\count99
-\Field@Width=\dimen113
-\Fld@charsize=\dimen114
+\XeTeXLinkMargin=\dimen113
+\Fld@menulength=\count103
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -153,22 +170,69 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count100
-\c@Item=\count101
-\c@Hfootnote=\count102
+\Hy@abspage=\count104
+\c@Item=\count105
+\c@Hfootnote=\count106
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count103
-\c@bookmark@seq@number=\count104
+\Fld@listcount=\count107
+\c@bookmark@seq@number=\count108
  (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip43
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+\ta@bcor=\skip44
+\ta@div=\count109
+\ta@hblk=\skip45
+\ta@vblk=\skip46
+\ta@temp=\skip47
+\footheight=\skip48
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1330.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -11%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1330.
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -180,7 +244,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -188,56 +252,59 @@ Package: amstext 2000/06/29 v2.01
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
-\ex@=\dimen115
+\ex@=\dimen116
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen116
+\pmbraise@=\dimen117
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count105
+\inf@bad=\count110
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count106
-\leftroot@=\count107
+\uproot@=\count111
+\leftroot@=\count112
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count108
-\DOTSCASE@=\count109
+\classnum@=\count113
+\DOTSCASE@=\count114
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen117
+\big@size=\dimen118
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
+\macc@depth=\count115
+\c@MaxMatrixCols=\count116
 \dotsspace@=\muskip11
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
+\c@parentequation=\count117
+\dspbrk@lvl=\count118
 \tag@help=\toks18
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
+\row@=\count119
+\column@=\count120
+\maxfields@=\count121
 \andhelp@=\toks19
-\eqnshift@=\dimen118
-\alignsep@=\dimen119
-\tagshift@=\dimen120
-\tagwidth@=\dimen121
-\totwidth@=\dimen122
-\lineht@=\dimen123
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
 \@envbody=\toks20
-\multlinegap=\skip45
-\multlinetaggap=\skip46
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip47
-\bibsep=\skip48
+\bibhang=\skip52
+\bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count117
+\c@NAT@ctr=\count122
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -254,36 +321,33 @@ LaTeX Warning: Label `eq:repeqs' multiply defined.
 )
 \openout1 = `GT_SeasonalRedKing_eLife.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen124
+\scratchcounter=\count123
+\scratchdimen=\dimen125
 \scratchbox=\box29
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen125
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks23
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen126
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -296,131 +360,125 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring ON on input line 50.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.out) (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.out)
 \@outlinefile=\write3
 \openout3 = `GT_SeasonalRedKing_eLife.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 54.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-
-Overfull \hbox (14.65608pt too wide) in paragraph at lines 46--49
-[]\OT1/ptm/m/n/10.95 Mutualistic re-la-tion-ships pose a co-nun-drum for evo-lu-tion-ary the-ory. Species
- []
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-(/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.toc
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+ (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `GT_SeasonalRedKing_eLife.toc'.
 
  [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 105.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
- <../Figures/interintra.pdf, id=172, 671.50874pt x 453.695pt>
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <../Figures/interintra.pdf, id=183, 671.50874pt x 453.695pt>
 File: ../Figures/interintra.pdf Graphic file (type pdf)
  <use ../Figures/interintra.pdf>
-Package pdftex.def Info: ../Figures/interintra.pdf used on input line 114.
-(pdftex.def)             Requested size: 390.0pt x 263.49634pt.
+Package pdftex.def Info: ../Figures/interintra.pdf used on input line 122.
+(pdftex.def)             Requested size: 335.75356pt x 226.84694pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
- [4] [5 <../Figures/interintra.pdf>] [6] [7] <../Figures/mainexample2.pdf, id=408, 284.5029pt x 192.2382pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+ [3] [4 <../Figures/interintra.pdf>] [5] [6] <../Figures/mainexample2.pdf, id=424, 284.5029pt x 192.2382pt>
 File: ../Figures/mainexample2.pdf Graphic file (type pdf)
  <use ../Figures/mainexample2.pdf>
-Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 192.
-(pdftex.def)             Requested size: 390.0pt x 263.52312pt.
-
-
-LaTeX Warning: Float too large for page by 83.11288pt on input line 204.
-
-<../Figures/popdyninterintra.pdf, id=417, 671.50874pt x 453.695pt>
+Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 203.
+(pdftex.def)             Requested size: 448.13095pt x 302.80315pt.
+ <../Figures/popdyninterintra.pdf, id=433, 671.50874pt x 453.695pt>
 File: ../Figures/popdyninterintra.pdf Graphic file (type pdf)
  <use ../Figures/popdyninterintra.pdf>
-Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 216.
-(pdftex.def)             Requested size: 390.0pt x 263.49634pt.
- [8] [9 <../Figures/mainexample2.pdf>] [10] [11 <../Figures/popdyninterintra.pdf>]
-
-LaTeX Warning: Reference `fig:popdyn' on page 12 undefined on input line 267.
-
-<../Figures/mainexamplepopdyn2.pdf, id=646, 284.5029pt x 188.38379pt>
+Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 227.
+(pdftex.def)             Requested size: 335.75356pt x 226.84694pt.
+ [7] [8 <../Figures/mainexample2.pdf>] [9 <../Figures/popdyninterintra.pdf>] <../Figures/mainexamplepopdyn2.pdf, id=658, 284.5029pt x 188.38379pt>
 File: ../Figures/mainexamplepopdyn2.pdf Graphic file (type pdf)
  <use ../Figures/mainexamplepopdyn2.pdf>
-Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 271.
-(pdftex.def)             Requested size: 390.0pt x 258.23944pt.
- (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.bbl [12] [13 <../Figures/mainexamplepopdyn2.pdf>] [14] [15] [16]) [17]
-Overfull \hbox (2.26448pt too wide) in paragraph at lines 306--313
-\OT1/ptm/m/n/12 Traditional co-evo-lu-tion-ary mod-els con-sider in-ter-spe-cific de-pen-dence only ([]Rough-
+Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 283.
+(pdftex.def)             Requested size: 448.13095pt x 296.73189pt.
+
+
+Package natbib Warning: Citation `Schluter:2012hn' on page 10 undefined on input line 305.
+
+(/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.bbl [10] [11 <../Figures/mainexamplepopdyn2.pdf>] [12] [13] [14])
+Overfull \hbox (5.34537pt too wide) in paragraph at lines 330--333
+\OT1/ptm/m/n/12 Traditional co-evo-lu-tion-ary mod-els con-sider in-ter-spe-cific de-pen-dence only ([][]Rough-gar-den[][], [][]1976[][];
  []
 
-[18]pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.7}) has been already used, duplicate ignored
+[15]pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.7}) has been already used, duplicate ignored
+l.384 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.7}) has been already used, duplicate ignored
+l.384 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.7}) has been already used, duplicate ignored
+l.384 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 \begin{eqnarray}
-                       [19] [20] [21] <../Figures/Dynamicsacrossp_reduced.pdf, id=738, 426.8748pt x 282.8166pt>
+l.384 \begin{eqnarray}
+                       [16] [17] <../Figures/Dynamicsacrossp_reduced.pdf, id=734, 426.8748pt x 282.8166pt>
 File: ../Figures/Dynamicsacrossp_reduced.pdf Graphic file (type pdf)
  <use ../Figures/Dynamicsacrossp_reduced.pdf>
-Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 451.
-(pdftex.def)             Requested size: 390.0pt x 258.40352pt.
- [22 <../Figures/Dynamicsacrossp_reduced.pdf>]
-Overfull \hbox (3.79897pt too wide) in paragraph at lines 513--520
-\OT1/ptm/m/n/12 We have $\OML/cmm/m/it/12 e[]$ \OT1/ptm/m/n/12 and $\OML/cmm/m/it/12 e[]$ \OT1/ptm/m/n/12 as the death rates for the two species. Set-ting $\OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 = []$
- []
+Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 471.
+(pdftex.def)             Requested size: 448.13095pt x 296.91872pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475 }
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475 }
+       
 
-[23]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Reference `eqintergamepayoffs' on page 24 undefined on input line 536.
+[18] [19 <../Figures/Dynamicsacrossp_reduced.pdf>]
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
-[24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+LaTeX Warning: Reference `eqintergamepayoffs' on page 20 undefined on input line 557.
+
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+[20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
 Package rerunfilecheck Info: File `GT_SeasonalRedKing_eLife.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -430,21 +488,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 538.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
  ) 
 Here is how much of TeX's memory you used:
- 6964 strings out of 493117
- 103369 string characters out of 6135433
- 203056 words of memory out of 5000000
- 10197 multiletter control sequences out of 15000+600000
+ 7997 strings out of 493117
+ 119884 string characters out of 6135433
+ 239140 words of memory out of 5000000
+ 11207 multiletter control sequences out of 15000+600000
  30789 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,14n,32p,2610b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,14n,36p,2610b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (24 pages, 4115850 bytes).
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (20 pages, 4115924 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
- 676 compressed objects within 7 object streams
- 130 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 678 compressed objects within 7 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

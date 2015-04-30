@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{43}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -193,6 +193,11 @@ R.~No{\"e}.
 \newblock In Ronald No{\"e}, Jan~A.R.A.M. van Hooff, and Peter Hammerstein,
   editors, \emph{Economics in Nature: Social Dilemmas, Mate Choice and
   Biological Markets}. Cambridge University Press, 2001.
+
+\bibitem[Nowak(2006)]{nowak:book:2006}
+M.~A. Nowak.
+\newblock \emph{Evolutionary Dynamics}.
+\newblock Harvard University Press, Cambridge MA, 2006.
 
 \bibitem[Nowak and Sigmund(2004)]{nowak:Science:2004}
 M.~A. Nowak and K.~Sigmund.

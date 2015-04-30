@@ -3,46 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux
 The style file: plainnat.bst
 Database file #1: ~/Bibtex/et.bib.bib
+Warning--I didn't find a database entry for "Schluter:2012hn"
 Warning--can't use both author and editor fields in roughgarden:book:1983
-You've used 42 entries,
+You've used 43 entries,
             2773 wiz_defined-function locations,
-            878 strings with 12155 characters,
-and the built_in function-call counts, 19365 in all, are:
-= -- 1716
-> -- 1052
-< -- 38
-+ -- 358
-- -- 315
-* -- 1505
-:= -- 2993
-add.period$ -- 131
-call.type$ -- 42
-change.case$ -- 223
-chr.to.int$ -- 41
-cite$ -- 85
-duplicate$ -- 899
-empty$ -- 1649
-format.name$ -- 397
-if$ -- 4113
+            884 strings with 12245 characters,
+and the built_in function-call counts, 19661 in all, are:
+= -- 1739
+> -- 1062
+< -- 39
++ -- 362
+- -- 318
+* -- 1521
+:= -- 3042
+add.period$ -- 134
+call.type$ -- 43
+change.case$ -- 226
+chr.to.int$ -- 42
+cite$ -- 87
+duplicate$ -- 919
+empty$ -- 1681
+format.name$ -- 401
+if$ -- 4175
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 218
-num.names$ -- 176
-pop$ -- 438
+missing$ -- 50
+newline$ -- 223
+num.names$ -- 180
+pop$ -- 449
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 190
 quote$ -- 0
-skip$ -- 671
+skip$ -- 683
 stack$ -- 0
-substring$ -- 819
-swap$ -- 81
+substring$ -- 821
+swap$ -- 82
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 432
+type$ -- 438
 warning$ -- 1
-while$ -- 174
+while$ -- 177
 width$ -- 0
-write$ -- 553
-(There was 1 warning)
+write$ -- 566
+(There were 2 warnings)
