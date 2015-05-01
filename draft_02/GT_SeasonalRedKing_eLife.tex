@@ -28,7 +28,7 @@
 	 \definecolor{darkgreen}{rgb}{0,0.5,0}
 	 \definecolor{darkblue}{rgb}{0,0,0.75}
 \newcommand{\cha}[1]{\textcolor{darkblue}{#1}}
-\newcommand{\marcus}[1]{\textcolor{darkgreen}{#1}}
+\newcommand{\marcus}[1]{\textcolor{darkred}{#1}}
 
 %\newcommand{\arne}[1]{\textcolor{blue}{#1}}
 %\newcommand{\cha}[1]{\textcolor{red}{#1}}
@@ -40,7 +40,7 @@
 Marcus Frean$^{2}$,
  \and Paul B. Rainey$^{1,3}$ \\
 \normalsize $^{1}$New Zealand Institute for Advanced Study, Massey University, Auckland, New Zealand, \\
-\normalsize $^2$Victoria Uni address\\
+\normalsize $^2$Victoria University of Wellington, Wellington, New Zealand\\
 \normalsize $^3$Max Planck Institute for Evolutionary Biology, \\
 \normalsize August-Thienemann-Stra{\ss}e 2, 24306 Pl\"{o}n, Germany,\\
 }
@@ -129,6 +129,7 @@ Species $1$ plays a $d_1^{inter}$ player game with Species $2$ while Species $2$
 Each species has two types of players ``Generous" and ``Selfish" who besides interacting with the members of other species, also take part in intra species dynamics.
 \cha{We assume a general framework of synergy and discounting for the intraspecies interactions \citep{eshel:AmNat:1988,hauert:JTB:2006a}
 }}
+\marcus{Would it be good to include something like ``proportion of generous: $x$'' on the left/blue side of the figure at the bottom, and ``proportion of generous: $y$'' on the right?}
 \label{fig:conceptart}
 }
 \end{center}
@@ -139,15 +140,15 @@ Each species has two types of players ``Generous" and ``Selfish" who besides int
 \subsubsection{Interspecies}
 
 Since we focus on mutualism the interspecies dynamics is given by the multiplayer version of the snowdrift game \citep{bergstrom:PNAS:2003,souza:JTB:2009,gokhale:PRSB:2012} (also known as hawk-dove, or chicken).
-In this, a common benefit is possible but there is a cost to contributing and species do not need to contribute equally.
-However the individuals in each species could get away with contributing a bit less than other individuals.
+In this, a common benefit is possible but there is a cost to contributing and species do not need to contribute equally. However the individuals in each species could get away with contributing a bit less than other individuals.
+\marcus{Awkward wording I think, but I haven't fixed yet.}
 Hence for example if producing brighter light comes at a premium for the \textit{Vibrio} in the squid then the dimmer \textit{Vibrio} would be better off (Note that not producing any light is not an option as it results in eviction).
-Thus we assume that each species consists of two types of individuals ``Generous" $G$ and ``Selfish" $S$. 
-Thus if everyone is ``Generous" and contributing in the generation of mutual benefits then one can get away with being a bit selfish. However both species cannot be completely ``selfish" by definition of mutualism.
+We assume that each species consists of two types of individuals ``Generous" $G$ and ``Selfish" $S$. 
+If enough individuals are ``Generous" and contributing to the generation of mutual benefits then other individuals can get away with being selfish (not contributing). But all individuals in the game lose out if not enough are generous. Hence both species cannot be completely ``selfish", as per the definition of mutualism.
 This interaction framework corresponds to that of a multi player version of a snowdrift game and is discussed in detail in the Supplementary Material (SI).
-Hence the pressure is on a specie in making the partner ``Generous" while getting away itself by being ``Selfish".
+Hence the pressure is on a species to make the partner ``Generous" while getting away itself by being ``Selfish".
 The fitness of each of the types within a species thus depends on the composition of the other species.
-For example if the frequency of the``Generous" types in Species $1$ ($G_1$) is $x$ and that in Species $2$ ($G_2$) is $y$ then fitness of $G_1$  is given by $f^{inter}_{G_1} (y)$ and that of $G_2$ as $f^{inter}_{G_2} (x)$
+Denoting the frequency of the``Generous" types in Species $1$ ($G_1$) as $x$, and that in Species $2$ ($G_2$) as $y$, the fitness of $G_1$  is given by $f^{inter}_{G_1} (y)$ and that of $G_2$ as $f^{inter}_{G_2} (x)$. 
 
 \subsubsection{Intraspecies}
 
@@ -164,7 +165,7 @@ For the intra species interactions the fitness of a $G_1$ is then given by $f^{i
 
 \subsection{Combined dynamics}
 
-Putting together intra and interspecific dynamics provides a complete picture of the possible interactions occurring. While we are interested in mutualism at the level of the interspecies interactions there are four possible interactions within each species \citep{nowak:Science:2004,hauert:JTB:2006a}. Since the within species interactions for the two different species do not need to be the same, there are in all sixteen different possible combinations.
+Putting together intra and interspecific dynamics provides a complete picture of the possible interactions occurring. While we are interested in mutualism at the level of the interspecies interactions there are four possible interactions within each species \citep{nowak:Science:2004,hauert:JTB:2006a} \marcus{(briefly spell them out here, I think)}. Since the within species interactions for the two different species do not need to be the same, there are in all sixteen different possible combinations.
 Assuming additivity in the fitnesses of inter and intraspecies fitnesses, the combined fitness of each of the two types in the two species are given by,
 
 %
@@ -176,9 +177,9 @@ Assuming additivity in the fitnesses of inter and intraspecies fitnesses, the co
 \end{align}
 %
 The parameter $p$ tunes the impact of each of the interactions on the actual fitness that eventually drives the evolutionary dynamics.
-For $p=1$ we recover the well studied case of the Red King dynamics \citep{gokhale:PRSB:2012} while for $p=0$ the dynamics of the two species are essentially decoupled and can be individually studied by the synergy/discounting framework of nonlinear social dilemmas \citep{hauert:JTB:2006a}.
-Of interest in the continuum and the intermediate values of $p$.
-However that would mean we need to track the qualitative dynamics of sixteen possible intraspecies dynamics as $p$ changes gradually from close to $0$ to close to $1$ (SI). 
+For $p=1$ we recover the well studied case of the Red King dynamics \citep{gokhale:PRSB:2012} of the snowdrift game, while for $p=0$ the dynamics of the two species are essentially decoupled and can be individually studied by the synergy/discounting framework of nonlinear social dilemmas \citep{hauert:JTB:2006a}.
+Our interest here is in the continuum and the intermediate values of $p$.
+However that means we need to track the qualitative dynamics of sixteen possible intraspecies dynamics as $p$ changes gradually from close to $0$ to close to $1$ (SI). 
 The time evolution of the ``Generous" types in both species is then given by,
 
 \begin{align}
@@ -418,11 +419,11 @@ Withing species dynamics can in principle be completely different from the betwe
 We can have a multistrategy multiplayer game within a Species but to keep things simple we assume a two strategy multiplayer game.
 The partitioning of the individuals into two strategies follows the same partitioning as in the inter species interactions as of ``Generous" and ``Selfish". 
 However we can relabel them as ``Cooperators" and ``Defector" for the sake of the interactions structure which we will be making use of.
-Note that the ``Generous" in the interspecies interactions need not always be the ``Cooperators" for the within species interaction but again for the sake of simplicity we will assume it  to be so.
+Note that the ``Generous" in the interspecies interactions need not always be the ``Cooperators" for the within species interaction but again for the sake of simplicity we will assume it  to be so. \marcus{Ah! now I get it. I guess we need to highlight this earlier on, as it's a strong condition: I found myself wondering whether Generous in inter $\leftrightarrow$ Cooperator in intra, or not...}
 
 \subsection*{Synergy/Discounting Framework}
-We model the within species interactions by making use of a general framework of costs and non-linear benefits \citep{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of (traditionally studied) social interaction structures qualitatively \citep{nowak:book:2006}.
-For Species $1$ the frequency of cooperators is just $x$ and the defectors is $1-x$, the same as the ``Generous" and ``Selfish".
+We model the within species interactions by making use of a general framework of costs and non-linear benefits \citep{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of (traditionally studied) social interaction structures qualitatively \citep{nowak:book:2006} \marcus{Perhaps good to list the 4 types}.
+For Species $1$ the frequency of cooperators is just $x$ and the defectors is $1-x$, the same as the ``Generous" and ``Selfish". \marcus{Q: is this because they are the very same players? ie. are we assuming a Generous player in the inter is a Cooperative one in the intra?}
 The ``Cooperators" and ``Defectors" in Species $1$ play a $d_1^{intra}$ player game.
 Thus the fitnesses of cooperators and defectors are defined as \citep{hauert:JTB:2006a},
 %
@@ -439,8 +440,8 @@ where the payoffs are given by,
 \label{eqintragamepayoffs}
 \end{align}
 %
-Thus the defectors get a fraction of the benefit which is scaled by the factor $\omega$, which determines if the benefits are linearly accumulating ($\omega=1$) for increasing number of cooperators, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
-Note that the costs and benefits in the within species game need not be (and naturally so) the same as in between species ($b\neq \tilde{b}$ and $c \neq \tilde{c}$).
+Thus the defectors get a fraction of the benefit which is scaled by the factor $\omega$, which determines whether the benefits are linearly accumulating ($\omega=1$) for increasing number of cooperators, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
+Note that the costs and benefits in the within species game need not be the same as in between species ($b\neq \tilde{b}$ and $c \neq \tilde{c}$).
 
 
 \section{Combined Evolutionary Dynamics}
@@ -476,6 +477,7 @@ Thus if species 1 evolves at the rate $r_x$ while species 2 at rate $r_y$ then w
 \includegraphics[width=\columnwidth]{../Figures/Dynamicsacrossp_reduced.pdf}
 \caption{
 $d_1^{inter} = d_2^{inter} = 5$, $b = 2$, $r_x = r_y/8$, $M_1 = M_2 = 1$ and $c=1$ for the interspecies game. As for the intraspecies games (a), (b), (c) and (d) the exact same parameter values as in \citep{hauert:JTB:2006a}.
+\marcus{We need to spell out those 4 games at some point.}
 \label{fig:appendix}
 }
 \end{center}
@@ -539,7 +541,8 @@ and for species 2
 \end{align}
 %
 We have $e_1$ and $e_2$ as the death rates for the two species.
-Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs}.
+Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqs}. 
+\marcus{This comes across as a special case only - justified? - or rephrase.}
 The fitnesses however need to be reevaluated in this setup.
 For example in Species 1 the fitness for type $G_1$ is,
 %
