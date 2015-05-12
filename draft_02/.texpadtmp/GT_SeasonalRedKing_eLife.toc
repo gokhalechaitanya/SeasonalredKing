@@ -6,9 +6,9 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Intraspecies}{5}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Combined dynamics}{6}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Population dynamics}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Seasonality}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Seasonality}{12}{subsection.2.4}
 \contentsline {section}{\numberline {3}Discussion}{12}{section.3}
-\contentsline {section}{Appendix \numberline {A}Interspecies Evolutionary Dynamics}{15}{Appendix.a.A}
-\contentsline {section}{Appendix \numberline {B}Intraspecies Evolutionary Dynamics}{17}{Appendix.a.B}
-\contentsline {section}{Appendix \numberline {C}Combined Evolutionary Dynamics}{18}{Appendix.a.C}
-\contentsline {section}{Appendix \numberline {D}Population dynamics}{19}{Appendix.a.D}
+\contentsline {section}{Appendix \numberline {A}Interspecies Evolutionary Dynamics}{17}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Intraspecies Evolutionary Dynamics}{19}{Appendix.a.B}
+\contentsline {section}{Appendix \numberline {C}Combined Evolutionary Dynamics}{20}{Appendix.a.C}
+\contentsline {section}{Appendix \numberline {D}Population dynamics}{22}{Appendix.a.D}
