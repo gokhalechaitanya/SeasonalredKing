@@ -53,9 +53,14 @@ Marcus Frean$^{2}$,
 \maketitle
 
 \begin{abstract}
-Mutualistic relationships pose a conundrum for evolutionary theory.
-Species that exploit other species would do better than sustaining a long drawn out mutually costly relationship. However we do see mutualistic relationships amongst even the most unlikely partners \ldots.
-Eco-evolutionary dynamics \ldots
+Mutualism has long been studied as a conundrum for evolutionary theory.
+Species that exploit other species would do better than sustaining a long drawn out mutually costly relationship.
+How such mutualisms are then maintained is a valid question.
+However studies investigating this question often neglect the importance of within species interactions.
+Separating inter and intra species interactions may not be always possible especially if the same individuals act within and between species.
+Feedbacks between inter and intra species interactions are then inevitable and need to be taken into account.
+Taking into account population dynamics we study the full eco-evolutionary dynamics of mutualism between two species when a variety of different intra species interactions are possible.
+Our results show that while mutualism can turn into parasitism by overexploitation, for some intra species dynamics, mutualism can be established even while maintaining exploiters in the species composition.
 \end{abstract}
 
 \noindent
@@ -87,7 +92,7 @@ dynamics are taken together.
 We find that including the full range of interactions provides us with a set of rich and intricate dynamics which are not possible when one of these dimensions is ignored.
 
 Mutualistic relationships are, by definition, between species, and timing may be crucial for their maintenance. \marcus{this next sentence is awkward but I haven't fixed it}
-It is natural to imagine that the observed mutualism may be seasonal and the interactions as not a continuous feature of the evolutionary trajectory of a single species. 
+It is natural to imagine that the observed mutualism may be seasonal and the interactions are not a continuous feature of the evolutionary trajectory of a species. 
 A wildly changing ecology can affect the flowering time of some plants and the maturation of the dispersers they depend on, easily disrupting such delicately balanced mutualistic interactions. 
 Unless both interacting species can respond in a similar fashion such a mutualism will break down \citep{warren:GCB:2014}.
 
@@ -96,7 +101,7 @@ We tackle this seasonality by varying the duration of the impact of intraspecies
 To complete the ecological picture we include population dynamics to the evolutionary process of the mutualists.
 Such dynamics informs us about the population densities we might expect to find the interactors to evolve to. \marcus{??} \cha{better?}
 We demonstrate the crucial nature of the feedback between population and evolutionary dynamics which can maintain mutualisms preventing either or both species from going extinct. 
-We make use of evolutionary game theory to analyze how benefits are shared between the two mutualistic species \citep{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
+We make use of evolutionary game theory to analyse how benefits are shared between the two mutualistic species \citep{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
 Beginning with the previously studied interspecies dynamics as the foundational framework \citep{gokhale:PRSB:2012} we increase the complexity of the system by including intraspecies dynamics, population dynamics and seasonality.
 The rich dynamics observed provides us with novel insights about the immense asymmetries in mutualisms and the fragility of such delicately balanced interactions.
 
@@ -142,9 +147,10 @@ Denoting the frequency of the``Generous" types in Species $1$ ($G_1$) as $x$, an
 For intraspecies dynamics we do not restrict ourselves to any particular interaction structure and thus make use of the general multiplayer evolutionary games framework \citep{gokhale:PNAS:2010,gokhale:DGAA:2014}.
 Moving from the interspecies dynamics, the two types already described are ``Generous" and ``Selfish".
 Thus we already have each species containing two different types of individuals.
-It is possible that a different categorisation exists within a species however for the sake of simplicity we study the dynamics between ``Generous" and ``Selfish" types within a species.
-However the individuals which are ``Generous" for the interspecies interaction may/may not be more giving or in a sense ``Cooperators" for intraspecies dynamics.
-Thus we need a flexible cost-benefit framework to model the intraspecies dynamics which can be easily tuned to the particular situation.
+It is possible that a different categorisation exists within a species.
+Thus if the interactions within a Species are say between ``Cooperators" and ``Defectors", these types could be made up of a combination of ``Generous" and ``Selfish" individuals.
+However for the sake of simplicity we study the dynamics between ``Generous" and ``Selfish" types within a species where the types are defined at the interspecies level.
+%We need a flexible cost-benefit framework to model the intraspecies dynamics which can be easily tuned to the particular situation.
 The cost benefit framework described in \citep{eshel:AmNat:1988,hauert:JTB:2006a}
  allows us to transition between four classic scenarios of evolutionary dynamics \citep{nowak:Science:2004}.
 For example in our case we can have a dominance of the ``Generous" type or the ``Selfish" type or both the types can invade from rare resulting in a co-existence or bistability if both pure strategies are mutually non-invasive.
@@ -195,7 +201,7 @@ Even under a large number of assumptions and even if the intraspecies dynamics a
 Even when the impact of intraspecies dynamics is only a $1/3$ on the total fitness of the ``Generous" and ``Selfish" types we see a very qualitatively different picture.
 Two fixed points are observed where both the ``Generous" and ``Selfish" types can co-exist in both the species.
 All initial states in the interior lead to either one of these fixed points (hence the lack of colours).
-However it is still possible to characterize the ``successful" species as one of the equilibrium is favoured by one species than the other.
+However it is still possible to characterise the ``successful" species as one of the equilibrium is favoured by one species than the other.
 The horizontal isoclines are for Species $1$ while the vertical ones are for Species $2$.
 The analysis was done for a 5 player game $d_1^{inter} = d_2^{inter} = d_1^{intra} = d_2^{intra} = 5$, $b=2$, $c=1$ and $r_x = r_y /8$ for the interspecies mutualism game while additionally $\tilde{b}_1 = \tilde{b}_2 = 10$ and $\tilde{c}_1 = \tilde{c}_2 = 1$ and $\omega_1 = \omega_2 = 3/4$ for the two intraspecies games within each species. Note that even with symmetric games within each species we can a qualitatively drastic difference when compared to the dynamics excluding intraspecies interactions.  For different intraspecies interactions within each species and for varying $p$ see SI.}
 \label{fig:mainexampleone}
@@ -267,7 +273,7 @@ Such a two species multi-type interaction system is a complicated as well as a r
 However given this complexity, we need to look at the dynamics within the two Species simultaneously.
 
 We take the most stable situation observed in the dynamics when population dynamics is absent (Fig.~\ref{fig:mainexampleone}) which shows two internal stable equilibria and add population dynamics to it.
-The results are summarized in Figure \ref{fig:popdyn} where we plot the evolutionary parameter (fraction of ``Generous" in each species) against the ecological parameter, the population density (or rather in this case the empty spaces) .
+The results are summarised in Figure \ref{fig:popdyn} where we plot the evolutionary parameter (fraction of ``Generous" in each species) against the ecological parameter, the population density (or rather in this case the empty spaces) .
 
 \begin{figure}
 \begin{center}
@@ -307,10 +313,12 @@ This is especially interesting if the stability of the system is qualitatively a
 \caption{\small{
 \textbf{Seasonal changes in the interspecies interactions affecting the evolutionary dynamics within species.}
 We model the impact of the interspecies interaction on the fitness of the different types as in Eqs.\ref{eq:combinedfiteqs} however instead of a static value for $p$ we introduce seasonality via a simple sine function as $p(t) = (1+\sin(at))/2$.
-Here, $a$ denotes how the evolutionary time scale relates to the mutualism timescale.
+Here, $a$ denotes how the seasonality time scale relates to the inter-intra-species interactions timescale.
 A large $a$ denotes multiple bouts of mutualism affecting fitness for a given evolutionary time step while a small $a$ denotes fewer of such bouts within the same evolutionary time step.
+The trajectories shown in the panels are obtained by numerical interactions with initial conditions $x = y = \{0.1,0.9\}$ and a step size of $\Delta x = \Delta y = 0.1$.
+The background colour is obtained by a finer grain of $\Delta x = \Delta y = 0.01$ and depict the same outcomes as in Fig. \ref{fig:mainexampleone}, with gray representing the outcome that none of the edge equilibria are reached.
 For comparable or larger $a$ the dynamics under oscillations can be captured by the average dynamics (at $p = 0.5$) however for small $a$ we a see qualitatively different outcome.
-Furthermore the phase in which the oscillating function begins is more important for smaller and smaller $a$ especially if the stability of the internal (or edge) fixed points changes as $p$ changes (see Fig. \ref{fig:appendix} panel (b) x (b) across the $p$ continuum).
+Furthermore the phase in which the oscillating function begins is more important for smaller and smaller $a$ especially if the stability of the fixed points changes as $p$ changes (see Fig. \ref{fig:appendix} panel (b) x (b) across the $p$ continuum).
  }
 \label{fig:oscillations}
 }
@@ -323,20 +331,27 @@ Usually when interspecies relationships such as mutualism (or antagonist relatio
 The converse is the case when the intra species interactions are of interest.
 The major body of work focusing on social dilemmas between ``Cooperators" and ``Defectors" is a glaring example of the same.
 Obviously this is an assumption which is very useful when distilling the interactions at different community scales.
-However when extra-species interactions are interdependent then the connectivity between the different levels cannot be ignored \citep{schluter:PlosB:2012}.
+However when the inter and intra species interactions are interdependent then the feedbacks between the two levels cannot be ignored \citep{schluter:PlosB:2012}.
 
 In principle the framework developed herein is capable of handling a diverse array of inter and intraspecific interactions.
-Our focus on mutualism.
+For interspecific interactions our focus is on mutualism.
 Mutualistic interactions between two species can be represented by a bimatrix game. 
 The components of each of the two game matrices need not be correlated as long as they satisfy the inequalities leading to a Snowdrift games.
 Including realistic phenomena such as intraspecies interactions, population dynamics and seasonality we show that maintenance of mutualism is possible.
 A fragile balance of parameters maintains mutualism.
-However often it can come at a cost of also maintaining a significant level of exploiters.
+If within each Species the ``Generous" and ``Selfish" interactions result in coexistence then it can outweigh the competition which they experience at the inter species level.
+Note however that at the interspecies level the competition of a ``Generous" individuals is with the ``Selfish" individuals from the other Species.
+While the ``Selfish" individuals from the other Species can drive ``Generous" individuals within a Species extinct, co-existence between ``Generous" and ``Selfish" within the same Species can overcome the pressure for extinction.
+In this way mutualism can be maintained but it comes at a cost of also maintaining a significant level of exploiters.
 In fact the coevolutionary dynamics between the two species is determined together by the inter as well as the intraspecific interactions.
 
-Using this framework it is easy to incorporate the natural complexities of inter as well as intraspecies dynamics elucidating the final outcome on an evolutionary trajectory.
 While the simple case makes predictions possible, including seasonality inserts a time dependent factor which makes analytical reasoning difficult.
 However given the patterns of episodic interactions and studies of mutualistic relationship obtained from field studies over the decades it might be possible to include the seasonal component in future analysis on realistic systems to see how the interactions are going to change under drastic climate change.
+Including this feature informs us of the dependence of the mutualism on environmental factors.
+The difference in the timescales of the eco-evolutionary process and environmental fluctuations highlights the fact that averaging out the environmental effects might not always be possible.
+The system can show qualitatively different behaviour from the average dynamics depending on the kind of interactions initially involved within and between species.
+ 
+Using this framework it is easy to incorporate the natural complexities of inter as well as intraspecies dynamics elucidating the final outcome on an evolutionary trajectory.
 
 \textbf{Acknowledgements}. \cha{CSG acknowledges funding from the New Zealand Institute for Advanced Study and time spent at Victoria University of Wellington. \ldots }
 
@@ -360,7 +375,7 @@ Traditional coevolutionary models consider interspecific dependence only \citep{
 Since in our case each the interactions between the Species are mutualistic and each Species consists of two types of individuals ``Generous" and ``Selfish", the following Snowdrift game is an appropriate representation of the interactions.
 %This is because we have neglected intraspecific interactions as mentioned earlier.
 
-%For different types of interactions between species differrent models need to be defined \citep{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
+%For different types of interactions between species different models need to be defined \citep{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
 
 
 
@@ -412,14 +427,16 @@ But in a two species system (pairs still random, but one from each species), thi
 Following Souza et al. \citep{souza:JTB:2009},  
 a multiplayer snowdrift game can be described by the payoff entries
 \begin{eqnarray}
-\Pi_{G_1} (k)  &=& \begin{cases} b-\frac{c}{k} & \textrm{if } k \geq M \\  -\frac{c}{M} & \textrm{if } k < M \end{cases}
+\Pi_{G_1} (k)  &=& \begin{cases} b-\frac{c}{k} & \textrm{if } k \geq M \\  -\frac{c}{M} & \textrm{if } k < M \end{cases} \nonumber
 \\
 \Pi_{S_1} (k)  &=& \begin{cases} b & \textrm{if } k \geq M \\ 0 & \textrm{if } k < M. \end{cases}
+\label{eqintergamepayoffs}
 \end{eqnarray}
 %
 All players get the benefit $b$ if the number of generous individuals in both species combined, $k$, is greater than or equal to the threshold $M$.
 For the generous individuals, their effort is subtracted from the payoffs.
 The effort is shared if the quorum size is met ($\frac{c}{M}$), but is in vain for $k<M$. \marcus{I'm confused here: why is $\frac{c}{k}$ lost if above the threshold but  $\frac{c}{M}$ lost if not?}
+\cha{So below the threshold all cooperators are trying their best by putting in $c/M$ as $M$ is the threshold but as soon as the threshold is crossed then they can put in less $c/k$ as $k$ will be larger than $M$}
 For two player games we had $k=1$ but multiplayer games provide the possibility of exploring this threshold aspect of collective action games.
 From these payoff entries we need to calculate the average fitnesses.
 For simplicity we just illustrate the fitnesses of the strategies in Species $1$.
@@ -428,61 +445,67 @@ Assuming random sampling the composition of the formed groups is given by a bino
 Summing over all possible compositions of groups we arrive at  the average fitnesses of the two strategies in species $1$,
 %
 \begin{align}
-f^{inter}_{G_1} (y) &= \sum_{k=0}^{d_1^{inter} -1} \binom{d_1^{inter} -1}{k}y^k (1-y)^{d_1^{inter} -1-k} \Pi_{G_1}(k+1) \\
-f^{inter}_{S_1} (y) &= \sum_{k=0}^{d_1^{inter} -1} \binom{d_1^{inter} -1}{k}y^k (1-y)^{d_1^{inter} -1-k} \Pi_{S_1}(k).
+f^{inter}_{G_1} (y) &= \sum_{k=0}^{d_1^{inter} -1} \binom{d_1^{inter} -1}{k}y^k (1-y)^{d_1^{inter} -1-k} \Pi_{G_1}(k+1) \nonumber \\
+f^{inter}_{S_1} (y) &= \sum_{k=0}^{d_1^{inter} -1} \binom{d_1^{inter} -1}{k}y^k (1-y)^{d_1^{inter} -1-k} \Pi_{S_1}(k),
 \label{interfiteqs}
 \end{align}
 %
+and similarly $f_{G_2}^inter$ and $f_{S_2}^inter$ for Species $2$.
 
+Note that here for the sake of notation we have assumed the same values of benefits and costs, thresholds for the two species. However along with the number of player $d_1^{inter}$ and $d_2^{inter}$, these parameters could be very well different for the two Species.
+For asymmetric bi-matrix games there is a difference in the dynamics between the standard replicator dynamics and the alternative dynamics put forward by Maynard-Smith \citep{maynard-smith:1982to}.
+In this case the replicator equations cannot be simplified by removing the average fitness from the denominator and can give rise to qualitatively different dynamics.
 
 \section{Intraspecies Evolutionary Dynamics}
 \label{appB}
 
 For elucidating the intraspecies dynamics we will focus on Species $1$ as the analysis is analogous for Species $2$.
-Withing species dynamics can in principle be completely different from the between species interactions. 
+Within species dynamics can in principle be completely different from the between species interactions. 
 We can have a multistrategy multiplayer game within a Species but to keep things simple we assume a two strategy multiplayer game.
 The partitioning of the individuals into two strategies follows the same partitioning as in the inter species interactions as of ``Generous" and ``Selfish". 
-However we can relabel them as ``Cooperators" and ``Defector" for the sake of the interactions structure which we will be making use of.
-Note that the ``Generous" in the interspecies interactions need not always be the ``Cooperators" for the within species interaction but again for the sake of simplicity we will assume it  to be so. \marcus{Ah! now I get it. I guess we need to highlight this earlier on, as it's a strong condition: I found myself wondering whether Generous in inter $\leftrightarrow$ Cooperator in intra, or not...}
+In principle we could have two different labels for the strategies in the intraspecies interactions and the ``Generous" and ``Selfish" categories could be split into them.
+However for the sake of simplicity we assume the same categorisation as at the inter species level.
+%However we can relabel them as ``Cooperators" and ``Defector" for the sake of the interactions structure which we will be making use of.
+%Note that the ``Generous" in the interspecies interactions need not always be the ``Cooperators" for the within species interaction but again for the sake of simplicity we will assume it  to be so. \marcus{Ah! now I get it. I guess we need to highlight this earlier on, as it's a strong condition: I found myself wondering whether Generous in inter $\leftrightarrow$ Cooperator in intra, or not...}
 
 \subsection*{Synergy/Discounting Framework}
-We model the within species interactions by making use of a general framework of costs and non-linear benefits \citep{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of (traditionally studied) social interaction structures qualitatively \citep{nowak:book:2006} \marcus{Perhaps good to list the 4 types}.
-For Species $1$ the frequency of cooperators is just $x$ and the defectors is $1-x$, the same as the ``Generous" and ``Selfish". \marcus{Q: is this because they are the very same players? ie. are we assuming a Generous player in the inter is a Cooperative one in the intra?}
-The ``Cooperators" and ``Defectors" in Species $1$ play a $d_1^{intra}$ player game.
-Thus the fitnesses of cooperators and defectors are defined as \citep{hauert:JTB:2006a},
+We model the within species interactions by making use of a general framework of costs and non-linear benefits \citep{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of (traditionally studied) social interaction structures qualitatively \citep{nowak:book:2006}, i.e., dominance of either type, coexistence and bistability \marcus{Perhaps good to list the 4 types}.
+Since the categorisation of the strategies at the intra species level is the same as that of the inter species level, for Species $1$, $x$ and $1-x$, are the frequencies of ``Generous" and ``Selfish" type. \marcus{Q: is this because they are the very same players? i.e. are we assuming a Generous player in the inter is a Cooperative one in the intra?}
+The ``Generous" and ``Selfish" in Species $1$ play a $d_1^{intra}$ player game.
+Thus the fitnesses of of the two types are defined as \citep{hauert:JTB:2006a},
 %
 \begin{align}
-	f^{intra}_{G_1} (x) &= \sum_{k=0}^{d_1^{intra} -1} \binom{d_1^{intra} -1}{k}x^k (1-x)^{d_1^{intra} -1-k} \Gamma_{G_1}(k+1) \\
+	f^{intra}_{G_1} (x) &= \sum_{k=0}^{d_1^{intra} -1} \binom{d_1^{intra} -1}{k}x^k (1-x)^{d_1^{intra} -1-k} \Gamma_{G_1}(k+1) \nonumber \\
 	f^{intra}_{S_1} (x) &= \sum_{k=0}^{d_1 -1} \binom{d_1^{intra} -1}{k}x^k (1-x)^{d_1^{intra} -1-k} \Gamma_{S_1}(k).
 \label{intrafiteqs}
 \end{align}
 %
 where the payoffs are given by,
 \begin{align}
-	\Gamma_{S_1} (k) = \frac{\tilde{b}}{d_1^{intra}} \sum_{i=0}^{k-1} \omega^i \\
+	\Gamma_{S_1} (k) = \frac{\tilde{b}}{d_1^{intra}} \sum_{i=0}^{k-1} \omega^i \nonumber \\
 	\Gamma_{G_1} (k) = \Gamma_{S_1} (k) - \tilde{c}.
 \label{eqintragamepayoffs}
 \end{align}
 %
-Thus the defectors get a fraction of the benefit which is scaled by the factor $\omega$, which determines whether the benefits are linearly accumulating ($\omega=1$) for increasing number of cooperators, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
+Thus the ``Selfish" get a fraction of the benefit which is scaled by the factor $\omega$, which determines whether the benefits are linearly accumulating ($\omega=1$) for increasing number of ``Generous" individuals, synergistically enhanced ($\omega>1$) or saturating ($\omega<1$).
 Note that the costs and benefits in the within species game need not be the same as in between species ($b\neq \tilde{b}$ and $c \neq \tilde{c}$).
 
 
 \section{Combined Evolutionary Dynamics}
 \label{app:combineddyn}
 
-The average payoffs are then just assumed to be a linear combination of the interspecies and intraspecies interactions where the parameter $p$ determines the strength of each of the interactions such that,
+The average payoffs are then assumed to be a linear combination of the interspecies and intraspecies interactions where the parameter $p$ determines the strength of each of the interactions such that,
 %
 \begin{align}
-	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \\
-	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x)
+	f_{G_1} (x,y) &= p f^{inter}_{G_1} (y) + (1-p) f^{intra}_{G_1} (x) \nonumber \\
+	f_{S_1} (x,y) &= p f^{inter}_{S_1} (y) + (1-p) f^{intra}_{S_1} (x).
 \label{fiteqs}
 \end{align}
 %
 Following the same procedure for the two strategies in species $2$ leads to the average fitness
 %
 \begin{align}
-\bar{f}_1 (x,y) &= x f_{G_1} (x,y)+(1-x) f_ {S_1}(x,y)\\
+\bar{f}_1 (x,y) &= x f_{G_1} (x,y)+(1-x) f_ {S_1}(x,y) \nonumber \\
 \bar{f}_2 (x,y) &= y f_{G_2} (x,y)+(1-y) f_{S_2}(x,y).
 \label{avgfiteqs}
 \end{align}
@@ -501,27 +524,30 @@ Thus if species 1 evolves at the rate $r_x$ while species 2 at rate $r_y$ then w
 \begin{center}
 \includegraphics[width=\columnwidth]{../Figures/Dynamicsacrossp_reduced.pdf}
 \caption{
-$d_1^{inter} = d_2^{inter} = 5$, $b = 2$, $r_x = r_y/8$, $M_1 = M_2 = 1$ and $c=1$ for the interspecies game. As for the intraspecies games (a), (b), (c) and (d) the exact same parameter values as in \citep{hauert:JTB:2006a}.
-\marcus{We need to spell out those 4 games at some point.}
+$d_1^{inter} = d_2^{inter} = 5$, $b = 2$, $r_x = r_y/8$, $M_1 = M_2 = 1$ and $c=1$ for the interspecies game. As for the intraspecies games we have $d_1^{intra} = d_2^{intra} = 5$ and $\tilde{b} = 10 $ with 
+(a) $\tilde{c} = 3$, $\omega = 3/4$, 
+(b) $\tilde{c} = 1$, $\omega = 3/4$, 
+(c) $\tilde{c} = 1$, $\omega = 4/3$ and 
+(d) $\tilde{c} = 3$, $\omega = 4/3$, the exact same parameter values as in \citep{hauert:JTB:2006a}.
 \label{fig:appendix}
 }
 \end{center}
 \end{figure}
 
 
-\cha{\section*{Asymmetries}}
-
-\cha{This between and within species model is a powerful way of introducing a lot of variability into the dynamics,
-\begin{align}
-	d_1 &\neq d_2 \\
-	d^{inter} &\neq d^{intra} \\
-	M_1 &\neq M_2 \\
-	b &\neq \tilde{b} \\
-	c &\neq \tilde{c} \\
-	r_x &\neq r_y \\
-	&\vdots
-\end{align}
-and various combinations of these. We should justify why we don't do this here and why we do vary the ones that we do.}
+%\cha{\section*{Asymmetries}}
+%
+%\cha{This between and within species model is a powerful way of introducing a lot of variability into the dynamics,
+%\begin{align}
+%	d_1 &\neq d_2 \\
+%	d^{inter} &\neq d^{intra} \\
+%	M_1 &\neq M_2 \\
+%	b &\neq \tilde{b} \\
+%	c &\neq \tilde{c} \\
+%	r_x &\neq r_y \\
+%	&\vdots
+%\end{align}
+%and various combinations of these. We should justify why we don't do this here and why we do vary the ones that we do.}
 
 
 %\subsection{Dynamics in asymmetric conditions}
@@ -553,26 +579,26 @@ Hence if the empty space in the niche occupied by Species $1$ is $z_1$, then we 
 The population dynamics then is dictated by,
 %
 \begin{align}
-	\dot{x_1} &= r_x x_1 (z_1 f_{G_1} - e_1) \\
+	\dot{x_1} &= r_x x_1 (z_1 f_{G_1} - e_1) \nonumber \\
 	\dot{x_2} &= r_x x_2 (z_1 f_{S_1} - e_1) \\
-	\dot{z_1} &= - \dot{x_1} - \dot{x_2}
+	\dot{z_1} &= - \dot{x_1} - \dot{x_2} \nonumber
 \end{align}
 %
 and for species 2
 \begin{align}
-	\dot{y_1} &= r_y y_1 (z_2 f_{G_2} - e_2) \\
+	\dot{y_1} &= r_y y_1 (z_2 f_{G_2} - e_2) \nonumber \\
 	\dot{y_2} &= r_y y_2 (z_2 f_{S_2} - e_2) \\
-	\dot{z_2} &= - \dot{y_1} - \dot{y_2}
+	\dot{z_2} &= - \dot{y_1} - \dot{y_2} \nonumber
 \end{align}
 %
-We have $e_1$ and $e_2$ as the death rates for the two species.
-Setting $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqapp}. 
+We have $e_1$ and $e_2$ as the death rates for the two species. For the special case of  $e_1 = \frac{z_1 (x_1 f_{x_1} + x_2 f_{x_2}) }{x_1 + x_2}$ and $e_2 = \frac{z_2 (y_1 f_{G_2} + y_2 f_{S_2}) }{y_1 + y_2}$ we recover the two species replicator dynamics as in Eqs.~\ref{eq:repeqapp}. 
 \marcus{This comes across as a special case only - justified? - or rephrase.}
+\cha{Done}
 The fitnesses however need to be reevaluated in this setup.
 For example in Species 1 the fitness for type $G_1$ is,
 %
 \begin{align}
-	f_{G_1}^{inter} &= \sum_{S=2}^{d_1} \binom{d_1 -1}{S-1} z_2 ^{d_1 -S} (1-z_2)^{S-1} P_G^{inter}(S,y_1,y_2,z_2) \\
+	f_{G_1}^{inter} &= \sum_{S=2}^{d_1} \binom{d_1 -1}{S-1} z_2 ^{d_1 -S} (1-z_2)^{S-1} P_G^{inter}(S,y_1,y_2,z_2) \nonumber \\
 	f_{G_1}^{intra} &= \sum_{S=2}^{d_1} \binom{d_1 -1}{S-1} z_1 ^{d_1 -S} (1-z_1)^{S-1} P_G^{intra}(S,x_1,x_2,z_1) \\
 	f_{G_1} &= f_{G_1}^{inter} + f_{G_1}^{intra}
 \end{align}

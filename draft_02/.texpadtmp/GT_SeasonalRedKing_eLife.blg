@@ -3,10 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux
 The style file: plainnat.bst
 Database file #1: ~/Bibtex/et.bib.bib
+Warning--I didn't find a database entry for "maynard-smith:1982to"
 Warning--can't use both author and editor fields in roughgarden:book:1983
 You've used 53 entries,
             2773 wiz_defined-function locations,
-            949 strings with 14013 characters,
+            950 strings with 14033 characters,
 and the built_in function-call counts, 24294 in all, are:
 = -- 2169
 > -- 1295
@@ -45,4 +46,4 @@ warning$ -- 1
 while$ -- 225
 width$ -- 0
 write$ -- 696
-(There was 1 warning)
+(There were 2 warnings)

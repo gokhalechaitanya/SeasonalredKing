@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  14 MAY 2015 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  18 MAY 2015 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,45 +389,45 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-)
+ [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `GT_SeasonalRedKing_eLife.toc'.
 
- [1
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <../Figures/interintra.pdf, id=195, 741.77126pt x 453.695pt>
+ [2] [3] <../Figures/interintra.pdf, id=210, 741.77126pt x 453.695pt>
 File: ../Figures/interintra.pdf Graphic file (type pdf)
  <use ../Figures/interintra.pdf>
-Package pdftex.def Info: ../Figures/interintra.pdf used on input line 110.
+Package pdftex.def Info: ../Figures/interintra.pdf used on input line 115.
 (pdftex.def)             Requested size: 370.88472pt x 226.84694pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
- [3] [4 <../Figures/interintra.pdf>] [5] [6] <../Figures/mainexample2.pdf, id=493, 284.5029pt x 192.2382pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+ [4 <../Figures/interintra.pdf>] [5] [6] <../Figures/mainexample2.pdf, id=489, 284.5029pt x 192.2382pt>
 File: ../Figures/mainexample2.pdf Graphic file (type pdf)
  <use ../Figures/mainexample2.pdf>
-Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 192.
+Package pdftex.def Info: ../Figures/mainexample2.pdf used on input line 198.
 (pdftex.def)             Requested size: 448.13095pt x 302.80315pt.
- <../Figures/popdyninterintra.pdf, id=510, 671.50874pt x 453.695pt>
+ <../Figures/popdyninterintra.pdf, id=506, 671.50874pt x 453.695pt>
 File: ../Figures/popdyninterintra.pdf Graphic file (type pdf)
  <use ../Figures/popdyninterintra.pdf>
-Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 216.
+Package pdftex.def Info: ../Figures/popdyninterintra.pdf used on input line 222.
 (pdftex.def)             Requested size: 335.75356pt x 226.84694pt.
- [7] [8 <../Figures/mainexample2.pdf>] [9 <../Figures/popdyninterintra.pdf>] <../Figures/mainexamplepopdyn2.pdf, id=737, 284.5029pt x 188.38379pt>
+ [7] [8 <../Figures/mainexample2.pdf>] [9 <../Figures/popdyninterintra.pdf>] <../Figures/mainexamplepopdyn2.pdf, id=735, 284.5029pt x 188.38379pt>
 File: ../Figures/mainexamplepopdyn2.pdf Graphic file (type pdf)
  <use ../Figures/mainexamplepopdyn2.pdf>
-Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 274.
+Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 280.
 (pdftex.def)             Requested size: 448.13095pt x 296.73189pt.
- [10] [11 <../Figures/mainexamplepopdyn2.pdf>] <../Figures/oscillating_p_reduced.pdf, id=765, 284.5029pt x 152.4897pt>
+ [10] [11 <../Figures/mainexamplepopdyn2.pdf>] <../Figures/oscillating_p_reduced.pdf, id=763, 284.5029pt x 152.4897pt>
 File: ../Figures/oscillating_p_reduced.pdf Graphic file (type pdf)
  <use ../Figures/oscillating_p_reduced.pdf>
-Package pdftex.def Info: ../Figures/oscillating_p_reduced.pdf used on input line 306.
+Package pdftex.def Info: ../Figures/oscillating_p_reduced.pdf used on input line 312.
 (pdftex.def)             Requested size: 448.13095pt x 240.19347pt.
  [12] [13 <../Figures/oscillating_p_reduced.pdf>] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.bbl [14] [15] [16] [17])
-Overfull \hbox (5.34537pt too wide) in paragraph at lines 359--362
+Overfull \hbox (5.34537pt too wide) in paragraph at lines 374--377
 \OT1/ptm/m/n/12 Traditional co-evo-lu-tion-ary mod-els con-sider in-ter-spe-cific de-pen-dence only ([][]Rough-gar-den[][], [][]1976[][];
  []
 
@@ -435,58 +435,55 @@ Overfull \hbox (5.34537pt too wide) in paragraph at lines 359--362
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.434 \end{align}
-                 ] [20] <../Figures/Dynamicsacrossp_reduced.pdf, id=847, 426.8748pt x 282.8166pt>
+l.447 \begin{align}
+                   ]
+
+Package natbib Warning: Citation `maynard-smith:1982to' on page 20 undefined on input line 456.
+
+[20] [21] <../Figures/Dynamicsacrossp_reduced.pdf, id=852, 426.8748pt x 282.8166pt>
 File: ../Figures/Dynamicsacrossp_reduced.pdf Graphic file (type pdf)
  <use ../Figures/Dynamicsacrossp_reduced.pdf>
-Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 502.
+Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 525.
 (pdftex.def)             Requested size: 448.13095pt x 296.91872pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.507 }
+l.533 }
        pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.507 }
-       
+l.533 }
+        [22 <../Figures/Dynamicsacrossp_reduced.pdf>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: There were undefined citations.
 
-[21] [22 <../Figures/Dynamicsacrossp_reduced.pdf>] [23]
-
-LaTeX Warning: Reference `eqintergamepayoffs' on page 24 undefined on input line 590.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
-[24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
+[23] [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
 Package rerunfilecheck Info: File `GT_SeasonalRedKing_eLife.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
  ) 
 Here is how much of TeX's memory you used:
- 8056 strings out of 493117
- 121186 string characters out of 6135433
- 243475 words of memory out of 5000000
- 11248 multiletter control sequences out of 15000+600000
+ 8039 strings out of 493117
+ 120942 string characters out of 6135433
+ 242216 words of memory out of 5000000
+ 11249 multiletter control sequences out of 15000+600000
  33569 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,14n,36p,2610b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,14n,36p,2610b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (24 pages, 4589031 bytes).
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (24 pages, 4590676 bytes).
 PDF statistics:
- 992 PDF objects out of 1000 (max. 8388607)
- 778 compressed objects within 8 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 970 PDF objects out of 1000 (max. 8388607)
+ 755 compressed objects within 8 object streams
+ 123 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
