@@ -5,45 +5,45 @@ The style file: plainnat.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--I didn't find a database entry for "maynard-smith:1982to"
 Warning--can't use both author and editor fields in roughgarden:book:1983
-You've used 53 entries,
+You've used 56 entries,
             2773 wiz_defined-function locations,
-            950 strings with 14033 characters,
-and the built_in function-call counts, 24294 in all, are:
-= -- 2169
-> -- 1295
-< -- 46
-+ -- 441
-- -- 387
-* -- 1915
-:= -- 3745
-add.period$ -- 164
-call.type$ -- 53
-change.case$ -- 279
-chr.to.int$ -- 52
-cite$ -- 107
-duplicate$ -- 1122
-empty$ -- 2081
-format.name$ -- 490
-if$ -- 5140
+            966 strings with 14472 characters,
+and the built_in function-call counts, 25892 in all, are:
+= -- 2308
+> -- 1396
+< -- 48
++ -- 475
+- -- 418
+* -- 2050
+:= -- 3993
+add.period$ -- 174
+call.type$ -- 56
+change.case$ -- 298
+chr.to.int$ -- 55
+cite$ -- 113
+duplicate$ -- 1193
+empty$ -- 2209
+format.name$ -- 524
+if$ -- 5479
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 60
-newline$ -- 273
-num.names$ -- 220
-pop$ -- 537
+missing$ -- 63
+newline$ -- 288
+num.names$ -- 234
+pop$ -- 575
 preamble$ -- 1
-purify$ -- 233
+purify$ -- 249
 quote$ -- 0
-skip$ -- 835
+skip$ -- 886
 stack$ -- 0
-substring$ -- 1077
-swap$ -- 93
-text.length$ -- 6
+substring$ -- 1138
+swap$ -- 101
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 548
+type$ -- 581
 warning$ -- 1
-while$ -- 225
+while$ -- 240
 width$ -- 0
-write$ -- 696
+write$ -- 736
 (There were 2 warnings)
