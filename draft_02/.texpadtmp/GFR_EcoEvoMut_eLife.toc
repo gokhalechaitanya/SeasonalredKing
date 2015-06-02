@@ -1,0 +1,14 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Model and Results}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interaction dynamics}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Interspecies}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Intraspecies}{5}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Combined dynamics}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Seasonality}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Population dynamics}{10}{subsection.2.4}
+\contentsline {section}{\numberline {3}Discussion}{12}{section.3}
+\contentsline {section}{Appendix \numberline {A}Interspecies Evolutionary Dynamics}{20}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Intraspecies Evolutionary Dynamics}{22}{Appendix.a.B}
+\contentsline {section}{Appendix \numberline {C}Combined Evolutionary Dynamics}{23}{Appendix.a.C}
+\contentsline {section}{Appendix \numberline {D}Population dynamics}{24}{Appendix.a.D}

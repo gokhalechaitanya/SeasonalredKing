@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  24 MAY 2015 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  31 MAY 2015 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,68 +426,77 @@ File: ../Figures/mainexamplepopdyn2.pdf Graphic file (type pdf)
  <use ../Figures/mainexamplepopdyn2.pdf>
 Package pdftex.def Info: ../Figures/mainexamplepopdyn2.pdf used on input line 328.
 (pdftex.def)             Requested size: 448.13095pt x 296.73189pt.
- [12] [13 <../Figures/mainexamplepopdyn2.pdf>] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.bbl [14] [15] [16] [17])
-Overfull \hbox (5.34537pt too wide) in paragraph at lines 399--402
+ [12] [13 <../Figures/mainexamplepopdyn2.pdf>] [14] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.bbl [15] [16] [17]
+Underfull \hbox (badness 1931) in paragraph at lines 252--256
+[]\OT1/ptm/m/n/12 Spencer V Ny-holm and Mar-garet McFall-Ngai.  The win-now-ing: es-tab-lish-ing the
+ []
+
+[18] [19])
+Overfull \hbox (5.34537pt too wide) in paragraph at lines 413--416
 \OT1/ptm/m/n/12 Traditional co-evo-lu-tion-ary mod-els con-sider in-ter-spe-cific de-pen-dence only ([][]Rough-gar-den[][], [][]1976[][];
  []
 
-[18] [19]
-
-Package natbib Warning: Citation `maynard-smith:1982to' on page 20 undefined on input line 481.
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.484 \section{Intraspecies Evolutionary Dynamics}
-                                                  ] [21] <../Figures/Dynamicsacrossp_reduced.pdf, id=862, 426.8748pt x 282.8166pt>
+[20]pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifier (name{equation.a.A.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 \begin{eqnarray}
+                       [21] [22] <../Figures/Dynamicsacrossp_reduced.pdf, id=878, 426.8748pt x 282.8166pt>
 File: ../Figures/Dynamicsacrossp_reduced.pdf Graphic file (type pdf)
  <use ../Figures/Dynamicsacrossp_reduced.pdf>
-Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 551.
+Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 566.
 (pdftex.def)             Requested size: 448.13095pt x 296.91872pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.559 }
+l.574 }
        pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.559 }
+l.574 }
        
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] [23 <../Figures/Dynamicsacrossp_reduced.pdf>]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
-[24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
+[23] [24 <../Figures/Dynamicsacrossp_reduced.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
+ [25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
 Package rerunfilecheck Info: File `GT_SeasonalRedKing_eLife.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 660.
  ) 
 Here is how much of TeX's memory you used:
- 8052 strings out of 493117
- 121269 string characters out of 6135433
- 246618 words of memory out of 5000000
- 11259 multiletter control sequences out of 15000+600000
+ 8068 strings out of 493117
+ 121646 string characters out of 6135433
+ 246755 words of memory out of 5000000
+ 11270 multiletter control sequences out of 15000+600000
  33569 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,14n,36p,2610b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,14n,36p,2610b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (24 pages, 4592681 bytes).
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.pdf (25 pages, 4596392 bytes).
 PDF statistics:
- 982 PDF objects out of 1000 (max. 8388607)
- 767 compressed objects within 8 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
+ 131 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

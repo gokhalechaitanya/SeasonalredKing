@@ -3,47 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GT_SeasonalRedKing_eLife.aux
 The style file: plainnat.bst
 Database file #1: ~/Bibtex/et.bib.bib
-Warning--I didn't find a database entry for "maynard-smith:1982to"
 Warning--can't use both author and editor fields in roughgarden:book:1983
-You've used 56 entries,
+You've used 60 entries,
             2773 wiz_defined-function locations,
-            966 strings with 14472 characters,
-and the built_in function-call counts, 25892 in all, are:
-= -- 2308
-> -- 1396
-< -- 48
-+ -- 475
-- -- 418
-* -- 2050
-:= -- 3993
-add.period$ -- 174
-call.type$ -- 56
-change.case$ -- 298
-chr.to.int$ -- 55
-cite$ -- 113
-duplicate$ -- 1193
-empty$ -- 2209
-format.name$ -- 524
-if$ -- 5479
+            991 strings with 15166 characters,
+and the built_in function-call counts, 27482 in all, are:
+= -- 2456
+> -- 1458
+< -- 52
++ -- 497
+- -- 436
+* -- 2165
+:= -- 4236
+add.period$ -- 186
+call.type$ -- 60
+change.case$ -- 315
+chr.to.int$ -- 59
+cite$ -- 121
+duplicate$ -- 1273
+empty$ -- 2360
+format.name$ -- 550
+if$ -- 5813
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 288
-num.names$ -- 234
-pop$ -- 575
+missing$ -- 68
+newline$ -- 308
+num.names$ -- 250
+pop$ -- 610
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 263
 quote$ -- 0
-skip$ -- 886
+skip$ -- 943
 stack$ -- 0
-substring$ -- 1138
-swap$ -- 101
+substring$ -- 1221
+swap$ -- 105
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 581
+type$ -- 620
 warning$ -- 1
-while$ -- 240
+while$ -- 258
 width$ -- 0
-write$ -- 736
-(There were 2 warnings)
+write$ -- 787
+(There was 1 warning)

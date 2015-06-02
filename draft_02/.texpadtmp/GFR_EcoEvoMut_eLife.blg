@@ -1,0 +1,108 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GFR_EcoEvoMut_eLife.aux
+The style file: plainnat.bst
+I found no \bibdata command---while reading file /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_02/.texpadtmp/GFR_EcoEvoMut_eLife.aux
+Warning--I didn't find a database entry for "janzen:bookchapter:1985"
+Warning--I didn't find a database entry for "aristotle:book:350"
+Warning--I didn't find a database entry for "bronstein:book:2003"
+Warning--I didn't find a database entry for "boucher:book:1985"
+Warning--I didn't find a database entry for "hinton:PTENHS:1951"
+Warning--I didn't find a database entry for "wilson:AmNat:1983"
+Warning--I didn't find a database entry for "bronstein:QRB:1994"
+Warning--I didn't find a database entry for "pierce:ARE:2002"
+Warning--I didn't find a database entry for "kiers:Nature:2003"
+Warning--I didn't find a database entry for "bshary:ASB:2004"
+Warning--I didn't find a database entry for "poulin:JTB:1995"
+Warning--I didn't find a database entry for "doebeli:PNAS:1998"
+Warning--I didn't find a database entry for "noe:book:2001"
+Warning--I didn't find a database entry for "johnstone:ECL:2002"
+Warning--I didn't find a database entry for "bergstrom:PNAS:2003"
+Warning--I didn't find a database entry for "hoeksema:AmNat:2003"
+Warning--I didn't find a database entry for "akcay:PRSB:2007"
+Warning--I didn't find a database entry for "bshary:Nature:2008"
+Warning--I didn't find a database entry for "trivers:QRB:1971"
+Warning--I didn't find a database entry for "weibull:book:1995"
+Warning--I didn't find a database entry for "hofbauer:JMB:1996"
+Warning--I didn't find a database entry for "hofbauer:book:1998"
+Warning--I didn't find a database entry for "noe:TREE:1995"
+Warning--I didn't find a database entry for "stanton:AmNat:2003"
+Warning--I didn't find a database entry for "stadler:book:2008"
+Warning--I didn't find a database entry for "kiers:Science:2011"
+Warning--I didn't find a database entry for "mcfallngai:PLoSB:2014"
+Warning--I didn't find a database entry for "pierce:BES:1987"
+Warning--I didn't find a database entry for "hoelldobler:book:1990"
+Warning--I didn't find a database entry for "hill:OEC:1989"
+Warning--I didn't find a database entry for "behm:JE:2014"
+Warning--I didn't find a database entry for "bshary:AB:2002"
+Warning--I didn't find a database entry for "bshary:book:2003"
+Warning--I didn't find a database entry for "warren:GCB:2014"
+Warning--I didn't find a database entry for "gokhale:PRSB:2012"
+Warning--I didn't find a database entry for "souza:JTB:2009"
+Warning--I didn't find a database entry for "eshel:AmNat:1988"
+Warning--I didn't find a database entry for "hauert:JTB:2006a"
+Warning--I didn't find a database entry for "nowak:book:2006"
+Warning--I didn't find a database entry for "gokhale:PNAS:2010"
+Warning--I didn't find a database entry for "gokhale:DGAA:2014"
+Warning--I didn't find a database entry for "nowak:Science:2004"
+Warning--I didn't find a database entry for "gao:SciRep:2015"
+Warning--I didn't find a database entry for "rafferty:Oikos:2015"
+Warning--I didn't find a database entry for "yao:Oikos:2000"
+Warning--I didn't find a database entry for "yao:JIS:2009"
+Warning--I didn't find a database entry for "post:PTRSB:2009"
+Warning--I didn't find a database entry for "beaumont:Nature:2009"
+Warning--I didn't find a database entry for "hanski:PNAS:2011"
+Warning--I didn't find a database entry for "sanchez:PLoSB:2013"
+Warning--I didn't find a database entry for "hauert:PRSB:2006"
+Warning--I didn't find a database entry for "pacheco:PRSB:2009"
+Warning--I didn't find a database entry for "richardson:BR:2000"
+Warning--I didn't find a database entry for "mcglynn:JB:1999"
+Warning--I didn't find a database entry for "schluter:PlosB:2012"
+Warning--I didn't find a database entry for "geerts:SAJB:2012"
+Warning--I didn't find a database entry for "nazzi:PLosPath:2012"
+Warning--I didn't find a database entry for "nyholm:NRM:2004"
+Warning--I didn't find a database entry for "roughgarden:TPB:1976"
+Warning--I didn't find a database entry for "roughgarden:book:1983"
+Warning--I didn't find a database entry for "maynard-smith:book:1982"
+You've used 0 entries,
+            2773 wiz_defined-function locations,
+            700 strings with 6858 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 7
+(There was 1 error message)

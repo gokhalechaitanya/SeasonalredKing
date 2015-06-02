@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.3}Seasonality}{7}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Population dynamics}{10}{subsection.2.4}
 \contentsline {section}{\numberline {3}Discussion}{12}{section.3}
-\contentsline {section}{Appendix \numberline {A}Interspecies Evolutionary Dynamics}{19}{Appendix.a.A}
-\contentsline {section}{Appendix \numberline {B}Intraspecies Evolutionary Dynamics}{21}{Appendix.a.B}
-\contentsline {section}{Appendix \numberline {C}Combined Evolutionary Dynamics}{22}{Appendix.a.C}
-\contentsline {section}{Appendix \numberline {D}Population dynamics}{22}{Appendix.a.D}
+\contentsline {section}{Appendix \numberline {A}Interspecies Evolutionary Dynamics}{20}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Intraspecies Evolutionary Dynamics}{22}{Appendix.a.B}
+\contentsline {section}{Appendix \numberline {C}Combined Evolutionary Dynamics}{23}{Appendix.a.C}
+\contentsline {section}{Appendix \numberline {D}Population dynamics}{23}{Appendix.a.D}
