@@ -1,4 +1,4 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,11 @@ E.~Ak{\c c}ay and J.~Roughgarden.
 \newblock \emph{History of Animals}.
 \newblock Number {Books VII-X. No - 439} in Loeb Classical Library. Harvard
   University Press, 1991.
+
+\bibitem[Ax{\'e}n and Pierce(1998)]{axen:BE:1998}
+A.~H. Ax{\'e}n and N.~E. Pierce.
+\newblock Aggregation as a cost-reducing strategy for lycaenid larvae.
+\newblock \emph{Behavioral Ecology}, 9:\penalty0 109--115, 1998.
 
 \bibitem[Beaumont et~al.(2009)Beaumont, Gallie, Kost, Ferguson, and
   Rainey]{beaumont:Nature:2009}

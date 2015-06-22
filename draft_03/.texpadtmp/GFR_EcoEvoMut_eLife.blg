@@ -4,45 +4,45 @@ The top-level auxiliary file: /Users/gokhale/Documents/paper/working_papers/Seas
 The style file: plainnat.bst
 Database file #1: ~/Bibtex/et.bib.bib
 Warning--can't use both author and editor fields in roughgarden:book:1983
-You've used 62 entries,
+You've used 63 entries,
             2773 wiz_defined-function locations,
-            1008 strings with 15819 characters,
-and the built_in function-call counts, 28860 in all, are:
-= -- 2563
-> -- 1604
-< -- 50
-+ -- 546
-- -- 483
-* -- 2329
-:= -- 4465
-add.period$ -- 191
-call.type$ -- 62
-change.case$ -- 337
-chr.to.int$ -- 61
-cite$ -- 125
-duplicate$ -- 1303
-empty$ -- 2431
-format.name$ -- 597
-if$ -- 6066
+            1014 strings with 15958 characters,
+and the built_in function-call counts, 29301 in all, are:
+= -- 2604
+> -- 1625
+< -- 51
++ -- 553
+- -- 489
+* -- 2362
+:= -- 4532
+add.period$ -- 194
+call.type$ -- 63
+change.case$ -- 342
+chr.to.int$ -- 62
+cite$ -- 127
+duplicate$ -- 1323
+empty$ -- 2470
+format.name$ -- 606
+if$ -- 6161
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 70
-newline$ -- 318
-num.names$ -- 256
-pop$ -- 645
+missing$ -- 71
+newline$ -- 323
+num.names$ -- 260
+pop$ -- 653
 preamble$ -- 1
-purify$ -- 283
+purify$ -- 287
 quote$ -- 0
-skip$ -- 970
+skip$ -- 986
 stack$ -- 0
-substring$ -- 1275
-swap$ -- 98
+substring$ -- 1298
+swap$ -- 99
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 642
+type$ -- 653
 warning$ -- 1
-while$ -- 267
+while$ -- 271
 width$ -- 0
-write$ -- 812
+write$ -- 825
 (There was 1 warning)

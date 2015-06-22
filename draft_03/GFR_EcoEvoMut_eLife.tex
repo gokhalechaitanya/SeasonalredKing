@@ -54,19 +54,19 @@ Marcus Frean$^{2}$,
 \maketitle
 
 \begin{abstract}
-Mutualisms present a conundrum for evolutionary theory.
-In the short term, a species that exploits another is likely to have a fitness advantage relative to a competitor species that shows restraint.  
-\paul{ I'm not too clear about the above sentence and whether I have captured what you intend.}
-Therefore how mutualisms emerge and are maintained over longer evolutionary time scales remains an important issue.
-Game theoretic approaches involving reciprocal interactions among species are often used to study mutualisms, however such approaches typcially neglect the importance of within species interactions.
-Separating inter and intraspecies interactions may not be always possible especially if the same individuals act within and between species.
-\paul{the above sentence does not flow nicely from the previous.}
-Feedbacks between inter and intraspecies interactions are then inevitable and need to be taken into account.
-Including population dynamics adds an ecological component to the study.
-Herein we study the full eco-evolutionary dynamics of mutualism between two species when a variety of  intraspecies interactions are possible.
-Our results show that while mutualism can turn into parasitism by overexploitation, for some intraspecies dynamics, mutualism can be maintained even while maintaining exploiters in the species composition.
-\paul{ over all the abstract is not great and it gets worse as it proceeds.  It needs to be reworked. It wants to better follow the text.  Start with between species interactions,  then add a layer of realism by incorporating within species interactions.  Another layer with time, and then density.  Then a statement of the most significant highlevel finding.  The current "Our results show..." sentence is not a killer.  It needs to be a killer sentence that does the work justice. }
-
+%Mutualisms present a conundrum for evolutionary theory.
+%In the short term, a species that exploits another is likely to have a fitness advantage relative to a competitor species that shows restraint.  
+%\paul{ I'm not too clear about the above sentence and whether I have captured what you intend.}
+%Therefore how mutualisms emerge and are maintained over longer evolutionary time scales remains an important issue.
+%Game theoretic approaches involving reciprocal interactions among species are often used to study mutualisms, however such approaches typcially neglect the importance of within species interactions.
+%Separating inter and intraspecies interactions may not be always possible especially if the same individuals act within and between species.
+%\paul{the above sentence does not flow nicely from the previous.}
+%Feedbacks between inter and intraspecies interactions are then inevitable and need to be taken into account.
+%Including population dynamics adds an ecological component to the study.
+%Herein we study the full eco-evolutionary dynamics of mutualism between two species when a variety of  intraspecies interactions are possible.
+%Our results show that while mutualism can turn into parasitism by overexploitation, for some intraspecies dynamics, mutualism can be maintained even while maintaining exploiters in the species composition.
+%\paul{ over all the abstract is not great and it gets worse as it proceeds.  It needs to be reworked. It wants to better follow the text.  Start with between species interactions,  then add a layer of realism by incorporating within species interactions.  Another layer with time, and then density.  Then a statement of the most significant highlevel finding.  The current "Our results show..." sentence is not a killer.  It needs to be a killer sentence that does the work justice. }
+\cha{I think it was too early to write the Abstract... I usually do it at the end of the writing process as ideas change priorities in between... Clearly its not finished and your input is greatly needed.}
 \end{abstract}
 
 \noindent
@@ -76,13 +76,13 @@ Keywords: mutualism,evolutionary game theory,multiple players, population dynami
 
 \section{Introduction}
 
-"Is there anything left to say about mutualisms .... The authors of this volume apparently think there is something to say, but I wonder if we are not beating a dead horse." 
+``Is there anything left to say about mutualisms .... The authors of this volume apparently think there is something to say, but I wonder if we are not beating a dead horse." 
 - \cite{janzen:bookchapter:1985}.
 
 Mutualisms have long been recognised as worthy of attention and first mention can be traced back to Aristotle \citep{aristotle:book:350}.
 Formally the Belgian zoologist Pierre van Beneden coined the term mutualism in $1873$ \citep{bronstein:book:2003}.
-The study of mutualistic relationships -- interspecific interactions that benefit both species -- is a rich field of empirical and theoretical study 
-\citep{boucher:book:1985,hinton:PTENHS:1951,wilson:AmNat:1983,bronstein:QRB:1994,pierce:ARE:2002,kiers:Nature:2003,bshary:ASB:2004} \citep{poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,bergstrom:PNAS:2003,hoeksema:AmNat:2003,akcay:PRSB:2007,bshary:Nature:2008}.
+The study of mutualistic relationships -- interspecific interactions that benefit both species -- is a rich field of experimental, empirical and theoretical study 
+\citep{boucher:book:1985,hinton:PTENHS:1951,wilson:AmNat:1983,bronstein:QRB:1994,poulin:JTB:1995,doebeli:PNAS:1998,noe:book:2001,johnstone:ECL:2002,pierce:ARE:2002,kiers:Nature:2003,bergstrom:PNAS:2003,hoeksema:AmNat:2003,bshary:ASB:2004,akcay:PRSB:2007,bshary:Nature:2008}.
 \paul{I know people get bogged down on definitions but I think there is a lot of literature out there that says we should  the term symbiosis (two organisms living together) because it is neutral with regard to the nature of the interaction (which may range from beneficial to exploitative).  I realise that changing things here would be problematic, but the above sentence has a definition.}
 \cha{Yes I agree and thats why I chose mutualism as I am specifically referring to the plus plus interaction pattern. Should we mention symbiosis then and then move on to mutualism?}
 
@@ -95,35 +95,37 @@ In evolutionary games there is often a quantity used termed as the intensity of 
 Often the effect is weak which simplifies the mathematics however one of the intuitions for invoking weak selection is the fact that the game under study is just one of the many interactions which an organism experiences.
 In evolutionary games, a games(s) theory would be more appropriate than game theory to incorporate the full ecology of interactions \citep{bednar:RS:2007}.
 Similarly in mutualism here we incorporate intraspecies dynamics which occurs independently within each species along with the interspecies dynamics.
-It has not lost on us that measuring the intraspecies interactions as well as interspecies interactions together is a daunting task \citep{behm:JE:2014}
+It is not lost on us that measuring the intraspecies interactions as well as interspecies interactions together is a daunting task \citep{behm:JE:2014}
 The main focus of our study then is to consider the qualitative difference between the dynamics of inter-intra-species interactions as compared to the classically studied case of interspecific interactions only (or only intraspecific).
-This can provide us with the information which we might be losing due to inaccessibility of intraspecific interactions and possibly explain the discrepance between the theoretical expectations (of breakdown of mutualism) and the empirical observations (of the existence of a  variety of mutualism).
+This can provide us with the information which we might be losing due to inaccessibility of intraspecific interactions and possibly explain the discrepancy between the theoretical expectations (of breakdown of mutualism) and the empirical observations (of the existence of a  variety of mutualism).
 
 The concept of mutualism appeals to the idea of direct reciprocity \citep{trivers:QRB:1971} and has thus been extensively studied using evolutionary game theory.
-This theoretical frameowork is useful in casting interactions in terms of their costs and benefits.
-For mutualisms, is it usually more or less clear what the benefits are.
+This theoretical framework is useful in casting interactions in terms of their costs and benefits.
+For mutualisms, it is usually more or less clear what the benefits are.
 A butterfly larva can get protection and grooming from ants and the ants benefit from the honeydew which is produced by the larva.
 However how can we exactly quantify the costs involved for the two species.
 Certainly the costs involved for the ant in grooming and protecting the caterpillar are different from the ones for the caterpillar in producing the honeydew.
 This difference in the cost-benefit functions for the two species needs to be taken into account when analysing the interactions.
-\cha{Classical evolutionary games are however usually limited to dyadic interactions \citep{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
+Classical evolutionary games are however usually limited to dyadic interactions \citep{weibull:book:1995,hofbauer:JMB:1996,hofbauer:book:1998}.
 The fundamental interaction is thus between two individuals, one from each species, with the sum of many such interactions determining the evolutionary dynamics.
-However, this is clearly a simplification \citep{noe:TREE:1995,noe:book:2001,kiers:Nature:2003,stanton:AmNat:2003,stadler:book:2008} as mutualisms can involve many-to-many interactions between the two species.  
+However, this is clearly a simplification \citep{noe:TREE:1995,noe:book:2001,kiers:Nature:2003,stanton:AmNat:2003,stadler:book:2008,kiers:Science:2011} as mutualisms can involve multiple partners between the two species.  
 \paul{ Seems to me that here you need to emphasise the fact that one-to-may interactions point to the likely importance of within-species interactions}
-A well studied example of a one-to-many interaction is that of the plant-microbe mutualism wherein leguminous hosts prefer rhizobial symbionts that fix more nitrogen \citep{kiers:Nature:2003}, or where plants provide more carbon resources to fungal strains that are providing better access to nutrients \citep{kiers:Science:2011}.
-\paul{You've two different symbioses mentioned.  They need two sentences.  But also, I think  you are trying to move toward emphasising interspecies interactions (or making the case for) but its not well developed.}
-}
+%A well studied example of a one-to-many interaction is that of the plant-microbe mutualism wherein leguminous hosts prefer rhizobial symbionts that fix more nitrogen \citep{kiers:Nature:2003}.%, or where plants provide more carbon resources to fungal strains that are providing better access to nutrients .
+%\paul{You've two different symbioses mentioned.  They need two sentences.  But also, I think  you are trying to move toward emphasising interspecies interactions (or making the case for) but its not well developed.}
 
-\cha{The interaction \paul{I would replace 'mutualistic relationship' with 'interaction'} between the bioluminescent bacteria \textit{Vibrio fischeri} and \textit{Euprymna scolopes}, the bobtail squid \citep{mcfallngai:PLoSB:2014} is a paradigmatic mutualism. 
-Numerous bacteria \paul{and there is genetic diversity} are hosted in the crypts of the squid light organ, where they produce light \paul{delete: despite it being costly to do so.  It is metabolitically costly to produce light, but if you don't produce light you're dead}. 
-The bacteria grow within the squid, however those that fail to produce bioluminescence are eliminated by competition \citep{visick:JB:2000}
+The interaction between the bioluminescent bacteria \textit{Vibrio fischeri} and \textit{Euprymna scolopes}, the bobtail squid \citep{mcfallngai:PLoSB:2014} is a paradigmatic mutualism. 
+Numerous genetically diverse bacteria are hosted in the crypts of the squid light organ, where they produce light. 
+The bacteria grow within the squid, however those that fail to produce bioluminescence are eliminated by competition \citep{visick:JB:2000}.
 \paul{I don't think there is evidence that they are evicted.  There is evidence that they cannot grow in the light organ}
-\cha{Very true. ``evicted" was an unfortunate remnant from my previous example from cleaner fish}. 
-While the variation in the phenotypes of the interacting partners has been acknowledged, the usual analysis focuses on the interaction between the two species without addressing this additional complexity.
-The classic example of ants and aphids or butterfly larvae \citep{pierce:BES:1987,hoelldobler:book:1990} is an excellent exposition of many player interactions. 
+\cha{Very true. ``evicted" was an unfortunate remnant from my previous example from cleaner fish}
+While the variation in the phenotypes of the interacting partners has been acknowledged, the usual analysis focuses on the interaction between the two species without addressing this additional complexity posed by multiple interacting partners.
+The classic example of ants and aphids or butterfly larvae \citep{pierce:BES:1987,hoelldobler:book:1990} is also an excellent exposition of many player interactions. 
 Numerous ants tend to each of the soft bodied creatures, providing them with shelter and protection from predation and parasites, in exchange for honeydew, a rich source of food for the ants \citep{hill:OEC:1989,stadler:book:2008}.
 This is a one-to-many interaction from the perspective of the larva.
-}
+In both of these examples there is variation in one or both partner species.
+The bacteria in the crypts of the squid are clearly under a selection process due to their inherent genetic variability.
+For each lyacenid larve although interactions take place with the ants, its honeydew production is also affected by the number of other larvae on a leaf \citep{axen:BE:1998}.
+This again points towards including intraspecies interactions when studying mutualism.
 
 The success of evolutionary games in their application to mutualism is partly because of their popularity in non-cooperative games, in elucidating conundrums such as the evolution of cooperation.
 While a sizeable portion of literature is devoted to tackling this problem within a single population, mutualism provides a scenario where the problem extends between two species.
@@ -138,10 +140,10 @@ If the two species evolve at different rates (which is often the case than not) 
 Furthermore the balance can also be affected by the number of interacting partners between the two species \citep{gokhale:PRSB:2012}.
 Hence to get a complete understanding of the co-evolutionary process it has to be seen through the multiple lenses of a variety of evolutionary parameters.
 
-However it has become increasing clear that separating evolution from ecology and studying it in isolation may provide us with a warped view of the actual eco-evolutionary trajectory.
+However it has become increasing clear that separating evolution from ecology and studying it in isolation may provide us with a warped view of the actual eco-evolutionary trajectory \citep{sanchez:PLoSB:2013}.
 %Since mutualistic relationships are, by definition, between species, timing may be crucial for their maintenance. 
 It is natural to imagine that the observed mutualism may be seasonal and the interactions are not a continuous feature of the evolutionary trajectory of a species. 
-Three species of spiderhunter sunbirds, \textit{Arachnothera}, pollinate the evergreen subtropical ``lipstick plant", \textit{Aeschynanthus speciosus}, only twice a year.
+Three species of spider-hunter sunbirds, \textit{Arachnothera}, pollinate the evergreen subtropical ``lipstick plant", \textit{Aeschynanthus speciosus}, only twice a year.
 A wildly changing ecology can affect the flowering time of some plants and the maturation of the dispersers they depend on, easily disrupting such delicately balanced mutualistic interactions. 
 Unless both interacting species can respond in a similar fashion such a mutualism will break down \citep{warren:GCB:2014}.
 We tackle this seasonality by varying the duration of the impact of intraspecies and interspecies dynamics.
@@ -155,29 +157,26 @@ Including such dynamics informs us about the population densities we might expec
 We demonstrate the crucial nature of the feedback between population and evolutionary dynamics which can maintain mutualisms preventing either or both species from going extinct.
 
 
-\cha{
-\begin{itemize}
-\item Costs of mutualism (focus on benefits, but what are the costs?).  How can mutualisms persist in the face of costs? (edited)
-\item Context dependency.  Why are mutualisms so variable.  What are the consequences?  Example of ant defender of cactus.  It’s local environment specific.
-\item Cheating. What cooperate?  Touches on interactions between individual bees visiting flowers.
-\item Co-evolution.  When do mutualists coevolve and what happens next?
-\item Community dynamics.  How do mutualisms structure and how are they structured by the broader community?
-\item Conservation.  Which mutualisms are most at risk and why?
-\end{itemize}
-}
+%\cha{
+%\begin{itemize}
+%\item Costs of mutualism (focus on benefits, but what are the costs?).  How can mutualisms persist in the face of costs? (edited)
+%\item Context dependency.  Why are mutualisms so variable.  What are the consequences?  Example of ant defender of cactus.  It’s local environment specific.
+%\item Cheating. What cooperate?  Touches on interactions between individual bees visiting flowers.
+%\item Co-evolution.  When do mutualists coevolve and what happens next?
+%\item Community dynamics.  How do mutualisms structure and how are they structured by the broader community?
+%\item Conservation.  Which mutualisms are most at risk and why?
+%\end{itemize}
+%}
 
 %In such situations intraspecific interactions are likely to influence the nature of the mutualism.
 
 
-%While inferring the particular type of interspecific symbiosis (mutualism, parasitism or commensalism) might be possible, identifying and quantifying the underlying intraspecific variation can be a daunting task.  
-%%Intraspecific interactions are usually studied in isolation and separate from the interspecies relationships.
-%For example while cohorts of cleaner fish together have been taken to determine the quality of a cleaning station \citep{bshary:AB:2002,bshary:book:2003}, this can also drive variation of quality of cleaning within a cleaning station via interactions of individual cleaner fish amongst themselves.  
-In this manuscript we look at the broader picture of how the evolutionary dynamics within a species are shaped when both the inter as well as intraspecies dynamics are taken together. 
+Overall we look at the broader picture of how the eco-evolutionary dynamics within a species are shaped when both the inter as well as intraspecies dynamics are taken together. 
 We find that including the full range of interactions provides us with a set of rich and intricate dynamics which are not possible when either one of these dimensions is ignored.
 Beginning with the previously studied interspecies dynamics as the foundational framework \citep{gokhale:PRSB:2012} we increase the complexity of the system by including intraspecies dynamics, and then seasonality.
 For the complete eco-evolutionary picture to emerge we include population dynamics.
 The rich dynamics observed provides us with novel insights about the immense asymmetries in mutualisms and the fragility of such delicately balanced interactions.
-
+Mutualism, a healthy mix of exploiters and cooperators, emerges only when the intraspecies interactions are in a precise parameter range, or, interspecies interactions interactions guide the the parameters of intraspecies interactions to be in those ranges for mutualism to persist.
 
 
 \section{Model and Results}
@@ -302,7 +301,7 @@ This is especially interesting if the stability of the system is qualitatively a
 \includegraphics[width=\columnwidth]{Figures/oscillating_p_reduced.pdf}
 \caption{\small{
 \textbf{Seasonal changes in the interspecies interactions affecting the evolutionary dynamics within species.}
-We model the impact of the interspecies interaction on the fitness of the different types as in Eqs.\ref{eq:combinedfiteqs} however instead of a static value for $p$ we introduce seasonality via a simple sine function as $p(t) = (1+\sin(at))/2$.
+We model the impact of the interspecies interaction on the fitness of the different types as in Eqs.~\ref{eq:combinedfiteqs} however instead of a static value for $p$ we introduce seasonality via a simple sine function as $p(t) = (1+\sin(at))/2$.
 Here, $a$ denotes how the seasonality time scale relates to the inter-intra-species interactions timescale.
 A large $a$ denotes multiple bouts of mutualism affecting fitness for a given evolutionary time step while a small $a$ denotes fewer of such bouts within the same evolutionary time step.
 The trajectories shown in the panels are obtained by numerical interactions with initial conditions $x = y = \{0.1,0.9\}$ and a step size of $\Delta x = \Delta y = 0.1$.
@@ -543,8 +542,7 @@ a multiplayer snowdrift game can be described by the payoff entries
 %
 All players get the benefit $b$ if the number of generous individuals in both species combined, $k$, is greater than or equal to the threshold $M$.
 For the generous individuals, their effort is subtracted from the payoffs.
-The effort is shared if the quorum size is met ($\frac{c}{M}$), but is in vain for $k<M$. \marcus{I'm confused here: why is $\frac{c}{k}$ lost if above the threshold but  $\frac{c}{M}$ lost if not?}
-\cha{So below the threshold all cooperators are trying their best by putting in $c/M$ as $M$ is the threshold but as soon as the threshold is crossed then they can put in less $c/k$ as $k$ will be larger than $M$}
+The effort is shared if the quorum size is met ($\frac{c}{M}$), but is in vain for $k<M$. 
 For two player games we had $k=1$ but multiplayer games provide the possibility of exploring this threshold aspect of collective action games.
 From these payoff entries we need to calculate the average fitnesses.
 For simplicity we just illustrate the fitnesses of the strategies in species $1$.
@@ -579,8 +577,7 @@ However for the sake of simplicity we assume the same categorisation as at the i
 
 \subsection*{Synergy/Discounting Framework}
 We model the within species interactions by making use of a general framework of costs and non-linear benefits \citep{eshel:AmNat:1988,hauert:JTB:2006a} which can potentially encompass all different types of (traditionally studied) social interaction structures qualitatively \citep{nowak:book:2006}, i.e., dominance of either type, coexistence and bistability.
-Since the categorisation of the strategies at the intraspecies level is the same as that of the inter species level, for species $1$, $x$ and $1-x$, are the frequencies of ``Generous" and ``Selfish" type. \marcus{Q: is this because they are the very same players? i.e. are we assuming a Generous player in the inter is a Cooperative one in the intra?}
-\cha{Yes. Now described above}
+Since the categorisation of the strategies at the intraspecies level is the same as that of the inter species level, for species $1$, $x$ and $1-x$, are the frequencies of ``Generous" and ``Selfish" type. 
 The ``Generous" and ``Selfish" in species $1$ play a $d_1^{intra}$ player game.
 Thus the fitnesses of of the two types are defined as \citep{hauert:JTB:2006a},
 %
