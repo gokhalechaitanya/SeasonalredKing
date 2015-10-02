@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  15 JUN 2015 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.21)  27 JUL 2015 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,11 +332,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 137.
 )
 Package color Info: Redefining color magenta on input line 34.
- (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.aux
-
-LaTeX Warning: Label `appB' multiply defined.
-
-)
+ (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.aux)
 \openout1 = `GFR_EcoEvoMut_eLife.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -406,7 +402,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
@@ -417,41 +413,41 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (4.81355pt too wide) in paragraph at lines 116--129
+Overfull \hbox (4.81355pt too wide) in paragraph at lines 115--128
 []\OT1/ptm/m/n/12 The in-ter-ac-tion be-tween the bi-o-lu-mi-nes-cent bac-te-ria \OT1/ptm/m/it/12 Vib-rio fis-cheri \OT1/ptm/m/n/12 and \OT1/ptm/m/it/12 Eu-prymna scolopes\OT1/ptm/m/n/12 ,
  []
 
 [3]
-Overfull \hbox (5.05386pt too wide) in paragraph at lines 136--142
+Overfull \hbox (5.05386pt too wide) in paragraph at lines 135--141
 []\OT1/ptm/m/n/12 The evo-lu-tion of such com-pen-satory mech-a-nisms is then pos-si-bly a re-sult of co-evolutionary
  []
 
-[4] <Figures/interintra.pdf, id=225, 741.77126pt x 453.695pt>
+[4] <Figures/interintra.pdf, id=223, 741.77126pt x 453.695pt>
 File: Figures/interintra.pdf Graphic file (type pdf)
  <use Figures/interintra.pdf>
-Package pdftex.def Info: Figures/interintra.pdf used on input line 187.
+Package pdftex.def Info: Figures/interintra.pdf used on input line 186.
 (pdftex.def)             Requested size: 370.88472pt x 226.84694pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 201.
- [5] [6 <./Figures/interintra.pdf>] [7] [8] <Figures/mainexample2.pdf, id=513, 284.5029pt x 192.2382pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
+ [5] [6 <./Figures/interintra.pdf>] [7] [8] <Figures/mainexample2.pdf, id=511, 284.5029pt x 192.2382pt>
 File: Figures/mainexample2.pdf Graphic file (type pdf)
  <use Figures/mainexample2.pdf>
-Package pdftex.def Info: Figures/mainexample2.pdf used on input line 270.
+Package pdftex.def Info: Figures/mainexample2.pdf used on input line 269.
 (pdftex.def)             Requested size: 448.13095pt x 302.80315pt.
- <Figures/oscillating_p_reduced.pdf, id=529, 284.5029pt x 152.4897pt>
+ <Figures/oscillating_p_reduced.pdf, id=527, 284.5029pt x 152.4897pt>
 File: Figures/oscillating_p_reduced.pdf Graphic file (type pdf)
  <use Figures/oscillating_p_reduced.pdf>
-Package pdftex.def Info: Figures/oscillating_p_reduced.pdf used on input line 301.
+Package pdftex.def Info: Figures/oscillating_p_reduced.pdf used on input line 300.
 (pdftex.def)             Requested size: 448.13095pt x 240.19347pt.
- <Figures/popdyninterintra.pdf, id=544, 671.50874pt x 453.695pt>
+ <Figures/popdyninterintra.pdf, id=542, 671.50874pt x 453.695pt>
 File: Figures/popdyninterintra.pdf Graphic file (type pdf)
  <use Figures/popdyninterintra.pdf>
-Package pdftex.def Info: Figures/popdyninterintra.pdf used on input line 328.
+Package pdftex.def Info: Figures/popdyninterintra.pdf used on input line 327.
 (pdftex.def)             Requested size: 335.75356pt x 226.84694pt.
- [9] [10 <./Figures/mainexample2.pdf>] [11 <./Figures/oscillating_p_reduced.pdf>] [12 <./Figures/popdyninterintra.pdf>] [13] <Figures/mainexamplepopdyn2.pdf, id=800, 284.5029pt x 188.38379pt>
+ [9] [10 <./Figures/mainexample2.pdf>] [11 <./Figures/oscillating_p_reduced.pdf>] [12 <./Figures/popdyninterintra.pdf>] [13] <Figures/mainexamplepopdyn2.pdf, id=799, 284.5029pt x 188.38379pt>
 File: Figures/mainexamplepopdyn2.pdf Graphic file (type pdf)
  <use Figures/mainexamplepopdyn2.pdf>
-Package pdftex.def Info: Figures/mainexamplepopdyn2.pdf used on input line 391.
+Package pdftex.def Info: Figures/mainexamplepopdyn2.pdf used on input line 390.
 (pdftex.def)             Requested size: 448.13095pt x 296.73189pt.
  [14] [15 <./Figures/mainexamplepopdyn2.pdf>] [16] (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.bbl [17] [18] [19]
 Underfull \hbox (badness 1931) in paragraph at lines 261--265
@@ -459,51 +455,47 @@ Underfull \hbox (badness 1931) in paragraph at lines 261--265
  []
 
 [20] [21])
-Overfull \hbox (5.34537pt too wide) in paragraph at lines 481--484
+Overfull \hbox (5.34537pt too wide) in paragraph at lines 480--483
 \OT1/ptm/m/n/12 Traditional co-evo-lu-tion-ary mod-els con-sider in-ter-spe-cific de-pen-dence only ([][]Rough-gar-den[][], [][]1976[][];
  []
 
-[22] [23] [24] [25] <../Figures/Dynamicsacrossp_reduced.pdf, id=919, 426.8748pt x 282.8166pt>
+[22] [23] [24] <../Figures/Dynamicsacrossp_reduced.pdf, id=904, 426.8748pt x 282.8166pt>
 File: ../Figures/Dynamicsacrossp_reduced.pdf Graphic file (type pdf)
  <use ../Figures/Dynamicsacrossp_reduced.pdf>
-Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 631.
+Package pdftex.def Info: ../Figures/Dynamicsacrossp_reduced.pdf used on input line 630.
 (pdftex.def)             Requested size: 635.5pt x 421.09515pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.639 }
+l.638 }
        pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.639 }
-        [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 739.
+l.638 }
+        [25] [26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 738.
  [27] [28 <../Figures/Dynamicsacrossp_reduced.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 739.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 738.
  (/Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 739.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 739.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 738.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 738.
 Package rerunfilecheck Info: File `GFR_EcoEvoMut_eLife.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 739.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 738.
  ) 
 Here is how much of TeX's memory you used:
  8264 strings out of 493117
  124356 string characters out of 6135433
- 247993 words of memory out of 5000000
+ 247659 words of memory out of 5000000
  11428 multiletter control sequences out of 15000+600000
  31809 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,14n,36p,2606b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,14n,36p,2606b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.pdf (28 pages, 4597303 bytes).
+Output written on /Users/gokhale/Documents/paper/working_papers/SeasonalRedKing/manuscript/draft_03/.texpadtmp/GFR_EcoEvoMut_eLife.pdf (28 pages, 4596061 bytes).
 PDF statistics:
- 1048 PDF objects out of 1200 (max. 8388607)
- 829 compressed objects within 9 object streams
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 827 compressed objects within 9 object streams
  159 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
